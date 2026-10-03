@@ -1,0 +1,32 @@
+{
+	"lines": [
+		{
+			"id": "l04_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "Sand Hill Road. Every firm that funded Overclass has an office here, and they all smell like cold brew and fear.",
+			"spoken": "Sand Hill Road. Every firm that funded Overclass has an office here, and they all smell like cold brew and fear."
+		},
+		{
+			"id": "l04_02",
+			"cast": "dana",
+			"shot": "courtyard",
+			"text": "Lance Upround at Down Round Capital holds the access keys to Overclass's campus. He is not going to hand them over.",
+			"spoken": "Lance Upround at Down Round Capital holds the access keys to Overclass's campus. He is not going to hand them over."
+		},
+		{
+			"id": "l04_03",
+			"cast": "upround",
+			"shot": "courtyard",
+			"text": "Let me stop you right there. We don't take cold pitches. Have you tried getting a warm intro from someone who doesn't exist?",
+			"spoken": "Let me stop you right there. We don't take cold pitches. Have you tried getting a warm intro, from someone who doesn't exist?"
+		},
+		{
+			"id": "l04_04",
+			"cast": "dana",
+			"shot": "player",
+			"text": "Fight through the office park and take the keys from Upround. He fights like he negotiates: dirty, and with a lot of associates.",
+			"spoken": "Fight through the office park, and take the keys from Upround. He fights like he negotiates. Dirty, and with a lot of associates."
+		}
+	]
+}

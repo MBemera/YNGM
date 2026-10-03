@@ -1,0 +1,279 @@
+[bot] L1 MENU
+[bot] L1 INTRO
+[bot] L1 READY
+[bot] L1 PLAYING
+[trace] L1 t=5 pos=(-3.0, 0.0, -32.0) goal=(5.0, 15.3, -95.0) next=(-2.9, 0.5, -33.3) path=1/54 target=@CharacterBody3D@546 stuck=0 runway=24
+[hitch] L1 t=6.88 120 ms nav_ready=true
+[trace] L1 t=11 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=2 runway=24
+[trace] L1 t=16 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=6 runway=22
+[trace] L1 t=21 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=10 runway=22
+[trace] L1 t=26 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=14 runway=22
+[trace] L1 t=31 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=19 runway=22
+[trace] L1 t=36 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=23 runway=22
+[trace] L1 t=41 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=27 runway=22
+[trace] L1 t=46 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=31 runway=22
+[trace] L1 t=51 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=35 runway=22
+[trace] L1 t=56 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=39 runway=22
+[trace] L1 t=61 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=44 runway=22
+[trace] L1 t=66 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=48 runway=22
+[trace] L1 t=71 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=52 runway=22
+[trace] L1 t=76 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=56 runway=22
+[trace] L1 t=81 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=60 runway=22
+[trace] L1 t=86 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=65 runway=22
+[trace] L1 t=91 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=69 runway=22
+[hitch] L1 t=93.35 86 ms nav_ready=true
+[trace] L1 t=96 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=73 runway=22
+[trace] L1 t=101 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=77 runway=22
+[trace] L1 t=106 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=81 runway=22
+[trace] L1 t=111 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=85 runway=22
+[trace] L1 t=116 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=90 runway=22
+[trace] L1 t=121 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=94 runway=22
+[trace] L1 t=126 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=98 runway=22
+[trace] L1 t=131 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=102 runway=22
+[trace] L1 t=136 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=106 runway=22
+[trace] L1 t=141 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=111 runway=22
+[trace] L1 t=146 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=115 runway=22
+[trace] L1 t=151 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=119 runway=22
+[trace] L1 t=156 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=123 runway=22
+[trace] L1 t=161 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=127 runway=22
+[trace] L1 t=166 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=131 runway=22
+[trace] L1 t=171 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=136 runway=22
+[trace] L1 t=176 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=140 runway=22
+[trace] L1 t=181 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=144 runway=22
+[trace] L1 t=186 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=148 runway=22
+[trace] L1 t=191 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=152 runway=22
+[trace] L1 t=196 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=157 runway=22
+[trace] L1 t=201 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=161 runway=22
+[trace] L1 t=207 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=165 runway=22
+[trace] L1 t=212 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=169 runway=22
+[trace] L1 t=217 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=173 runway=22
+[trace] L1 t=222 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=177 runway=22
+[trace] L1 t=227 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=182 runway=22
+[trace] L1 t=232 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=186 runway=22
+[trace] L1 t=237 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=190 runway=22
+[trace] L1 t=242 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=194 runway=22
+[trace] L1 t=247 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=198 runway=22
+[trace] L1 t=252 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=203 runway=22
+[trace] L1 t=257 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=207 runway=22
+[trace] L1 t=262 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=211 runway=22
+[trace] L1 t=267 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=215 runway=22
+[trace] L1 t=272 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=219 runway=22
+[trace] L1 t=277 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=223 runway=22
+[trace] L1 t=282 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=228 runway=22
+[trace] L1 t=287 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=232 runway=22
+[trace] L1 t=292 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=236 runway=22
+[trace] L1 t=297 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=240 runway=22
+[trace] L1 t=302 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=244 runway=22
+[trace] L1 t=307 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=249 runway=22
+[trace] L1 t=312 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=253 runway=22
+[trace] L1 t=317 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=257 runway=22
+[trace] L1 t=322 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=261 runway=22
+[trace] L1 t=327 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=265 runway=22
+[trace] L1 t=332 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=269 runway=22
+[trace] L1 t=337 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=274 runway=22
+[trace] L1 t=342 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=278 runway=22
+[trace] L1 t=347 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=282 runway=22
+[trace] L1 t=352 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=286 runway=22
+[trace] L1 t=357 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=290 runway=22
+[trace] L1 t=362 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=294 runway=22
+[trace] L1 t=367 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=299 runway=22
+[trace] L1 t=372 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=303 runway=22
+[trace] L1 t=377 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=307 runway=22
+[trace] L1 t=382 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=311 runway=22
+[trace] L1 t=387 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=315 runway=22
+[trace] L1 t=392 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=320 runway=22
+[trace] L1 t=397 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=324 runway=22
+[trace] L1 t=402 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=328 runway=22
+[trace] L1 t=407 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=332 runway=22
+[trace] L1 t=412 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=336 runway=22
+[trace] L1 t=417 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=340 runway=22
+[trace] L1 t=422 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=345 runway=22
+[trace] L1 t=427 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=349 runway=22
+[trace] L1 t=432 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=353 runway=22
+[trace] L1 t=437 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=357 runway=22
+[trace] L1 t=442 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=361 runway=22
+[trace] L1 t=447 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=366 runway=22
+[trace] L1 t=452 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=370 runway=22
+[trace] L1 t=457 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=374 runway=22
+[trace] L1 t=462 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=378 runway=22
+[trace] L1 t=467 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=382 runway=22
+[trace] L1 t=472 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=386 runway=22
+[trace] L1 t=477 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=391 runway=22
+[trace] L1 t=482 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=395 runway=22
+[trace] L1 t=487 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=399 runway=22
+[trace] L1 t=492 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=403 runway=22
+[trace] L1 t=497 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=407 runway=22
+[trace] L1 t=502 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=412 runway=22
+[trace] L1 t=507 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=416 runway=22
+[trace] L1 t=513 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=420 runway=22
+[trace] L1 t=518 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=424 runway=22
+[trace] L1 t=523 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=428 runway=22
+[trace] L1 t=528 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=432 runway=22
+[trace] L1 t=533 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=437 runway=22
+[trace] L1 t=538 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=441 runway=22
+[trace] L1 t=543 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=445 runway=22
+[trace] L1 t=548 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=449 runway=22
+[trace] L1 t=553 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=453 runway=22
+[trace] L1 t=558 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=458 runway=22
+[trace] L1 t=563 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=462 runway=22
+[trace] L1 t=568 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=466 runway=22
+[trace] L1 t=573 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=470 runway=22
+[trace] L1 t=578 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=474 runway=22
+[trace] L1 t=583 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=478 runway=22
+[trace] L1 t=588 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=483 runway=22
+[trace] L1 t=593 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=487 runway=22
+[trace] L1 t=598 pos=(2.6, 0.0, -38.7) goal=(5.0, 15.3, -95.0) next=(2.0, 0.5, -40.2) path=3/51 target=- stuck=491 runway=22
+[bot] L1 attempt 1 failed: TIMEOUT after 600.0s
+[bot] L1 READY
+[bot] L1 PLAYING
+[trace] L1 t=3 pos=(0.4, 0.0, -19.6) goal=(5.0, 15.3, -95.0) next=(0.5, 0.5, -20.8) path=1/57 target=@CharacterBody3D@1654 stuck=0 runway=24
+[trace] L1 t=8 pos=(0.4, 0.0, -56.3) goal=(5.0, 15.3, -95.0) next=(0.4, 0.5, -57.4) path=2/44 target=- stuck=0 runway=24
+[trace] L1 t=13 pos=(8.900001, 0.8, -85.7) goal=(5.0, 15.3, -95.0) next=(9.0, 1.7, -86.7) path=1/24 target=- stuck=0 runway=24
+[trace] L1 t=18 pos=(2.1, 7.5, -104.4) goal=(5.0, 15.3, -95.0) next=(0.3, 8.0, -104.0) path=2/19 target=- stuck=0 runway=24
+[trace] L1 t=23 pos=(-5.5, 15.0, -111.3) goal=(5.0, 15.4, -95.0) next=(-5.2, 15.5, -110.5) path=3/8 target=@CharacterBody3D@1717 stuck=0 runway=24
+[bot] L1 WON
+[bot] L1 WON in 25.0s, runway 24/24, attempt 2
+[bot] L2 INTRO
+[bot] L2 READY
+[bot] L2 PLAYING
+[trace] L2 t=3 pos=(-18.6, 3.8, -9.6) goal=(-17.5, 4.0, -40.0) next=(-17.3, 4.5, -10.5) path=1/4 target=@CharacterBody3D@3139 stuck=0 runway=24
+[trace] L2 t=8 pos=(-19.3, 4.0, -12.8) goal=(0.0, 0.0, -48.0) next=(-18.1, 4.5, -10.7) path=1/31 target=@CharacterBody3D@3104 stuck=0 runway=24
+[hitch] L2 t=8.60 92 ms nav_ready=true
+[trace] L2 t=13 pos=(-14.9, 0.0, -26.2) goal=(0.0, 0.0, -48.0) next=(-14.0, 0.5, -28.5) path=4/11 target=@StaticBody3D@3325 stuck=0 runway=24
+[trace] L2 t=18 pos=(-12.8, 0.0, -40.2) goal=(17.5, 4.0, -54.0) next=(-12.1, 0.5, -39.2) path=2/36 target=@CharacterBody3D@3181 stuck=0 runway=24
+[trace] L2 t=23 pos=(7.2, 0.0, -8.1) goal=(17.5, 4.0, -54.0) next=(15.0, 0.5, -1.2) path=1/15 target=@CharacterBody3D@3146 stuck=0 runway=24
+[trace] L2 t=28 pos=(15.5, 4.0, -12.6) goal=(17.5, 4.0, -54.0) next=(16.2, 4.5, -44.2) path=1/7 target=@CharacterBody3D@3153 stuck=0 runway=24
+[trace] L2 t=33 pos=(18.5, 4.0, -28.0) goal=(-3.0, 0.0, -102.0) next=(18.1, 4.5, -24.1) path=1/57 target=- stuck=0 runway=24
+[trace] L2 t=38 pos=(15.4, 0.0, -1.6) goal=(-3.0, 0.0, -102.0) next=(15.0, 0.5, -7.0) path=3/49 target=- stuck=0 runway=24
+[trace] L2 t=43 pos=(13.1, 0.0, -46.4) goal=(-3.0, 0.0, -102.0) next=(12.5, 0.5, -49.5) path=3/27 target=- stuck=0 runway=24
+[trace] L2 t=48 pos=(8.900001, 0.3, -65.1) goal=(-3.0, 0.0, -102.0) next=(8.0, 0.5, -65.2) path=1/18 target=@CharacterBody3D@3195 stuck=2 runway=24
+[trace] L2 t=53 pos=(-0.9, 0.0, -94.9) goal=(-3.0, 0.0, -102.0) next=(-2.7, 0.5, -100.9) path=4/6 target=- stuck=0 runway=24
+[bot] L2 WON
+[bot] L2 WON in 53.6s, runway 24/24, attempt 1
+[bot] L3 INTRO
+[bot] L3 READY
+[bot] L3 PLAYING
+[trace] L3 t=5 pos=(1.4, 0.0, -27.3) goal=(0.0, 0.0, -90.0) next=(2.1, 0.5, -27.8) path=2/31 target=@CharacterBody3D@5219 stuck=0 runway=24
+[trace] L3 t=10 pos=(5.2, 0.0, -57.2) goal=(0.0, 0.0, -90.0) next=(7.2, 0.5, -59.5) path=1/17 target=@CharacterBody3D@5240 stuck=0 runway=24
+[trace] L3 t=15 pos=(0.7, 0.0, -72.6) goal=(0.0, 0.0, -90.0) next=(1.1, 0.5, -74.1) path=1/11 target=@CharacterBody3D@5254 stuck=0 runway=24
+[trace] L3 t=20 pos=(3.0, 0.0, -101.3) goal=(4.0, 6.0, -152.0) next=(3.2, 0.5, -103.2) path=3/22 target=@CharacterBody3D@5289 stuck=0 runway=24
+[trace] L3 t=25 pos=(5.4, 6.0, -146.9) goal=(4.0, 6.0, -152.0) next=(4.7, 6.5, -149.8) path=1/3 target=@CharacterBody3D@5303 stuck=0 runway=24
+[bot] L3 WON
+[bot] L3 WON in 25.2s, runway 24/24, attempt 1
+[bot] L4 INTRO
+[bot] L4 READY
+[bot] L4 PLAYING
+[trace] L4 t=4 pos=(-2.4, 0.0, -3.2) goal=(0.0, 0.0, -59.0) next=(-2.0, 0.5, -7.4) path=1/21 target=@CharacterBody3D@6634 stuck=0 runway=24
+[hitch] L4 t=5.11 83 ms nav_ready=true
+[trace] L4 t=9 pos=(-8.0, 0.0, -32.4) goal=(0.0, 0.0, -59.0) next=(-5.0, 0.5, -39.0) path=1/14 target=@CharacterBody3D@6676 stuck=0 runway=24
+[trace] L4 t=14 pos=(4.1, 0.0, -57.3) goal=(0.0, 0.0, -73.3) next=(2.3, 0.5, -58.0) path=1/8 target=@CharacterBody3D@7455 stuck=0 runway=24
+[trace] L4 t=19 pos=(-2.3, 0.0, -46.5) goal=(1.8, 0.0, -59.9) next=(-1.0, 0.5, -50.5) path=1/10 target=@CharacterBody3D@7455 stuck=0 runway=24
+[bot] L4 WON
+[bot] L4 WON in 23.2s, runway 24/24, attempt 1
+[bot] L5 INTRO
+[bot] L5 READY
+[bot] L5 PLAYING
+[trace] L5 t=1 pos=(-7.3, 0.0, -4.3) goal=(inf, inf, inf) next=(inf, inf, inf) path=0/0 target=@CharacterBody3D@8617 stuck=0 runway=24
+[hitch] L5 t=2.95 133 ms nav_ready=true
+[trace] L5 t=6 pos=(-2.4, 0.0, -3.6) goal=(inf, inf, inf) next=(inf, inf, inf) path=0/0 target=@CharacterBody3D@8834 stuck=0 runway=24
+[trace] L5 t=11 pos=(-13.7, 0.0, -1.9) goal=(-22.0, 5.0, -30.0) next=(-18.2, 0.5, -2.2) path=1/9 target=- stuck=0 runway=24
+[trace] L5 t=16 pos=(-20.9, 5.0, -15.8) goal=(-24.3, 0.0, -36.0) next=(-20.9, 5.5, -15.0) path=1/21 target=- stuck=0 runway=24
+[trace] L5 t=21 pos=(-20.9, 0.0, -26.3) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@9439 stuck=0 runway=24
+[trace] L5 t=26 pos=(11.4, 0.0, -9.3) goal=(22.0, 5.0, -39.0) next=(18.6, 0.5, -2.6) path=1/11 target=- stuck=0 runway=24
+[trace] L5 t=31 pos=(20.5, 3.3, -10.7) goal=(24.2, 0.0, -17.6) next=(20.3, 1.0, -4.5) path=1/11 target=- stuck=0 runway=24
+[trace] L5 t=36 pos=(21.5, 0.0, -12.7) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@9757 stuck=0 runway=24
+[trace] L5 t=41 pos=(21.9, 0.0, -13.6) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=- stuck=0 runway=24
+[trace] L5 t=46 pos=(21.2, 0.0, -23.2) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@10005 stuck=0 runway=24
+[trace] L5 t=51 pos=(29.3, 0.0, -24.9) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@9998 stuck=0 runway=24
+[hitch] L5 t=53.44 83 ms nav_ready=true
+[trace] L5 t=56 pos=(-0.6, 0.0, -38.8) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=- stuck=0 runway=24
+[trace] L5 t=61 pos=(-0.3, 0.0, -53.5) goal=(0.0, 0.6, -74.0) next=(-0.3, 0.5, -56.4) path=1/15 target=- stuck=0 runway=24
+[bot] L5 WON
+[bot] L5 WON in 63.3s, runway 24/24, attempt 1
+[bot] L6 INTRO
+[bot] L6 READY
+[bot] L6 PLAYING
+[trace] L6 t=3 pos=(4.1, 0.0, -4.0) goal=(17.0, 0.0, -15.0) next=(7.0, 0.5, -4.2) path=2/5 target=@CharacterBody3D@10750 stuck=0 runway=24
+[trace] L6 t=8 pos=(9.900001, 0.0, -2.8) goal=(17.0, 0.0, -15.0) next=(11.2, 0.5, -3.3) path=1/5 target=@StaticBody3D@10961 stuck=0 runway=24
+[hitch] L6 t=10.77 99 ms nav_ready=true
+[trace] L6 t=13 pos=(-6.6, 0.0, -3.0) goal=(-17.0, 0.0, -15.0) next=(-15.4, 0.5, -13.5) path=1/3 target=@StaticBody3D@10955 stuck=0 runway=24
+[trace] L6 t=18 pos=(-11.2, 0.0, -33.2) goal=(-17.0, 0.0, -51.0) next=(-11.9, 0.5, -35.3) path=5/9 target=@StaticBody3D@10967 stuck=0 runway=24
+[trace] L6 t=23 pos=(1.5, 0.0, -46.6) goal=(17.0, 0.0, -51.0) next=(3.8, 0.5, -47.5) path=2/8 target=@CharacterBody3D@10799 stuck=0 runway=24
+[trace] L6 t=28 pos=(4.3, 0.0, -41.5) goal=(17.0, 0.0, -51.0) next=(8.7, 0.7, -45.4) path=1/4 target=@StaticBody3D@10973 stuck=0 runway=24
+[trace] L6 t=33 pos=(1.1, 0.0, -62.0) goal=(0.0, 0.0, -77.0) next=(0.7, 0.5, -66.7) path=1/8 target=- stuck=0 runway=24
+[bot] L6 WON
+[bot] L6 WON in 34.5s, runway 24/24, attempt 1
+[bot] L7 INTRO
+[bot] L7 READY
+[bot] L7 PLAYING
+[trace] L7 t=4 pos=(10.5, 0.0, -9.400001) goal=(10.0, 0.0, -82.0) next=(10.5, 0.5, -11.8) path=2/29 target=- stuck=0 runway=24
+[trace] L7 t=9 pos=(12.9, 0.0, -40.0) goal=(10.0, 0.0, -82.0) next=(13.9, 0.5, -41.5) path=2/14 target=@CharacterBody3D@12654 stuck=0 runway=24
+[trace] L7 t=14 pos=(9.900001, 0.0, -67.8) goal=(10.0, 0.0, -82.0) next=(9.400001, 0.5, -72.0) path=1/7 target=@CharacterBody3D@12668 stuck=0 runway=24
+[trace] L7 t=19 pos=(10.1, 0.0, -71.4) goal=(-3.0, 0.0, -82.0) next=(7.2, 0.5, -73.1) path=1/4 target=@CharacterBody3D@12626 stuck=0 runway=24
+[trace] L7 t=24 pos=(-1.9, 0.0, -77.9) goal=(0.0, 0.0, -97.0) next=(-0.1, 0.5, -90.1) path=1/3 target=@CharacterBody3D@12605 stuck=0 runway=24
+[bot] L7 WON
+[bot] L7 WON in 25.8s, runway 24/24, attempt 1
+[bot] L8 INTRO
+[bot] L8 READY
+[bot] L8 PLAYING
+[hitch] L8 t=2.30 118 ms nav_ready=true
+[trace] L8 t=3 pos=(-7.3, 0.0, -5.5) goal=(0.0, 0.0, -80.0) next=(-9.400001, 0.5, -10.6) path=1/31 target=@CharacterBody3D@14232 stuck=0 runway=24
+[trace] L8 t=8 pos=(-12.8, 0.0, -11.5) goal=(0.0, 0.0, -80.0) next=(-12.0, 0.5, -14.9) path=1/33 target=@CharacterBody3D@14225 stuck=0 runway=24
+[trace] L8 t=13 pos=(-8.1, 0.0, -37.6) goal=(0.0, 0.0, -80.0) next=(-9.3, 0.5, -40.9) path=2/22 target=@CharacterBody3D@14260 stuck=0 runway=24
+[trace] L8 t=18 pos=(-9.400001, 0.0, -47.2) goal=(0.0, 0.0, -80.0) next=(-10.5, 0.5, -47.2) path=1/18 target=@CharacterBody3D@14281 stuck=0 runway=24
+[trace] L8 t=23 pos=(-8.7, 0.0, -51.8) goal=(0.0, 0.0, -80.0) next=(-7.3, 0.5, -53.2) path=1/16 target=@CharacterBody3D@14295 stuck=0 runway=24
+[trace] L8 t=28 pos=(4.3, 0.0, -92.8) goal=(15.5, 0.0, -134.5) next=(4.5, 0.5, -94.5) path=1/14 target=@CharacterBody3D@14316 stuck=0 runway=24
+[bot] L8 WON
+[bot] L8 WON in 32.6s, runway 24/24, attempt 1
+[bot] L9 INTRO
+[bot] L9 READY
+[bot] L9 PLAYING
+[trace] L9 t=0 pos=(4.2, 0.0, 4.3) goal=(0.0, 6.0, -70.0) next=(15.7, 0.5, -11.4) path=1/29 target=@CharacterBody3D@15705 stuck=0 runway=24
+[trace] L9 t=5 pos=(14.4, 0.0, -3.9) goal=(0.0, 6.0, -70.0) next=(16.1, 0.5, -4.2) path=1/29 target=@CharacterBody3D@15747 stuck=0 runway=24
+[trace] L9 t=11 pos=(19.5, 4.5, -45.1) goal=(0.0, 6.0, -70.0) next=(19.8, 6.0, -48.5) path=1/15 target=@CharacterBody3D@15775 stuck=0 runway=24
+[trace] L9 t=16 pos=(3.2, 6.0, -59.3) goal=(0.0, 6.0, -70.0) next=(2.5, 6.5, -60.0) path=2/8 target=@CharacterBody3D@15796 stuck=0 runway=24
+[trace] L9 t=21 pos=(0.9, 6.0, -66.5) goal=(0.0, 6.0, -70.0) next=(0.6, 6.5, -67.8) path=1/3 target=- stuck=0 runway=24
+[trace] L9 t=26 pos=(14.7, 6.0, -65.3) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@15817 stuck=0 runway=24
+[trace] L9 t=31 pos=(-0.7, 6.0, -73.4) goal=(-18.0, 6.0, -91.0) next=(-1.4, 6.5, -76.4) path=1/10 target=- stuck=0 runway=24
+[trace] L9 t=36 pos=(-18.4, 6.0, -51.6) goal=(inf, inf, inf) next=(inf, inf, inf) path=2/0 target=@CharacterBody3D@15726 stuck=0 runway=24
+[trace] L9 t=41 pos=(-8.8, 6.0, -53.4) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=@CharacterBody3D@17116 stuck=0 runway=24
+[trace] L9 t=46 pos=(16.2, 6.0, -70.2) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=- stuck=0 runway=24
+[trace] L9 t=51 pos=(16.2, 6.0, -70.2) goal=(inf, inf, inf) next=(inf, inf, inf) path=1/0 target=- stuck=0 runway=24
+[trace] L9 t=56 pos=(16.8, 6.0, -71.3) goal=(-3.0, 6.0, -84.0) next=(11.0, 6.5, -80.2) path=1/10 target=- stuck=0 runway=24
+[trace] L9 t=61 pos=(-10.6, 6.0, -81.2) goal=(inf, inf, inf) next=(inf, inf, inf) path=2/0 target=@CharacterBody3D@17366 stuck=0 runway=24
+[trace] L9 t=66 pos=(-13.5, 6.0, -70.8) goal=(inf, inf, inf) next=(inf, inf, inf) path=2/0 target=- stuck=0 runway=24
+[bot] L9 WON
+[bot] L9 WON in 69.4s, runway 24/24, attempt 1
+[bot] L10 INTRO
+[bot] L10 READY
+[bot] L10 PLAYING
+[trace] L10 t=1 pos=(2.8, 0.0, 6.2) goal=(0.0, 0.0, -42.0) next=(2.2, 0.5, -15.0) path=1/15 target=@CharacterBody3D@17909 stuck=0 runway=24
+[trace] L10 t=6 pos=(3.7, 0.0, 5.7) goal=(0.0, 0.0, -42.0) next=(2.5, 0.5, -15.5) path=1/15 target=@CharacterBody3D@17965 stuck=0 runway=24
+[trace] L10 t=11 pos=(3.7, 0.0, -12.6) goal=(0.0, 0.0, -42.0) next=(3.2, 0.5, -16.4) path=1/15 target=- stuck=0 runway=24
+[hitch] L10 t=11.70 125 ms nav_ready=true
+[trace] L10 t=16 pos=(1.9, 0.0, -35.4) goal=(0.0, 0.0, -42.0) next=(0.8, 0.5, -37.0) path=1/8 target=@CharacterBody3D@17979 stuck=0 runway=24
+[trace] L10 t=21 pos=(0.9, 0.0, -42.8) goal=(-13.1, 0.0, -58.7) next=(-1.7, 0.5, -43.5) path=1/10 target=@CharacterBody3D@17993 stuck=0 runway=23
+[trace] L10 t=26 pos=(3.6, 0.0, -37.1) goal=(0.1, 0.0, -42.6) next=(3.1, 0.5, -37.8) path=1/6 target=@CharacterBody3D@19218 stuck=0 runway=23
+[trace] L10 t=31 pos=(11.1, 0.0, -29.1) goal=(4.5, 0.0, -39.7) next=(6.2, 0.5, -34.2) path=1/8 target=@CharacterBody3D@19023 stuck=0 runway=23
+[trace] L10 t=36 pos=(15.0, 0.0, -23.0) goal=(10.7, 0.0, -27.5) next=(13.6, 0.5, -24.2) path=1/3 target=@CharacterBody3D@19897 stuck=0 runway=23
+[trace] L10 t=41 pos=(4.5, 0.0, -50.4) goal=(0.0, 0.0, -84.0) next=(4.3, 0.5, -52.1) path=1/26 target=@CharacterBody3D@19037 stuck=0 runway=23
+[trace] L10 t=46 pos=(4.1, 0.0, -63.6) goal=(5.4, 0.0, -74.9) next=(4.3, 0.5, -65.1) path=2/13 target=@CharacterBody3D@20488 stuck=0 runway=23
+[bot] L10 WON
+[bot] L10 WON in 48.3s, runway 23/24, attempt 1
+[bot] L11 INTRO
+[bot] L11 READY
+[bot] L11 PLAYING
+[trace] L11 t=3 pos=(-0.6, 0.0, 2.2) goal=(0.0, 0.0, -13.0) next=(-0.2, 0.5, -8.5) path=1/5 target=- stuck=0 runway=24
+[trace] L11 t=8 pos=(-3.0, 0.0, -3.5) goal=(-0.7, 0.0, -28.8) next=(-3.3, 0.5, -8.5) path=1/8 target=@CharacterBody3D@20982 stuck=0 runway=22
+[trace] L11 t=13 pos=(-5.3, 0.0, -8.6) goal=(-3.3, 0.0, -23.3) next=(-6.1, 0.5, -10.7) path=1/6 target=@CharacterBody3D@21282 stuck=0 runway=22
+[trace] L11 t=18 pos=(-2.6, 0.0, -2.1) goal=(-2.7, 0.0, -14.3) next=(-0.9, 0.5, -8.5) path=1/5 target=@CharacterBody3D@21282 stuck=0 runway=22
+[trace] L11 t=23 pos=(-5.4, 0.0, 1.6) goal=(-6.6, 0.0, -14.0) next=(-5.8, 0.5, -8.5) path=1/5 target=@CharacterBody3D@21282 stuck=0 runway=24
+[trace] L11 t=28 pos=(-0.9, 0.0, 6.0) goal=(-2.4, 0.0, -6.8) next=(-0.5, 0.5, 4.6) path=1/3 target=@CharacterBody3D@21282 stuck=0 runway=24
+[bot] L11 ENDING
+[bot] L11 WON in 31.1s, runway 24/24, attempt 1
+[bot] L11 FINISHED
+[bot] RUN COMPLETE in 18.1 min
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+EXIT 0

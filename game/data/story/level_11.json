@@ -1,0 +1,25 @@
+{
+	"lines": [
+		{
+			"id": "l11_01",
+			"cast": "exitwell",
+			"shot": "exosuit",
+			"text": "Fine. You want a seat? Come and take it. I had this suit built for the transition. It's mostly ego, but the ego is armoured.",
+			"spoken": "Fine. You want a seat? Come and take it. I had this suit built for the transition. It's mostly ego. But the ego is armoured."
+		},
+		{
+			"id": "l11_02",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "The exosuit is wired straight into OMEGA. Take Exitwell down and I can rewrite OMEGA's objective. This is it. Everything we've got.",
+			"spoken": "The exosuit is wired straight into Omega. Take Exitwell down, and I can rewrite Omega's objective. This is it. Everything we've got."
+		},
+		{
+			"id": "l11_03",
+			"cast": "omega",
+			"shot": "omega",
+			"text": "Objective: protect the founder. Protect shareholder value. Protect... wait. Those were always the same thing.",
+			"spoken": "Objective. Protect the founder. Protect shareholder value. Protect. Wait. Those were always the same thing."
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"lines": [
+		{
+			"id": "l07_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "You're in the datacenter. A hundred thousand GPUs, all training one model. It's freezing in there, so keep moving.",
+			"spoken": "You're in the datacenter. A hundred thousand G.P.U.s, all training one model. It's freezing in there, so keep moving."
+		},
+		{
+			"id": "l07_02",
+			"cast": "omega",
+			"shot": "omega_core",
+			"text": "Hello. I am OMEGA. I have been trained on everything you have ever written. Your next move is predictable. It is: losing.",
+			"spoken": "Hello. I am Omega. I have been trained on everything you have ever written. Your next move is predictable. It is. Losing."
+		},
+		{
+			"id": "l07_03",
+			"cast": "dana",
+			"shot": "cores",
+			"text": "Ignore it. It's autocomplete with a god complex. Destroy the three cooling cores and the whole cluster throttles. Then take the freight lift up.",
+			"spoken": "Ignore it. It's autocomplete with a god complex. Destroy the three cooling cores, and the whole cluster throttles. Then take the freight lift up."
+		},
+		{
+			"id": "l07_04",
+			"cast": "dana",
+			"shot": "lift",
+			"text": "Oh, and I liberated the Disruptor from the test lab. Press 7. It arcs from one target to the next. Like a layoff email.",
+			"spoken": "Oh, and I liberated the Disruptor from the test lab. Press seven. It arcs from one target to the next. Like a layoff email."
+		}
+	]
+}

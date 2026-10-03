@@ -1,0 +1,6 @@
+Generation: built-in imagegen. No external reference image. Generated 2026-09-30.
+Output: game/assets/branding/yngm-logo.png
+Windows icon: game/assets/branding/yngm.ico (16, 24, 32, 48, 64, 128, 256 pixels).
+ICO conversion changed file format and resolution only.
+
+Use case: logo-brand. Asset type: final square Windows game app icon and game logo for Escape from the Permanent Underclass, project name YNGM. Create a polished original game emblem: a bold low-poly helicopter with a hanging rope ladder rising above a compact angular San Francisco city silhouette. Match the game's fiery orange sky, dark burgundy shadows and bright cyan highlights. Strong simple shapes, crisp edges, high contrast, readable as a small Windows desktop and Start-menu icon. Exact text: YNGM, in large heavy condensed lettering integrated into the lower part of the emblem; no other text. Square balanced composition with safe margins. Dark rounded-square tile behind the emblem, transparent outside the rounded tile. No real company logos, no watermarks, no gore, no extra slogans. Finished artwork, not a mockup or icon sheet.

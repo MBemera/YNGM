@@ -1,0 +1,32 @@
+{
+	"lines": [
+		{
+			"id": "l03_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "You're out. Now head south on the 101. Every self-driving car in the Bay decided to stop at the same time, so it's one long parking lot.",
+			"spoken": "You're out. Now head south on the one oh one. Every self driving car in the Bay decided to stop at the same time, so it's one long parking lot."
+		},
+		{
+			"id": "l03_02",
+			"cast": "dana",
+			"shot": "traffic",
+			"text": "Overclass's delivery bots are patrolling the lanes. They only deliver one thing now: you, back to the farm.",
+			"spoken": "Overclass's delivery bots are patrolling the lanes. They only deliver one thing now. You. Back to the farm."
+		},
+		{
+			"id": "l03_03",
+			"cast": "dana",
+			"shot": "player",
+			"text": "There was a hype railgun in that crashed Overclass van. Press 5. It goes straight through anything. Including a pitch deck.",
+			"spoken": "There was a hype railgun in that crashed Overclass van. Press five. It goes straight through anything. Including a pitch deck."
+		},
+		{
+			"id": "l03_04",
+			"cast": "dana",
+			"shot": "station",
+			"text": "The last commuter train south leaves from the overpass platform. Once you're past the toll plaza you'll have to run for it. Don't miss it. There isn't another one. Ever.",
+			"spoken": "The last commuter train south leaves from the overpass platform. Once you're past the toll plaza, you'll have to run for it. Don't miss it. There isn't another one. Ever."
+		}
+	]
+}

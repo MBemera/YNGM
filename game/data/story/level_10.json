@@ -1,0 +1,26 @@
+{
+	"lines": [
+		{
+			"id": "l10_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "Top of the tower. The board is in session. Three directors, and every one of them voted yes on the underclass.",
+			"spoken": "Top of the tower. The board is in session. Three directors, and every one of them voted yes on the underclass."
+		},
+		{
+			"id": "l10_02",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (conference call)",
+			"shot": "table",
+			"text": "Order, order. First item on the agenda: the intruder. All in favour of making them go away? Motion carries. It always carries.",
+			"spoken": "Order, order. First item on the agenda. The intruder. All in favour of making them go away? Motion carries. It always carries."
+		},
+		{
+			"id": "l10_03",
+			"cast": "dana",
+			"shot": "windows",
+			"text": "The directors are tougher than anything you've fought so far, and they bring security to every meeting. Use everything you've got.",
+			"spoken": "The directors are tougher than anything you've fought so far, and they bring security to every meeting. Use everything you've got."
+		}
+	]
+}

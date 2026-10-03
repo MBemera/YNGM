@@ -1,0 +1,33 @@
+{
+	"lines": [
+		{
+			"id": "l02_01",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (public address)",
+			"shot": "overview",
+			"text": "Welcome aboard, ladder climber! You've been rescued into the Overclass Opportunity Center. Here you'll label training data for OMEGA, eighteen hours a day, paid in exposure.",
+			"spoken": "Welcome aboard, ladder climber! You've been rescued into the Overclass Opportunity Center. Here you'll label training data for Omega, eighteen hours a day, paid in exposure."
+		},
+		{
+			"id": "l02_02",
+			"cast": "dana",
+			"shot": "desks",
+			"text": "Hey. Don't sit down at that desk. I'm Dana. I ran alignment at Overclass until they aligned me out the door. This isn't a rescue. It's a data farm.",
+			"spoken": "Hey. Don't sit down at that desk. I'm Dana. I ran alignment at Overclass, until they aligned me out the door. This isn't a rescue. It's a data farm."
+		},
+		{
+			"id": "l02_03",
+			"cast": "dana",
+			"shot": "terminals",
+			"text": "The loading dock is locked by three shift-quota terminals. Smash all three and the dock doors open. Shift managers will try to stop you. They take quotas personally.",
+			"spoken": "The loading dock is locked by three shift quota terminals. Smash all three, and the dock doors open. Shift managers will try to stop you. They take quotas personally."
+		},
+		{
+			"id": "l02_04",
+			"cast": "dana",
+			"shot": "player",
+			"text": "I left you something in the supply closet: the NDA stapler. Press 4. It doesn't hurt anyone. It just makes them stop talking for a while.",
+			"spoken": "I left you something in the supply closet. The N.D.A. stapler. Press four. It doesn't hurt anyone. It just makes them stop talking for a while."
+		}
+	]
+}

@@ -1,0 +1,221 @@
+{
+	"complete": true,
+	"difficulty": "normal",
+	"fps_while_playing": {
+		"1": {
+			"average_fps": 120.2,
+			"frames": 75014,
+			"median_fps": 120.9,
+			"minimum_fps": 8.3,
+			"one_percent_low_fps": 67.2,
+			"seconds": 623.9
+		},
+		"2": {
+			"average_fps": 127.8,
+			"frames": 6839,
+			"median_fps": 132.0,
+			"minimum_fps": 10.8,
+			"one_percent_low_fps": 71.0,
+			"seconds": 53.5
+		},
+		"3": {
+			"average_fps": 126.8,
+			"frames": 3179,
+			"median_fps": 132.0,
+			"minimum_fps": 15.0,
+			"one_percent_low_fps": 63.2,
+			"seconds": 25.1
+		},
+		"4": {
+			"average_fps": 126.2,
+			"frames": 2920,
+			"median_fps": 132.0,
+			"minimum_fps": 12.0,
+			"one_percent_low_fps": 50.8,
+			"seconds": 23.1
+		},
+		"5": {
+			"average_fps": 127.5,
+			"frames": 8066,
+			"median_fps": 132.0,
+			"minimum_fps": 7.5,
+			"one_percent_low_fps": 60.3,
+			"seconds": 63.3
+		},
+		"6": {
+			"average_fps": 125.5,
+			"frames": 4325,
+			"median_fps": 130.0,
+			"minimum_fps": 10.1,
+			"one_percent_low_fps": 56.2,
+			"seconds": 34.5
+		},
+		"7": {
+			"average_fps": 126.6,
+			"frames": 3263,
+			"median_fps": 132.0,
+			"minimum_fps": 27.9,
+			"one_percent_low_fps": 57.3,
+			"seconds": 25.8
+		},
+		"8": {
+			"average_fps": 128.9,
+			"frames": 4194,
+			"median_fps": 132.0,
+			"minimum_fps": 8.5,
+			"one_percent_low_fps": 49.9,
+			"seconds": 32.5
+		},
+		"9": {
+			"average_fps": 126.1,
+			"frames": 8738,
+			"median_fps": 132.0,
+			"minimum_fps": 12.9,
+			"one_percent_low_fps": 62.2,
+			"seconds": 69.3
+		},
+		"10": {
+			"average_fps": 124.6,
+			"frames": 6013,
+			"median_fps": 132.0,
+			"minimum_fps": 8.0,
+			"one_percent_low_fps": 44.2,
+			"seconds": 48.3
+		},
+		"11": {
+			"average_fps": 127.6,
+			"frames": 3960,
+			"median_fps": 132.0,
+			"minimum_fps": 15.9,
+			"one_percent_low_fps": 60.7,
+			"seconds": 31.0
+		}
+	},
+	"gpu": "Intel(R) UHD Graphics",
+	"levels": {
+		"1": {
+			"attempts": 2,
+			"deaths": [
+				{
+					"attempt": 1,
+					"reason": "TIMEOUT",
+					"seconds": 600.0
+				}
+			],
+			"enemies_defeated": 15,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "SOUTH OF MARKET",
+			"win_seconds": 25.0,
+			"won": true
+		},
+		"2": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 16,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "THE OPPORTUNITY CENTER",
+			"win_seconds": 53.6,
+			"won": true
+		},
+		"3": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 17,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "THE 101",
+			"win_seconds": 25.2,
+			"won": true
+		},
+		"4": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 17,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "SAND HILL ROAD",
+			"win_seconds": 23.2,
+			"won": true
+		},
+		"5": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 30,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "DISRUPT-A-THON",
+			"win_seconds": 63.3,
+			"won": true
+		},
+		"6": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 18,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "OVERCLASS CAMPUS",
+			"win_seconds": 34.5,
+			"won": true
+		},
+		"7": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 13,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "COLD AISLE",
+			"win_seconds": 25.8,
+			"won": true
+		},
+		"8": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 18,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "PIER 70",
+			"win_seconds": 32.6,
+			"won": true
+		},
+		"9": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 30,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "THE ARK",
+			"win_seconds": 69.4,
+			"won": true
+		},
+		"10": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 30,
+			"max_runway": 24,
+			"runway_left": 23,
+			"title": "THE BOARDROOM",
+			"win_seconds": 48.3,
+			"won": true
+		},
+		"11": {
+			"attempts": 1,
+			"deaths": [],
+			"enemies_defeated": 10,
+			"max_runway": 24,
+			"runway_left": 24,
+			"title": "OMEGA",
+			"win_seconds": 31.1,
+			"won": true
+		}
+	},
+	"total_minutes": 18.1,
+	"weapon_shots": {
+		"BUBBLE": 5,
+		"CONFETTI": 12,
+		"DARTS": 1599,
+		"DISRUPT": 18,
+		"NDA": 28
+	}
+}

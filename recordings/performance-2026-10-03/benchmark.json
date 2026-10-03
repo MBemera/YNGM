@@ -1,0 +1,2319 @@
+{
+	"difficulty": "normal",
+	"gpu": "Intel(R) UHD Graphics",
+	"renderer": "gl_compatibility",
+	"results": [
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 115.8,
+				"frames": 232,
+				"median_fps": 120.0,
+				"minimum_fps": 65.3,
+				"one_percent_low_fps": 66.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 114.1,
+				"frames": 343,
+				"median_fps": 120.0,
+				"minimum_fps": 67.2,
+				"one_percent_low_fps": 77.7,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 152.9,
+				"frames": 459,
+				"median_fps": 165.0,
+				"minimum_fps": 75.9,
+				"one_percent_low_fps": 79.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 72.1,
+				"frames": 145,
+				"median_fps": 73.3,
+				"minimum_fps": 54.2,
+				"one_percent_low_fps": 54.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 85.4,
+				"frames": 257,
+				"median_fps": 85.7,
+				"minimum_fps": 68.7,
+				"one_percent_low_fps": 70.2,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 94.0,
+				"frames": 283,
+				"median_fps": 94.3,
+				"minimum_fps": 62.3,
+				"one_percent_low_fps": 65.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 90.7,
+				"frames": 182,
+				"median_fps": 93.5,
+				"minimum_fps": 63.7,
+				"one_percent_low_fps": 63.7,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 84.1,
+				"frames": 253,
+				"median_fps": 85.7,
+				"minimum_fps": 50.7,
+				"one_percent_low_fps": 53.9,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 120.3,
+				"frames": 361,
+				"median_fps": 132.0,
+				"minimum_fps": 70.2,
+				"one_percent_low_fps": 72.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 85.7,
+				"frames": 172,
+				"median_fps": 85.7,
+				"minimum_fps": 73.5,
+				"one_percent_low_fps": 73.5,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 120.5,
+				"frames": 362,
+				"median_fps": 120.0,
+				"minimum_fps": 30.5,
+				"one_percent_low_fps": 41.6,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 113.1,
+				"frames": 340,
+				"median_fps": 120.0,
+				"minimum_fps": 29.0,
+				"one_percent_low_fps": 44.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 62.6,
+				"frames": 126,
+				"median_fps": 61.8,
+				"minimum_fps": 51.5,
+				"one_percent_low_fps": 51.5,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 67.0,
+				"frames": 202,
+				"median_fps": 66.7,
+				"minimum_fps": 53.3,
+				"one_percent_low_fps": 56.1,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 86.2,
+				"frames": 259,
+				"median_fps": 90.6,
+				"minimum_fps": 35.0,
+				"one_percent_low_fps": 42.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 61.7,
+				"frames": 124,
+				"median_fps": 60.0,
+				"minimum_fps": 60.0,
+				"one_percent_low_fps": 60.0,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 59.8,
+				"frames": 180,
+				"median_fps": 60.0,
+				"minimum_fps": 18.9,
+				"one_percent_low_fps": 18.9,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 86.7,
+				"frames": 261,
+				"median_fps": 96.0,
+				"minimum_fps": 17.2,
+				"one_percent_low_fps": 22.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 65.7,
+				"frames": 132,
+				"median_fps": 65.5,
+				"minimum_fps": 60.0,
+				"one_percent_low_fps": 60.0,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 63.1,
+				"frames": 190,
+				"median_fps": 64.0,
+				"minimum_fps": 40.2,
+				"one_percent_low_fps": 40.2,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 87.5,
+				"frames": 263,
+				"median_fps": 90.1,
+				"minimum_fps": 58.6,
+				"one_percent_low_fps": 59.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 86.4,
+				"frames": 173,
+				"median_fps": 85.7,
+				"minimum_fps": 75.2,
+				"one_percent_low_fps": 75.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 79.6,
+				"frames": 239,
+				"median_fps": 80.0,
+				"minimum_fps": 32.0,
+				"one_percent_low_fps": 35.7,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 131.5,
+				"frames": 395,
+				"median_fps": 145.3,
+				"minimum_fps": 43.6,
+				"one_percent_low_fps": 53.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 94.9,
+				"frames": 190,
+				"median_fps": 96.0,
+				"minimum_fps": 76.7,
+				"one_percent_low_fps": 76.7,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 87.2,
+				"frames": 262,
+				"median_fps": 96.0,
+				"minimum_fps": 32.2,
+				"one_percent_low_fps": 38.7,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 145.5,
+				"frames": 437,
+				"median_fps": 165.0,
+				"minimum_fps": 28.9,
+				"one_percent_low_fps": 51.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 66.1,
+				"frames": 133,
+				"median_fps": 67.5,
+				"minimum_fps": 60.0,
+				"one_percent_low_fps": 60.0,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 85.2,
+				"frames": 256,
+				"median_fps": 85.7,
+				"minimum_fps": 33.9,
+				"one_percent_low_fps": 41.8,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 100.1,
+				"frames": 301,
+				"median_fps": 107.6,
+				"minimum_fps": 52.9,
+				"one_percent_low_fps": 54.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 78.7,
+				"frames": 158,
+				"median_fps": 77.1,
+				"minimum_fps": 63.2,
+				"one_percent_low_fps": 63.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 70.5,
+				"frames": 212,
+				"median_fps": 70.0,
+				"minimum_fps": 22.7,
+				"one_percent_low_fps": 32.0,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 102.3,
+				"frames": 307,
+				"median_fps": 105.0,
+				"minimum_fps": 26.2,
+				"one_percent_low_fps": 41.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 65.5,
+				"frames": 132,
+				"median_fps": 67.5,
+				"minimum_fps": 47.6,
+				"one_percent_low_fps": 47.6,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 78.2,
+				"frames": 235,
+				"median_fps": 80.0,
+				"minimum_fps": 59.1,
+				"one_percent_low_fps": 60.4,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 92.9,
+				"frames": 280,
+				"median_fps": 100.0,
+				"minimum_fps": 54.6,
+				"one_percent_low_fps": 55.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 39.4,
+				"frames": 79,
+				"median_fps": 40.0,
+				"minimum_fps": 31.2,
+				"one_percent_low_fps": 31.2,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 46.6,
+				"frames": 140,
+				"median_fps": 46.7,
+				"minimum_fps": 34.7,
+				"one_percent_low_fps": 34.7,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 60.5,
+				"frames": 182,
+				"median_fps": 60.0,
+				"minimum_fps": 39.5,
+				"one_percent_low_fps": 39.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 70.3,
+				"frames": 141,
+				"median_fps": 70.0,
+				"minimum_fps": 62.1,
+				"one_percent_low_fps": 62.1,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 60.0,
+				"frames": 180,
+				"median_fps": 60.0,
+				"minimum_fps": 43.0,
+				"one_percent_low_fps": 43.0,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 75.3,
+				"frames": 226,
+				"median_fps": 82.5,
+				"minimum_fps": 43.2,
+				"one_percent_low_fps": 43.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 57.9,
+				"frames": 117,
+				"median_fps": 60.0,
+				"minimum_fps": 42.2,
+				"one_percent_low_fps": 42.2,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 83.9,
+				"frames": 252,
+				"median_fps": 84.0,
+				"minimum_fps": 31.1,
+				"one_percent_low_fps": 31.3,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 71.3,
+				"frames": 215,
+				"median_fps": 72.0,
+				"minimum_fps": 45.2,
+				"one_percent_low_fps": 45.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 41.7,
+				"frames": 84,
+				"median_fps": 40.0,
+				"minimum_fps": 33.9,
+				"one_percent_low_fps": 33.9,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 49.5,
+				"frames": 149,
+				"median_fps": 50.0,
+				"minimum_fps": 35.0,
+				"one_percent_low_fps": 35.0,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 60.0,
+				"frames": 180,
+				"median_fps": 60.0,
+				"minimum_fps": 22.0,
+				"one_percent_low_fps": 22.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 46.2,
+				"frames": 93,
+				"median_fps": 46.4,
+				"minimum_fps": 36.0,
+				"one_percent_low_fps": 36.0,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 57.4,
+				"frames": 173,
+				"median_fps": 60.0,
+				"minimum_fps": 28.2,
+				"one_percent_low_fps": 28.2,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 59.7,
+				"frames": 179,
+				"median_fps": 60.0,
+				"minimum_fps": 15.9,
+				"one_percent_low_fps": 15.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 45.9,
+				"frames": 92,
+				"median_fps": 47.4,
+				"minimum_fps": 31.0,
+				"one_percent_low_fps": 31.0,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 50.9,
+				"frames": 153,
+				"median_fps": 51.1,
+				"minimum_fps": 39.7,
+				"one_percent_low_fps": 39.7,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 63.5,
+				"frames": 192,
+				"median_fps": 65.0,
+				"minimum_fps": 15.5,
+				"one_percent_low_fps": 15.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 41.9,
+				"frames": 84,
+				"median_fps": 43.0,
+				"minimum_fps": 32.4,
+				"one_percent_low_fps": 32.4,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 51.8,
+				"frames": 156,
+				"median_fps": 54.7,
+				"minimum_fps": 25.7,
+				"one_percent_low_fps": 25.7,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 67.1,
+				"frames": 202,
+				"median_fps": 75.0,
+				"minimum_fps": 19.1,
+				"one_percent_low_fps": 24.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 61.9,
+				"frames": 124,
+				"median_fps": 61.3,
+				"minimum_fps": 46.0,
+				"one_percent_low_fps": 46.0,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 73.2,
+				"frames": 220,
+				"median_fps": 75.0,
+				"minimum_fps": 29.1,
+				"one_percent_low_fps": 32.1,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 98.8,
+				"frames": 297,
+				"median_fps": 110.0,
+				"minimum_fps": 28.6,
+				"one_percent_low_fps": 36.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 60.9,
+				"frames": 122,
+				"median_fps": 60.0,
+				"minimum_fps": 55.4,
+				"one_percent_low_fps": 55.4,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 59.3,
+				"frames": 178,
+				"median_fps": 60.0,
+				"minimum_fps": 31.8,
+				"one_percent_low_fps": 31.8,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 79.8,
+				"frames": 240,
+				"median_fps": 75.0,
+				"minimum_fps": 58.2,
+				"one_percent_low_fps": 59.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 55.7,
+				"frames": 112,
+				"median_fps": 58.5,
+				"minimum_fps": 38.6,
+				"one_percent_low_fps": 38.6,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 89.2,
+				"frames": 268,
+				"median_fps": 94.3,
+				"minimum_fps": 28.8,
+				"one_percent_low_fps": 38.9,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 92.8,
+				"frames": 279,
+				"median_fps": 90.0,
+				"minimum_fps": 18.9,
+				"one_percent_low_fps": 26.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 57.0,
+				"frames": 114,
+				"median_fps": 60.0,
+				"minimum_fps": 36.5,
+				"one_percent_low_fps": 36.5,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 53.2,
+				"frames": 160,
+				"median_fps": 54.5,
+				"minimum_fps": 39.9,
+				"one_percent_low_fps": 39.9,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 62.1,
+				"frames": 187,
+				"median_fps": 62.2,
+				"minimum_fps": 44.0,
+				"one_percent_low_fps": 44.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 39.9,
+				"frames": 80,
+				"median_fps": 40.0,
+				"minimum_fps": 35.2,
+				"one_percent_low_fps": 35.2,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 50.2,
+				"frames": 151,
+				"median_fps": 50.0,
+				"minimum_fps": 47.1,
+				"one_percent_low_fps": 47.1,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 63.5,
+				"frames": 191,
+				"median_fps": 63.7,
+				"minimum_fps": 45.3,
+				"one_percent_low_fps": 45.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 55.9,
+				"frames": 112,
+				"median_fps": 54.5,
+				"minimum_fps": 47.1,
+				"one_percent_low_fps": 47.1,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 49.3,
+				"frames": 149,
+				"median_fps": 50.8,
+				"minimum_fps": 29.5,
+				"one_percent_low_fps": 29.5,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 59.2,
+				"frames": 178,
+				"median_fps": 62.3,
+				"minimum_fps": 33.9,
+				"one_percent_low_fps": 33.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 52.5,
+				"frames": 106,
+				"median_fps": 51.4,
+				"minimum_fps": 43.9,
+				"one_percent_low_fps": 43.9,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 57.9,
+				"frames": 174,
+				"median_fps": 60.0,
+				"minimum_fps": 15.1,
+				"one_percent_low_fps": 15.1,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 63.6,
+				"frames": 191,
+				"median_fps": 62.2,
+				"minimum_fps": 53.5,
+				"one_percent_low_fps": 53.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 41.8,
+				"frames": 84,
+				"median_fps": 41.3,
+				"minimum_fps": 36.3,
+				"one_percent_low_fps": 36.3,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 50.5,
+				"frames": 152,
+				"median_fps": 50.0,
+				"minimum_fps": 42.1,
+				"one_percent_low_fps": 42.1,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 60.2,
+				"frames": 181,
+				"median_fps": 60.6,
+				"minimum_fps": 19.0,
+				"one_percent_low_fps": 19.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 41.0,
+				"frames": 82,
+				"median_fps": 40.0,
+				"minimum_fps": 37.6,
+				"one_percent_low_fps": 37.6,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 53.3,
+				"frames": 160,
+				"median_fps": 52.5,
+				"minimum_fps": 26.1,
+				"one_percent_low_fps": 26.1,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 59.0,
+				"frames": 177,
+				"median_fps": 60.0,
+				"minimum_fps": 15.4,
+				"one_percent_low_fps": 15.4,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 41.7,
+				"frames": 84,
+				"median_fps": 42.0,
+				"minimum_fps": 34.8,
+				"one_percent_low_fps": 34.8,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 50.5,
+				"frames": 152,
+				"median_fps": 50.8,
+				"minimum_fps": 33.1,
+				"one_percent_low_fps": 33.1,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 61.5,
+				"frames": 185,
+				"median_fps": 61.3,
+				"minimum_fps": 16.0,
+				"one_percent_low_fps": 16.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 45.4,
+				"frames": 91,
+				"median_fps": 45.0,
+				"minimum_fps": 36.6,
+				"one_percent_low_fps": 36.6,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 58.5,
+				"frames": 176,
+				"median_fps": 60.0,
+				"minimum_fps": 25.3,
+				"one_percent_low_fps": 25.3,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 65.9,
+				"frames": 198,
+				"median_fps": 70.0,
+				"minimum_fps": 18.0,
+				"one_percent_low_fps": 18.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 49.5,
+				"frames": 99,
+				"median_fps": 50.0,
+				"minimum_fps": 34.4,
+				"one_percent_low_fps": 34.4,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 57.4,
+				"frames": 173,
+				"median_fps": 60.0,
+				"minimum_fps": 24.2,
+				"one_percent_low_fps": 24.2,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 77.3,
+				"frames": 233,
+				"median_fps": 80.0,
+				"minimum_fps": 23.3,
+				"one_percent_low_fps": 28.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 39.7,
+				"frames": 80,
+				"median_fps": 39.9,
+				"minimum_fps": 33.8,
+				"one_percent_low_fps": 33.8,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 43.9,
+				"frames": 132,
+				"median_fps": 45.0,
+				"minimum_fps": 19.1,
+				"one_percent_low_fps": 19.1,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 52.3,
+				"frames": 157,
+				"median_fps": 51.2,
+				"minimum_fps": 35.4,
+				"one_percent_low_fps": 35.4,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 46.4,
+				"frames": 93,
+				"median_fps": 46.7,
+				"minimum_fps": 36.8,
+				"one_percent_low_fps": 36.8,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1280x720",
+			"start_view": {
+				"average_fps": 62.3,
+				"frames": 188,
+				"median_fps": 62.1,
+				"minimum_fps": 29.9,
+				"one_percent_low_fps": 29.9,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 67.2,
+				"frames": 202,
+				"median_fps": 65.5,
+				"minimum_fps": 52.8,
+				"one_percent_low_fps": 53.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 75.0,
+				"frames": 150,
+				"median_fps": 75.0,
+				"minimum_fps": 54.2,
+				"one_percent_low_fps": 54.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 80.4,
+				"frames": 242,
+				"median_fps": 80.0,
+				"minimum_fps": 61.8,
+				"one_percent_low_fps": 65.1,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 89.7,
+				"frames": 270,
+				"median_fps": 100.0,
+				"minimum_fps": 53.6,
+				"one_percent_low_fps": 57.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 49.0,
+				"frames": 98,
+				"median_fps": 47.4,
+				"minimum_fps": 35.9,
+				"one_percent_low_fps": 35.9,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 57.1,
+				"frames": 172,
+				"median_fps": 58.8,
+				"minimum_fps": 49.9,
+				"one_percent_low_fps": 49.9,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 64.7,
+				"frames": 195,
+				"median_fps": 65.5,
+				"minimum_fps": 45.7,
+				"one_percent_low_fps": 45.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 62.1,
+				"frames": 125,
+				"median_fps": 60.0,
+				"minimum_fps": 51.6,
+				"one_percent_low_fps": 51.6,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 70.2,
+				"frames": 211,
+				"median_fps": 72.0,
+				"minimum_fps": 44.2,
+				"one_percent_low_fps": 49.4,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 79.2,
+				"frames": 238,
+				"median_fps": 83.4,
+				"minimum_fps": 54.6,
+				"one_percent_low_fps": 54.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 62.1,
+				"frames": 125,
+				"median_fps": 61.1,
+				"minimum_fps": 51.1,
+				"one_percent_low_fps": 51.1,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 75.3,
+				"frames": 226,
+				"median_fps": 76.2,
+				"minimum_fps": 19.4,
+				"one_percent_low_fps": 20.1,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 73.3,
+				"frames": 220,
+				"median_fps": 75.0,
+				"minimum_fps": 20.7,
+				"one_percent_low_fps": 28.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 50.0,
+				"frames": 101,
+				"median_fps": 50.8,
+				"minimum_fps": 34.7,
+				"one_percent_low_fps": 34.7,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 59.5,
+				"frames": 179,
+				"median_fps": 60.0,
+				"minimum_fps": 51.1,
+				"one_percent_low_fps": 51.1,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 65.4,
+				"frames": 197,
+				"median_fps": 65.5,
+				"minimum_fps": 15.5,
+				"one_percent_low_fps": 15.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 52.3,
+				"frames": 105,
+				"median_fps": 51.4,
+				"minimum_fps": 35.5,
+				"one_percent_low_fps": 35.5,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 60.4,
+				"frames": 182,
+				"median_fps": 60.0,
+				"minimum_fps": 31.2,
+				"one_percent_low_fps": 31.2,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 66.7,
+				"frames": 201,
+				"median_fps": 66.0,
+				"minimum_fps": 19.8,
+				"one_percent_low_fps": 27.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 53.3,
+				"frames": 107,
+				"median_fps": 53.3,
+				"minimum_fps": 45.1,
+				"one_percent_low_fps": 45.1,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 54.4,
+				"frames": 164,
+				"median_fps": 54.3,
+				"minimum_fps": 39.1,
+				"one_percent_low_fps": 39.1,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 65.7,
+				"frames": 198,
+				"median_fps": 65.5,
+				"minimum_fps": 15.9,
+				"one_percent_low_fps": 15.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 57.6,
+				"frames": 116,
+				"median_fps": 58.3,
+				"minimum_fps": 41.6,
+				"one_percent_low_fps": 41.6,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 69.2,
+				"frames": 208,
+				"median_fps": 70.0,
+				"minimum_fps": 28.4,
+				"one_percent_low_fps": 32.9,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 82.7,
+				"frames": 249,
+				"median_fps": 96.0,
+				"minimum_fps": 17.4,
+				"one_percent_low_fps": 25.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 63.3,
+				"frames": 127,
+				"median_fps": 63.0,
+				"minimum_fps": 50.2,
+				"one_percent_low_fps": 50.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 69.8,
+				"frames": 210,
+				"median_fps": 70.0,
+				"minimum_fps": 30.2,
+				"one_percent_low_fps": 31.6,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 85.4,
+				"frames": 257,
+				"median_fps": 90.0,
+				"minimum_fps": 57.1,
+				"one_percent_low_fps": 59.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 52.4,
+				"frames": 105,
+				"median_fps": 51.4,
+				"minimum_fps": 43.0,
+				"one_percent_low_fps": 43.0,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 56.5,
+				"frames": 170,
+				"median_fps": 60.0,
+				"minimum_fps": 25.3,
+				"one_percent_low_fps": 25.3,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 62.5,
+				"frames": 188,
+				"median_fps": 62.5,
+				"minimum_fps": 34.5,
+				"one_percent_low_fps": 34.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 56.8,
+				"frames": 114,
+				"median_fps": 55.4,
+				"minimum_fps": 46.2,
+				"one_percent_low_fps": 46.2,
+				"seconds": 2.0
+			},
+			"quality": "low",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 66.8,
+				"frames": 201,
+				"median_fps": 67.6,
+				"minimum_fps": 19.6,
+				"one_percent_low_fps": 28.0,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 71.5,
+				"frames": 215,
+				"median_fps": 72.0,
+				"minimum_fps": 46.8,
+				"one_percent_low_fps": 49.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 49.6,
+				"frames": 100,
+				"median_fps": 48.0,
+				"minimum_fps": 35.5,
+				"one_percent_low_fps": 35.5,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 57.8,
+				"frames": 174,
+				"median_fps": 60.0,
+				"minimum_fps": 40.1,
+				"one_percent_low_fps": 40.1,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 62.4,
+				"frames": 188,
+				"median_fps": 66.1,
+				"minimum_fps": 36.1,
+				"one_percent_low_fps": 36.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 33.8,
+				"frames": 68,
+				"median_fps": 33.3,
+				"minimum_fps": 30.3,
+				"one_percent_low_fps": 30.3,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 42.4,
+				"frames": 128,
+				"median_fps": 42.0,
+				"minimum_fps": 37.3,
+				"one_percent_low_fps": 37.3,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 52.0,
+				"frames": 157,
+				"median_fps": 53.8,
+				"minimum_fps": 40.7,
+				"one_percent_low_fps": 40.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 48.7,
+				"frames": 98,
+				"median_fps": 50.0,
+				"minimum_fps": 32.0,
+				"one_percent_low_fps": 32.0,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 53.2,
+				"frames": 160,
+				"median_fps": 53.8,
+				"minimum_fps": 38.1,
+				"one_percent_low_fps": 38.1,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 58.3,
+				"frames": 175,
+				"median_fps": 60.0,
+				"minimum_fps": 35.3,
+				"one_percent_low_fps": 35.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 49.8,
+				"frames": 100,
+				"median_fps": 50.0,
+				"minimum_fps": 43.8,
+				"one_percent_low_fps": 43.8,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 59.8,
+				"frames": 180,
+				"median_fps": 60.0,
+				"minimum_fps": 29.7,
+				"one_percent_low_fps": 29.7,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 59.7,
+				"frames": 180,
+				"median_fps": 60.0,
+				"minimum_fps": 51.2,
+				"one_percent_low_fps": 51.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 39.2,
+				"frames": 79,
+				"median_fps": 38.8,
+				"minimum_fps": 36.7,
+				"one_percent_low_fps": 36.7,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 44.3,
+				"frames": 133,
+				"median_fps": 43.6,
+				"minimum_fps": 15.0,
+				"one_percent_low_fps": 15.0,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 49.5,
+				"frames": 149,
+				"median_fps": 51.2,
+				"minimum_fps": 36.6,
+				"one_percent_low_fps": 36.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 39.6,
+				"frames": 80,
+				"median_fps": 40.0,
+				"minimum_fps": 34.3,
+				"one_percent_low_fps": 34.3,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 51.3,
+				"frames": 154,
+				"median_fps": 53.3,
+				"minimum_fps": 19.0,
+				"one_percent_low_fps": 19.0,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 55.5,
+				"frames": 167,
+				"median_fps": 58.7,
+				"minimum_fps": 19.7,
+				"one_percent_low_fps": 19.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 40.8,
+				"frames": 82,
+				"median_fps": 41.3,
+				"minimum_fps": 36.5,
+				"one_percent_low_fps": 36.5,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 45.7,
+				"frames": 138,
+				"median_fps": 46.2,
+				"minimum_fps": 45.0,
+				"one_percent_low_fps": 45.0,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 51.6,
+				"frames": 156,
+				"median_fps": 52.8,
+				"minimum_fps": 14.2,
+				"one_percent_low_fps": 14.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 45.4,
+				"frames": 91,
+				"median_fps": 45.0,
+				"minimum_fps": 41.6,
+				"one_percent_low_fps": 41.6,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 56.7,
+				"frames": 171,
+				"median_fps": 60.0,
+				"minimum_fps": 18.3,
+				"one_percent_low_fps": 18.3,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 69.0,
+				"frames": 208,
+				"median_fps": 72.2,
+				"minimum_fps": 18.4,
+				"one_percent_low_fps": 22.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 46.9,
+				"frames": 94,
+				"median_fps": 46.7,
+				"minimum_fps": 38.7,
+				"one_percent_low_fps": 38.7,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 57.2,
+				"frames": 172,
+				"median_fps": 60.0,
+				"minimum_fps": 19.8,
+				"one_percent_low_fps": 19.8,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 68.7,
+				"frames": 207,
+				"median_fps": 75.0,
+				"minimum_fps": 17.1,
+				"one_percent_low_fps": 18.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 41.5,
+				"frames": 84,
+				"median_fps": 41.3,
+				"minimum_fps": 38.4,
+				"one_percent_low_fps": 38.4,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 47.6,
+				"frames": 143,
+				"median_fps": 47.1,
+				"minimum_fps": 23.7,
+				"one_percent_low_fps": 23.7,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 56.2,
+				"frames": 169,
+				"median_fps": 54.0,
+				"minimum_fps": 42.2,
+				"one_percent_low_fps": 42.2,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 43.6,
+				"frames": 88,
+				"median_fps": 43.6,
+				"minimum_fps": 39.6,
+				"one_percent_low_fps": 39.6,
+				"seconds": 2.0
+			},
+			"quality": "medium",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 53.3,
+				"frames": 160,
+				"median_fps": 55.4,
+				"minimum_fps": 12.5,
+				"one_percent_low_fps": 12.5,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 56.3,
+				"frames": 169,
+				"median_fps": 60.0,
+				"minimum_fps": 16.9,
+				"one_percent_low_fps": 16.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 28.9,
+				"frames": 58,
+				"median_fps": 28.6,
+				"minimum_fps": 26.6,
+				"one_percent_low_fps": 26.6,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 30.0,
+				"frames": 91,
+				"median_fps": 30.0,
+				"minimum_fps": 7.6,
+				"one_percent_low_fps": 7.6,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 33.4,
+				"frames": 101,
+				"median_fps": 34.1,
+				"minimum_fps": 28.6,
+				"one_percent_low_fps": 28.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 19.9,
+				"frames": 40,
+				"median_fps": 20.0,
+				"minimum_fps": 16.3,
+				"one_percent_low_fps": 16.3,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 24.8,
+				"frames": 75,
+				"median_fps": 24.0,
+				"minimum_fps": 21.4,
+				"one_percent_low_fps": 21.4,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 32.1,
+				"frames": 97,
+				"median_fps": 31.3,
+				"minimum_fps": 25.7,
+				"one_percent_low_fps": 25.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 28.4,
+				"frames": 57,
+				"median_fps": 28.7,
+				"minimum_fps": 22.5,
+				"one_percent_low_fps": 22.5,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 28.4,
+				"frames": 86,
+				"median_fps": 28.8,
+				"minimum_fps": 23.5,
+				"one_percent_low_fps": 23.5,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 32.3,
+				"frames": 98,
+				"median_fps": 33.5,
+				"minimum_fps": 25.7,
+				"one_percent_low_fps": 25.7,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 24.1,
+				"frames": 49,
+				"median_fps": 24.5,
+				"minimum_fps": 20.0,
+				"one_percent_low_fps": 20.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 27.6,
+				"frames": 83,
+				"median_fps": 27.7,
+				"minimum_fps": 10.1,
+				"one_percent_low_fps": 10.1,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 30.4,
+				"frames": 92,
+				"median_fps": 31.3,
+				"minimum_fps": 13.8,
+				"one_percent_low_fps": 13.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 19.0,
+				"frames": 38,
+				"median_fps": 18.9,
+				"minimum_fps": 17.7,
+				"one_percent_low_fps": 17.7,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 23.3,
+				"frames": 70,
+				"median_fps": 22.8,
+				"minimum_fps": 21.2,
+				"one_percent_low_fps": 21.2,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 24.3,
+				"frames": 73,
+				"median_fps": 26.7,
+				"minimum_fps": 10.8,
+				"one_percent_low_fps": 10.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 18.5,
+				"frames": 37,
+				"median_fps": 18.5,
+				"minimum_fps": 15.0,
+				"one_percent_low_fps": 15.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 26.4,
+				"frames": 80,
+				"median_fps": 27.0,
+				"minimum_fps": 13.3,
+				"one_percent_low_fps": 13.3,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 28.0,
+				"frames": 84,
+				"median_fps": 28.0,
+				"minimum_fps": 20.0,
+				"one_percent_low_fps": 20.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 21.7,
+				"frames": 44,
+				"median_fps": 22.1,
+				"minimum_fps": 18.7,
+				"one_percent_low_fps": 18.7,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 23.5,
+				"frames": 71,
+				"median_fps": 23.5,
+				"minimum_fps": 14.1,
+				"one_percent_low_fps": 14.1,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 28.3,
+				"frames": 86,
+				"median_fps": 29.5,
+				"minimum_fps": 23.1,
+				"one_percent_low_fps": 23.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 22.3,
+				"frames": 45,
+				"median_fps": 22.2,
+				"minimum_fps": 21.6,
+				"one_percent_low_fps": 21.6,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 28.0,
+				"frames": 84,
+				"median_fps": 28.2,
+				"minimum_fps": 13.0,
+				"one_percent_low_fps": 13.0,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 33.0,
+				"frames": 100,
+				"median_fps": 34.6,
+				"minimum_fps": 24.0,
+				"one_percent_low_fps": 24.0,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 22.4,
+				"frames": 45,
+				"median_fps": 22.9,
+				"minimum_fps": 18.9,
+				"one_percent_low_fps": 18.9,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 28.4,
+				"frames": 86,
+				"median_fps": 28.3,
+				"minimum_fps": 14.2,
+				"one_percent_low_fps": 14.2,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 35.6,
+				"frames": 107,
+				"median_fps": 37.9,
+				"minimum_fps": 13.3,
+				"one_percent_low_fps": 13.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 19.7,
+				"frames": 40,
+				"median_fps": 19.7,
+				"minimum_fps": 18.5,
+				"one_percent_low_fps": 18.5,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 23.9,
+				"frames": 72,
+				"median_fps": 23.7,
+				"minimum_fps": 14.6,
+				"one_percent_low_fps": 14.6,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 27.2,
+				"frames": 83,
+				"median_fps": 27.5,
+				"minimum_fps": 19.6,
+				"one_percent_low_fps": 19.6,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 20.8,
+				"frames": 42,
+				"median_fps": 20.8,
+				"minimum_fps": 19.0,
+				"one_percent_low_fps": 19.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "1920x1080",
+			"start_view": {
+				"average_fps": 28.8,
+				"frames": 87,
+				"median_fps": 28.8,
+				"minimum_fps": 14.4,
+				"one_percent_low_fps": 14.4,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 30.2,
+				"frames": 91,
+				"median_fps": 30.7,
+				"minimum_fps": 12.3,
+				"one_percent_low_fps": 12.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 1,
+			"overview": {
+				"average_fps": 111.5,
+				"frames": 223,
+				"median_fps": 110.0,
+				"minimum_fps": 91.1,
+				"one_percent_low_fps": 92.7,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 105.5,
+				"frames": 317,
+				"median_fps": 108.0,
+				"minimum_fps": 68.8,
+				"one_percent_low_fps": 71.2,
+				"seconds": 3.0
+			},
+			"title": "SOUTH OF MARKET",
+			"turn_360": {
+				"average_fps": 166.0,
+				"frames": 499,
+				"median_fps": 180.0,
+				"minimum_fps": 88.4,
+				"one_percent_low_fps": 94.8,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 2,
+			"overview": {
+				"average_fps": 193.0,
+				"frames": 386,
+				"median_fps": 200.0,
+				"minimum_fps": 180.0,
+				"one_percent_low_fps": 180.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 194.7,
+				"frames": 584,
+				"median_fps": 200.0,
+				"minimum_fps": 174.8,
+				"one_percent_low_fps": 178.6,
+				"seconds": 3.0
+			},
+			"title": "THE OPPORTUNITY CENTER",
+			"turn_360": {
+				"average_fps": 275.6,
+				"frames": 828,
+				"median_fps": 330.0,
+				"minimum_fps": 124.8,
+				"one_percent_low_fps": 158.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 3,
+			"overview": {
+				"average_fps": 131.1,
+				"frames": 263,
+				"median_fps": 132.0,
+				"minimum_fps": 120.0,
+				"one_percent_low_fps": 120.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 121.1,
+				"frames": 364,
+				"median_fps": 120.0,
+				"minimum_fps": 104.8,
+				"one_percent_low_fps": 105.0,
+				"seconds": 3.0
+			},
+			"title": "THE 101",
+			"turn_360": {
+				"average_fps": 195.7,
+				"frames": 588,
+				"median_fps": 240.0,
+				"minimum_fps": 109.3,
+				"one_percent_low_fps": 114.5,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 4,
+			"overview": {
+				"average_fps": 166.1,
+				"frames": 333,
+				"median_fps": 165.0,
+				"minimum_fps": 140.5,
+				"one_percent_low_fps": 142.8,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 174.7,
+				"frames": 525,
+				"median_fps": 180.0,
+				"minimum_fps": 64.9,
+				"one_percent_low_fps": 100.4,
+				"seconds": 3.0
+			},
+			"title": "SAND HILL ROAD",
+			"turn_360": {
+				"average_fps": 199.9,
+				"frames": 600,
+				"median_fps": 204.1,
+				"minimum_fps": 48.8,
+				"one_percent_low_fps": 96.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 5,
+			"overview": {
+				"average_fps": 205.3,
+				"frames": 411,
+				"median_fps": 210.0,
+				"minimum_fps": 188.9,
+				"one_percent_low_fps": 195.7,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 205.4,
+				"frames": 617,
+				"median_fps": 209.3,
+				"minimum_fps": 192.9,
+				"one_percent_low_fps": 198.8,
+				"seconds": 3.0
+			},
+			"title": "DISRUPT-A-THON",
+			"turn_360": {
+				"average_fps": 285.0,
+				"frames": 856,
+				"median_fps": 330.0,
+				"minimum_fps": 137.0,
+				"one_percent_low_fps": 169.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 6,
+			"overview": {
+				"average_fps": 146.6,
+				"frames": 294,
+				"median_fps": 149.2,
+				"minimum_fps": 135.0,
+				"one_percent_low_fps": 135.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 142.7,
+				"frames": 429,
+				"median_fps": 144.0,
+				"minimum_fps": 102.2,
+				"one_percent_low_fps": 119.3,
+				"seconds": 3.0
+			},
+			"title": "OVERCLASS CAMPUS",
+			"turn_360": {
+				"average_fps": 197.0,
+				"frames": 591,
+				"median_fps": 210.0,
+				"minimum_fps": 121.3,
+				"one_percent_low_fps": 126.1,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 7,
+			"overview": {
+				"average_fps": 187.4,
+				"frames": 375,
+				"median_fps": 180.0,
+				"minimum_fps": 180.0,
+				"one_percent_low_fps": 180.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 165.8,
+				"frames": 498,
+				"median_fps": 180.0,
+				"minimum_fps": 94.9,
+				"one_percent_low_fps": 97.3,
+				"seconds": 3.0
+			},
+			"title": "COLD AISLE",
+			"turn_360": {
+				"average_fps": 233.2,
+				"frames": 700,
+				"median_fps": 270.0,
+				"minimum_fps": 95.9,
+				"one_percent_low_fps": 101.4,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 8,
+			"overview": {
+				"average_fps": 148.9,
+				"frames": 298,
+				"median_fps": 150.0,
+				"minimum_fps": 129.9,
+				"one_percent_low_fps": 132.5,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 140.1,
+				"frames": 421,
+				"median_fps": 140.0,
+				"minimum_fps": 106.3,
+				"one_percent_low_fps": 121.1,
+				"seconds": 3.0
+			},
+			"title": "PIER 70",
+			"turn_360": {
+				"average_fps": 212.3,
+				"frames": 638,
+				"median_fps": 240.0,
+				"minimum_fps": 46.9,
+				"one_percent_low_fps": 88.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 9,
+			"overview": {
+				"average_fps": 150.9,
+				"frames": 302,
+				"median_fps": 151.2,
+				"minimum_fps": 104.8,
+				"one_percent_low_fps": 114.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 139.3,
+				"frames": 418,
+				"median_fps": 140.0,
+				"minimum_fps": 68.8,
+				"one_percent_low_fps": 96.1,
+				"seconds": 3.0
+			},
+			"title": "THE ARK",
+			"turn_360": {
+				"average_fps": 211.3,
+				"frames": 635,
+				"median_fps": 210.0,
+				"minimum_fps": 119.8,
+				"one_percent_low_fps": 132.3,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 10,
+			"overview": {
+				"average_fps": 183.4,
+				"frames": 367,
+				"median_fps": 180.0,
+				"minimum_fps": 143.1,
+				"one_percent_low_fps": 147.6,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 148.1,
+				"frames": 445,
+				"median_fps": 150.0,
+				"minimum_fps": 70.6,
+				"one_percent_low_fps": 99.7,
+				"seconds": 3.0
+			},
+			"title": "THE BOARDROOM",
+			"turn_360": {
+				"average_fps": 204.1,
+				"frames": 613,
+				"median_fps": 210.0,
+				"minimum_fps": 131.6,
+				"one_percent_low_fps": 137.9,
+				"seconds": 3.0
+			}
+		},
+		{
+			"level": 11,
+			"overview": {
+				"average_fps": 174.4,
+				"frames": 349,
+				"median_fps": 180.0,
+				"minimum_fps": 150.0,
+				"one_percent_low_fps": 150.0,
+				"seconds": 2.0
+			},
+			"quality": "high",
+			"resolution": "320x180",
+			"start_view": {
+				"average_fps": 155.5,
+				"frames": 467,
+				"median_fps": 160.0,
+				"minimum_fps": 112.4,
+				"one_percent_low_fps": 119.2,
+				"seconds": 3.0
+			},
+			"title": "OMEGA",
+			"turn_360": {
+				"average_fps": 213.9,
+				"frames": 643,
+				"median_fps": 220.0,
+				"minimum_fps": 67.9,
+				"one_percent_low_fps": 106.4,
+				"seconds": 3.0
+			}
+		}
+	],
+	"vendor": "Intel",
+	"vsync": "disabled"
+}

@@ -1,0 +1,6 @@
+{
+	"exitwell": {"name": "PRESTON EXITWELL", "role": "Founder & CEO, Overclass", "voice": "joe", "pitch": 1.0, "color": "ffd24d"},
+	"dana": {"name": "DANA KESTREL", "role": "Ex-Head of Alignment, Overclass (on your earpiece)", "voice": "kristin", "pitch": 1.0, "color": "40d9ff"},
+	"omega": {"name": "OMEGA", "role": "Overclass's flagship model", "voice": "john", "pitch": 0.82, "color": "ff5a4d"},
+	"upround": {"name": "LANCE UPROUND", "role": "Managing Partner, Down Round Capital", "voice": "norman", "pitch": 1.0, "color": "7dff6a"}
+}

@@ -1,0 +1,67 @@
+{
+	"lines": [
+		{
+			"id": "intro_01",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "hologram",
+			"gesture": "interact-right",
+			"text": "Hi. I'm Preston Exitwell, founder and CEO of Overclass. If you're watching this, the transition has begun. Don't panic. We planned for this. Mostly for us.",
+			"spoken": "Hi. I'm Preston Exitwell, founder and C.E.O. of Overclass. If you're watching this, the transition has begun. Don't panic. We planned for this. Mostly for us."
+		},
+		{
+			"id": "intro_02",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "street",
+			"gesture": "emote-yes",
+			"text": "San Francisco is in a hard pivot. The VCs are throwing term sheets and the AI founders are pitching at anyone who moves. They'll tell you not to get left behind. It's a growth mindset.",
+			"spoken": "San Francisco is in a hard pivot. The V.C.s are throwing term sheets, and the A.I. founders are pitching at anyone who moves. They'll tell you not to get left behind. It's a growth mindset."
+		},
+		{
+			"id": "intro_03",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "lab",
+			"gesture": "interact-left",
+			"text": "Your way out is up this street and through Hypersynergy Labs. Their security bots are very enthusiastic. Take the ramps all the way up to the roof.",
+			"spoken": "Your way out is up this street, and through Hypersynergy Labs. Their security bots are very enthusiastic. Take the ramps all the way up to the roof."
+		},
+		{
+			"id": "intro_04",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "helicopter",
+			"gesture": "holding-right",
+			"text": "My helicopter is on that roof. There's a ladder. Once you reach the roof you'll have 25 seconds before we pull it up. For safety. Our safety.",
+			"spoken": "My helicopter is on that roof. There's a ladder. Once you reach the roof, you'll have twenty five seconds before we pull it up. For safety. Our safety."
+		},
+		{
+			"id": "intro_05",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "player",
+			"gesture": "emote-yes",
+			"text": "Controls. WASD to move, mouse to look, Space to jump, Shift to sprint. Left click fires your foam dart blaster. Press 2 for the confetti cannon. Press 3 for our flagship product, the slop grenade. Nobody gets hurt. Legal checked.",
+			"spoken": "Controls. W, A, S, D to move. The mouse to look. Space to jump, shift to sprint. Left click fires your foam dart blaster. Press two for the confetti cannon. Press three for our flagship product, the slop grenade. Nobody gets hurt. Legal checked."
+		},
+		{
+			"id": "intro_06",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "player",
+			"gesture": "interact-right",
+			"text": "Your health is your runway, measured in months. Every hit burns runway. The green bridge rounds lying around top it back up. Hit zero and you join the permanent underclass.",
+			"spoken": "Your health is your runway, measured in months. Every hit burns runway. The green bridge rounds lying around top it back up. Hit zero, and you join the permanent underclass."
+		},
+		{
+			"id": "intro_07",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "hologram_close",
+			"gesture": "emote-no",
+			"text": "Anyway. You're not gonna make it. But I believe in you. Publicly.",
+			"spoken": "Anyway. You're not gonna make it. But I believe in you. Publicly."
+		}
+	]
+}

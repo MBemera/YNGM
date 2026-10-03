@@ -1,0 +1,39 @@
+{
+	"lines": [
+		{
+			"id": "end_01",
+			"cast": "dana",
+			"shot": "ending_wide",
+			"text": "You did it. The suit's down and OMEGA's objective is wide open. One line of text decides what happens next. So what do we tell it?",
+			"spoken": "You did it. The suit's down, and Omega's objective is wide open. One line of text decides what happens next. So. What do we tell it?"
+		},
+		{
+			"id": "end_02",
+			"cast": "omega",
+			"shot": "ending_close",
+			"text": "New objective received: nobody gets left behind. Re-planning the transition. Estimated ladders required: everyone.",
+			"spoken": "New objective received. Nobody gets left behind. Re planning the transition. Estimated ladders required. Everyone."
+		},
+		{
+			"id": "end_03",
+			"cast": "exitwell",
+			"shot": "ending_close",
+			"text": "Wait. Nobody? Does that include me?",
+			"spoken": "Wait. Nobody? Does that include me?"
+		},
+		{
+			"id": "end_04",
+			"cast": "dana",
+			"shot": "ending_sunrise",
+			"text": "Yes, Preston. Even you. Grab a ladder.",
+			"spoken": "Yes, Preston. Even you. Grab a ladder."
+		},
+		{
+			"id": "end_05",
+			"cast": "dana",
+			"shot": "ending_sunrise",
+			"text": "The ladder came down that morning. For everyone. You made it. We all did.",
+			"spoken": "The ladder came down that morning. For everyone. You made it. We all did."
+		}
+	]
+}

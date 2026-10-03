@@ -1,0 +1,17 @@
+Poly Haven assets (https://polyhaven.com), licence: CC0 1.0 (public domain).
+
+- texture: https://polyhaven.com/a/marble_01
+- texture: https://polyhaven.com/a/concrete_wall_008
+- texture: https://polyhaven.com/a/metal_plate
+- texture: https://polyhaven.com/a/concrete_floor_worn_001
+- texture: https://polyhaven.com/a/concrete_floor_02
+- texture: https://polyhaven.com/a/asphalt_02
+- texture: https://polyhaven.com/a/dirty_carpet
+- texture: https://polyhaven.com/a/corrugated_iron
+- texture: https://polyhaven.com/a/metal_grate_rusty
+- texture: https://polyhaven.com/a/large_red_bricks
+- texture: https://polyhaven.com/a/laminate_floor_02
+- texture: https://polyhaven.com/a/hangar_concrete_floor
+- texture: https://polyhaven.com/a/floor_tiles_06
+- texture: https://polyhaven.com/a/blue_metal_plate
+- hdri: https://polyhaven.com/a/the_sky_is_on_fire

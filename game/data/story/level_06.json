@@ -1,0 +1,36 @@
+{
+	"lines": [
+		{
+			"id": "l06_01",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "hologram",
+			"gesture": "interact-right",
+			"text": "Oh. It's you. The ladder person. Look, I love the hustle. Truly. Have you considered a career in being left behind?",
+			"spoken": "Oh. It's you. The ladder person. Look, I love the hustle. Truly. Have you considered a career in being left behind?"
+		},
+		{
+			"id": "l06_02",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "Welcome to Overclass's campus. OMEGA's training run pulls power through four relays on the quad.",
+			"spoken": "Welcome to Overclass's campus. Omega's training run pulls power through four relays on the quad."
+		},
+		{
+			"id": "l06_03",
+			"cast": "dana",
+			"shot": "relays",
+			"text": "Knock out all four relays, then get inside the main building. The guards are founders who got acqui-hired. They're very bitter about it.",
+			"spoken": "Knock out all four relays, then get inside the main building. The guards are founders who got ackwee hired. They're very bitter about it."
+		},
+		{
+			"id": "l06_04",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (hologram)",
+			"shot": "hologram",
+			"gesture": "emote-no",
+			"text": "Those relays are load-bearing for my net worth. Please don't. I'm asking nicely, which I've never done before.",
+			"spoken": "Those relays are load bearing for my net worth. Please don't. I'm asking nicely, which I've never done before."
+		}
+	]
+}

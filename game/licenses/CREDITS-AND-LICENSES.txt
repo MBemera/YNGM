@@ -1,0 +1,65 @@
+ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
+Version 1.0.0
+
+THIRD-PARTY CREDITS AND LICENCES
+These notices cover the named third-party components. They do not change
+ownership or licensing of the original game code, dialogue, sound effects or artwork.
+
+ENGINE
+Godot Engine 4.7.2: MIT / Expat licence.
+Copyright 2014-present Godot Engine contributors.
+Copyright 2007-2014 Juan Linietsky, Ariel Manzur.
+https://godotengine.org/license/
+Full engine and third-party notices, including embedded fonts, are in licenses/.
+Corresponding engine and embedded-library source:
+https://github.com/godotengine/godot/tree/4.7.2-stable
+https://github.com/godotengine/godot/archive/refs/tags/4.7.2-stable.tar.gz
+
+MODELS - CREATIVE COMMONS ZERO 1.0
+Kenney: City Kit Commercial, City Kit Roads, Car Kit, Blaster Kit,
+Mini Characters, Furniture Kit and Space Station Kit.
+https://kenney.nl/assets
+Original pack licence notices: licenses/Kenney-*.txt.
+
+RobotExpressive: Tomas Laulhe / Quaternius; modifications by Don McCurdy
+(facial expression morph targets, FBX2GLTF conversion, material adjustments).
+https://www.quaternius.com/
+https://github.com/KhronosGroup/glTF-Sample-Models/tree/main/2.0/RobotExpressive
+Original model notice: licenses/RobotExpressive.md.
+
+Helicopter by kazuma, downloaded from Poly Pizza, CC0 1.0.
+https://poly.pizza/m/EQJ2MECUbx
+Original model notice: licenses/Helicopter.txt.
+
+TEXTURES AND SKY - CREATIVE COMMONS ZERO 1.0
+Poly Haven: marble_01, concrete_wall_008, metal_plate,
+concrete_floor_worn_001, concrete_floor_02, asphalt_02, dirty_carpet,
+corrugated_iron, metal_grate_rusty, large_red_bricks, laminate_floor_02,
+hangar_concrete_floor, floor_tiles_06, blue_metal_plate and the_sky_is_on_fire.
+https://polyhaven.com/license
+Individual source URLs: licenses/PolyHaven.txt.
+Full CC0 legal text: licenses/CC0-1.0.txt.
+
+VOICES
+Prepared using Piper TTS with these voice datasets:
+Joe: CC0 dataset from the Open Home Foundation voice datasets.
+https://github.com/OHF-Voice/voice-datasets
+John, Kristin and Norman: public-domain LibriVox recordings, voice models
+prepared by Bryce Beattie. https://brycebeattie.com/files/tts/
+https://huggingface.co/rhasspy/piper-voices
+Original model cards: licenses/voice-*.txt.
+The distribution contains generated WAV recordings; no Piper executable,
+voice model, Python environment or development tool is included.
+
+SOUND EFFECTS AND LOGO
+Sound effects created for this game by tools/generate_sfx.py.
+YNGM logo created for this project; no external image reference assets used.
+
+INSTALLER
+NSIS 3.13, copyright 1999-2026 Contributors, zlib/libpng licence.
+The installer uses the zlib compression module.
+https://nsis.sourceforge.io/
+Full unmodified NSIS licence notice: licenses/NSIS-COPYING.txt.
+Source: https://sourceforge.net/projects/nsis/files/NSIS%203/3.13/nsis-3.13-src.tar.bz2
+
+Asset-by-asset provenance and hashes: licenses/asset-manifest.json.

@@ -1,0 +1,25 @@
+{
+	"lines": [
+		{
+			"id": "l09_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "You made it onto the Ark. That rocket is Exitwell's lifeboat: a one-way ticket to an orbital datacenter, with the board and OMEGA's weights on board.",
+			"spoken": "You made it onto the Ark. That rocket is Exitwell's lifeboat. A one way ticket to an orbital datacenter, with the board, and Omega's weights, on board."
+		},
+		{
+			"id": "l09_02",
+			"cast": "omega",
+			"shot": "rocket",
+			"text": "Launch sequence initiated. Seats remaining: zero. Probability you obtain one: also zero.",
+			"spoken": "Launch sequence initiated. Seats remaining. Zero. Probability you obtain one. Also zero."
+		},
+		{
+			"id": "l09_03",
+			"cast": "dana",
+			"shot": "control",
+			"text": "Get up to launch control. Once you're inside, hold the room while I override the countdown. Then get to the tower elevator.",
+			"spoken": "Get up to launch control. Once you're inside, hold the room while I override the countdown. Then get to the tower elevator."
+		}
+	]
+}

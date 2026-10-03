@@ -1,0 +1,4699 @@
+{
+  "assets": [
+    {
+      "path": "audio/sfx/alarm.wav",
+      "sha256": "61a8474935d490b2e8021d7cce28dd5f51d4c35acd5fb8d9a17fdbb6bf34a6d7",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/beam.wav",
+      "sha256": "966c5ae949ebb10a52b71f7889c2a1fde377aa391e3340d02276e087b4572280",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/bounce.wav",
+      "sha256": "817407ad5123088c1f004a780a9ebb6d32f36e2d69981abce47b567f3a0a9a82",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/bubble.wav",
+      "sha256": "0c4c7f4b538aeec967090a68561ac7e7375b9293bc70f46e08d227e868520570",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/confetti.wav",
+      "sha256": "eacb5a43b079eab7cf6e10c63334c6fec0d9ea244e18d3768c5ee910f3e2e327",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/dart.wav",
+      "sha256": "850d167ac68a93861138d0971ca1e29f5b65b471113d391e62de971c33a31f84",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/hit.wav",
+      "sha256": "fec0b53026baec7ded4967a32497932bdb1274bdc0ef58411fa45c7944e89fb4",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/hurt.wav",
+      "sha256": "608cbfd0357a920d9867c9c4236bf3c4fe8a49a0736ce4c56c4ccf819bbcb3e7",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/lose.wav",
+      "sha256": "8cb9edc50ca40809267fbbc059bf2de5955fc79d66b6c50ae1388b79cba63a75",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/objective.wav",
+      "sha256": "ac22024e87e5a1fd00aead982d64e37be239a7b62f06db336746014994077aa0",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/pickup.wav",
+      "sha256": "c884a392741b5b4c8f2e40b6bb22fa5282f98a3987ef9ae6bab19b0cba918f99",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/pop.wav",
+      "sha256": "775037ebd58b9a352c213cc1aae695dd4e589cc03ea83602d3125795f5daeed6",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/rail.wav",
+      "sha256": "38d91439e6cf4e15545dce418175cc1528b59a367fa02f15c0f16ff3edaa2346",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/rotor.wav",
+      "sha256": "58cce8b5e1d448d1b6b7549e7a627da6926dd0fc9241c2b19d7cd1284354131a",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/slam.wav",
+      "sha256": "8ea632b895eecd3b58a00c26bc13eafbe4dcbbe08047d4ad1096bf030048879b",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/slop_explosion.wav",
+      "sha256": "abcff2a976173c5463993da7278ec079500af3a697c46e11f73367f2031e492d",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/staple.wav",
+      "sha256": "44b36b737f18d00ab308633c072f21f23f325d448e1adc30ef2c4b02af7108e0",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/throw.wav",
+      "sha256": "0d45d38677353e7df2da8f31f393e2aed5884b02ced12df4e12b18f64d47ddb7",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/win.wav",
+      "sha256": "1e624477f7e43f8b3bd1bc4cb75d34092692f7a7044229f0975d1801a4d3cf63",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/sfx/zap.wav",
+      "sha256": "4ae0676791b6e05a0ddb602c29961e8dd654d0a088b05e6d4e05bc0822e7bc5e",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "audio/voice/joe_acqui_hired.wav",
+      "sha256": "8bd6e35e2edf80bf77c84b4190dcdcf446f580674b7d4efd7764edf7030ef81f",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_cannot_comment.wav",
+      "sha256": "fd36acb747f23f93215dd9781a7c2a50651eac52ceb9e04627a3b7c72daddd9d",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_does_not_compile.wav",
+      "sha256": "36c571f68dcbd1604df2ec799be7ecb0e0d2d247f2a50b2eb5ab961aba4a4bc2",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_everybody_gets_a_ladder.wav",
+      "sha256": "f03f29eb1e2b45e6ea26b437c7b5c7ff032c5185a58722192142e39781be5024",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_left_behind.wav",
+      "sha256": "fcb09a3cbb9ba8ee049b991668f9170453ba424f7e2fdd85f5ffb5cd6dd9445c",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_meeting_adjourned.wav",
+      "sha256": "dcc38db9d3f35e853a26671ec70d593c6b9c936f1a34706fd5e2c8b40787b381",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_my_valuation.wav",
+      "sha256": "a3bb72bc25c287aad7effd447dd4f4cd1de7aa3ec512b03851a96debfb6a26e2",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_not_gonna_make_it.wav",
+      "sha256": "15156a7ded30e212d8b565da1dab9f1c0c4df4b3b4c8fe9c6cf7a16751aad999",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_not_in_term_sheet.wav",
+      "sha256": "8973a5bb1b74c4762d2f12c6e88084b68e2317f3a85646cdb371501be755bcc7",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_package_delivered.wav",
+      "sha256": "ae824ab4861014376ea4aa676446095262b014bcf1497e009d0a60bb6184b003",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_pivoting.wav",
+      "sha256": "e0880465c46fe604dcc340d682bb520ab325a79df98e87d74f903e918de66bd7",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_end_03.wav",
+      "sha256": "2276e97f41a0b0e2e93b52aca0c9ada23b2764855e4313a921e77fc9f771a6f0",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_01.wav",
+      "sha256": "118a66d5995d0f28f765471cc042c0e143b1e38679fcb3b6ccf81a9aaf3beb41",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_02.wav",
+      "sha256": "93c1b6c794dce959531cfb094d92cc4f3c557b062af4dd96e5658a131f25dc3f",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_03.wav",
+      "sha256": "b8e9df7d118479d5c40202eadf7650ebaf7c80f66d2067b255acbf3c6409f635",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_04.wav",
+      "sha256": "79c97c61c2238c77350c6a49fa8809ae17d828a3aa5ff650019aafd866652950",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_05.wav",
+      "sha256": "4e22b9de5b037b45f50b315485d3c231ba784c1776ff53d33cac8dfee85f2ab9",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_06.wav",
+      "sha256": "3036240ec761ae64f5b90d9ea716fe0070cf50f9788eb249d751309c61cf5bb7",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_intro_07.wav",
+      "sha256": "8e961f7663b951a4b8f4963f71f67fc49d19c0e437b16e993733af2817b4d4b9",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l02_01.wav",
+      "sha256": "869fcb00155094bb913e16ae36d923252a82f2d5a82748dc4b25b05d1d4f3ad3",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l05_02.wav",
+      "sha256": "19a88e0cd7628f0bec71be18ffb442e077b1cc51704ebf110353b79bf053e3ea",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l06_01.wav",
+      "sha256": "cfff1775f3b5e134d6cd57ceff8eb43380330466838c59a983cbe5fe3e6641c6",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l06_04.wav",
+      "sha256": "4a824edaf0139e6ae10bce384d255ac0a525dc6dc90d64bf3ba4243f759110c0",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l08_02.wav",
+      "sha256": "956cde1e87601fe5e2c930baad4a123bd74be2dd064086d9bdb9f8f9f9877953",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l10_02.wav",
+      "sha256": "05bdf1d6e58d4807d23a5baee776c98aa2add756d66bd3f4400d66943e6afb78",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_story_l11_01.wav",
+      "sha256": "ed6bce17aedc05debb5772443efc9de40f48a0f1566722963ab3b2df993adb89",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_take_offline.wav",
+      "sha256": "4841a5b870f9e512a9b03523ff4d76744c9c80f94f653559496ce9dfa6f3cbc3",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_unsubscribing.wav",
+      "sha256": "c33faaa4a44cb82c13a0c8348b429b70ff18377b982241ea9bf0c2dc7cfc7ae0",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_we_will_pass.wav",
+      "sha256": "29e4ea331cb2b195cc0e6e32d8d374d4b9b13e97e5a4391c38f60c1085ea8c51",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_who_wrote_this.wav",
+      "sha256": "fdc2e78ef9ff507565c360a88f18bfc6731d681684d53a87d4fd7bc6f420b48f",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/joe_youre_in_the_round.wav",
+      "sha256": "c4c63782a85838bf3680f095551ca47dd57076a4880d86687385877709d74912",
+      "creator": "Piper voice: joe",
+      "license": "CC0 voice dataset",
+      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_acqui_hired.wav",
+      "sha256": "e2394a2ff35e5821ee379dfb2bd23fc0c8658f9ecebb40348b0505a395b5501a",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_cannot_comment.wav",
+      "sha256": "8f4009c7972f4fa626a917696cfeaac4c82f161152e9e2db936162c32be559d2",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_does_not_compile.wav",
+      "sha256": "f9dac196f08a3445c8825b3d9747f819c398bdee8fd3df827e0f12524c1ee82c",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_everybody_gets_a_ladder.wav",
+      "sha256": "33b48bf5733b6a051d98eb74f0c32e7de4d7bc96e6be75955d71f491f0d814ab",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_left_behind.wav",
+      "sha256": "595f2b61b230dcbe893ef8b7dcb337163a03739f1cda38c1c92890160fcfcf87",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_meeting_adjourned.wav",
+      "sha256": "343591744996444463071d233040da160761908af06d19bc830797444119b7e4",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_my_valuation.wav",
+      "sha256": "b38c6b22aaa3c287b1d65eff084ac3edd476be16cd30b472b72fab5d85cd7f26",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_not_gonna_make_it.wav",
+      "sha256": "47389bb1ab19b91a310a3283456d25e201de6eb9bf5b5f57412c088d11be0de6",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_not_in_term_sheet.wav",
+      "sha256": "83200f32a2b8ef5069d2b46db1d96a41068e78720ee3c2cb15ec30cdfbcff131",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_package_delivered.wav",
+      "sha256": "842a2b0eb813fa1981519e665437b02d4a82496e386d866079b239960d24198a",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_pivoting.wav",
+      "sha256": "968edfa9fdd2a0d84bd6b6b24f673536d36933a81c72887ded0caef066e65a69",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_story_end_02.wav",
+      "sha256": "91eeefd9e70a40fce5cfcfcfcefe0528d89ee4456455f6cf852a5827b039ce57",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_story_l07_02.wav",
+      "sha256": "b3937227f8014a9194fd01abbe7c4a0156c8bd0bb52f09dddfae86c210747af7",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_story_l09_02.wav",
+      "sha256": "4818e90ea99ad860897bda865a8ab4ed40dd6f345feb639ef1cf0f7f7dd0b5b2",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_story_l11_03.wav",
+      "sha256": "0181b3d986e2f7b72f2f37be08aa4eb7135b4dba0ef9eb150d57d8ae40fb6b06",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_take_offline.wav",
+      "sha256": "7e434d912cfcfcb349c4489d271feba622cb6c0b9da1ca8e7db2e5559dbec378",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_unsubscribing.wav",
+      "sha256": "7d245a9bcb15fa19a6fa8efe8eb6fae6759f33f752d7af56bd52601921dd66fd",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_we_will_pass.wav",
+      "sha256": "d7ed192c482fc64d7b5011bd431e61936aefd3f9cbc6d26224144d87a9d5aa3d",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_who_wrote_this.wav",
+      "sha256": "8d1acc700d8c4d1edf69e74aaa489a33a4bb6e7148fcb6b8361beb738162eb16",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/john_youre_in_the_round.wav",
+      "sha256": "6cd44622a25fef542f7834c289c8c507867014a6d36d8293c0c39f10afff476c",
+      "creator": "Piper voice: john",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_acqui_hired.wav",
+      "sha256": "0413e80f2c215b8805e33209257209bf78d18e4e298d7fb3d0e5ab59c558d7af",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_cannot_comment.wav",
+      "sha256": "298cce6741a9c6f277d4fc832a26aaad23b46c6ddb2de355879c799452c19d17",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_does_not_compile.wav",
+      "sha256": "18d3ebd26a9a3f9414a8db039414bfddc1353f8b560b8baaf8b9779f0fcfd63f",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_everybody_gets_a_ladder.wav",
+      "sha256": "37fcfa9628071947c1af05fb1d875641831eadf54aefcce803571ca5b83cfcc1",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_left_behind.wav",
+      "sha256": "84a6b10c77e747b878a22328b514c460c84441f1ac81572368140fb29fdb3713",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_meeting_adjourned.wav",
+      "sha256": "4c635591575c23330262b8f774c398700d445e41f9663ac8661291ee1bd0f12b",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_my_valuation.wav",
+      "sha256": "61cf20921f8365f487c3979ac744afcc305ccdedc722f219566756b52a277500",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_not_gonna_make_it.wav",
+      "sha256": "3a5d99207cf2dd715900d1aaa6a377852a15651acbf406c6abbf9ac2b07c9023",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_not_in_term_sheet.wav",
+      "sha256": "af809a67cf3702f06b613d28f12e93a23f64323a3fdbb4c31ecfb5ee00ca9262",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_package_delivered.wav",
+      "sha256": "3baeb43c78126aaf96138099a58f0a091b787d0aad48249a1d1897160bb62e57",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_pivoting.wav",
+      "sha256": "9a86845ac66756b0c4c92651c19074fed80f3e898effbfb96d553eebd7a72efe",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_end_01.wav",
+      "sha256": "661e9496dd492da86f559ddb5cc0f7d35bc239f241b67e5168139387af093446",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_end_04.wav",
+      "sha256": "eead4ca086bbc67294c4e852d2c6dae05396f9f46c5fb2d3b5b4b0b607229a4a",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_end_05.wav",
+      "sha256": "bde53d0e4119d60de89f5abb5c0509e1d7ced00b2690a53c1ed5bf06ea654cdb",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l02_02.wav",
+      "sha256": "a291d34945a82b6e422bf0700c706eee9209eeea12f734b7ef88c138f9050d13",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l02_03.wav",
+      "sha256": "5e7d0502b7bd07a275947b6f4c1ac40b3554e8154c9214cf8c968950605b1ebc",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l02_04.wav",
+      "sha256": "4e02bfe696f1df65f4447168310d0e433ff67585be5f2c1216b6cd6bd82f1915",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l03_01.wav",
+      "sha256": "816c3c2be17a39db7164356e3940202fb85bf0d042619b558b144a919968fe6e",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l03_02.wav",
+      "sha256": "b2c8c924a8bbc610d4cc47447b5059d5e06030e6781858cab550d1809ca91c54",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l03_03.wav",
+      "sha256": "9777c61be8a629e658e95b3030d07d1b0e4910d4bdcf035363406b5e4de87170",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l03_04.wav",
+      "sha256": "45dda5b882d249ff815fa71ea45369696b2920872056b8f240f6147eb8e85902",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l04_01.wav",
+      "sha256": "37349474ff9ccd7c1c5f514ae5a0ac916edbcf6b7f82b84701a95e4739b7b085",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l04_02.wav",
+      "sha256": "0421d4e8a403683dffcb6321c72a990803f5e670fb47e108211449c2acb48d7e",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l04_04.wav",
+      "sha256": "f4527bdd3ebb509cbdea210cf1715316c788b0b43c69ed022caeca1af73aa601",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l05_01.wav",
+      "sha256": "0fd09bd8131299f68c8a498d8c6b19c695025cd423da1772b1b39c6199a80f0a",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l05_03.wav",
+      "sha256": "6c7ebe08538385c82bf43a8eae6580095304fe65aa39c925f056d3a34228f5ed",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l05_04.wav",
+      "sha256": "f8084988478571396ec7844a0da2be0685a128119118409cf6d8c371cc47ff93",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l06_02.wav",
+      "sha256": "d7999bc45ef64c9a29f6a39ec5c0d210668da7051b4b7a699872392f5c01d476",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l06_03.wav",
+      "sha256": "de1659b025b2e57305e791753ef34cfe1d749c90c89bf23dae3f0bd525b503d2",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l07_01.wav",
+      "sha256": "4ac7cc4d40b74c3fa95ce5b166503ca0f31d18d05e1e86dbfc6cfafd88c7193e",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l07_03.wav",
+      "sha256": "7d1d2992b44adee6be8a6b6645cdc6eb55b48c3d6162f14e2918f5c957e7aa9e",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l07_04.wav",
+      "sha256": "de23ff9862192106f8b0ab062c76fbd584ca43381bc7e2ae72ac73fb0f28127f",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l08_01.wav",
+      "sha256": "532300227e5abfa1a75b1e1fa3028ee69d3046a8b831d57bdb6163e73c155d83",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l08_03.wav",
+      "sha256": "7fe523c6bc06c7c884bb2ac5027b1e6a92eee18a37dfb3e730610adb98823a24",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l09_01.wav",
+      "sha256": "15dd6390889341302ff5cf8bb738bf3907275b6886ae4f834579f103eb56fd76",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l09_03.wav",
+      "sha256": "10d953a3f52781deec873612e51917640038b1641ec132b8911f9f3056fabd51",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l10_01.wav",
+      "sha256": "9c6f50ba334b2e42bf2eecd354939439c1007ab2170a9a127155466c4efceaea",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l10_03.wav",
+      "sha256": "98f9faa52af502afe40b98cf03f122b6b41be92b4e995064059c062b0977308e",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_story_l11_02.wav",
+      "sha256": "21f7b7f436e1a9fe4e51aadd994b177ff9a7cc6a1505212916b024cf7142a8e6",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_take_offline.wav",
+      "sha256": "067962d5bdfb725e6b40b3068436adaf3d965e148cbecd86766183a09dcdfe79",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_unsubscribing.wav",
+      "sha256": "43609200e026be5fee54dec515f9b3dfd9f02032dd45481b403e92d7406bd7d2",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_we_will_pass.wav",
+      "sha256": "917c3c3b737ce3ecd85425587b4b488fca017ff66517fb68a90cd1392e7fdef1",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_who_wrote_this.wav",
+      "sha256": "a69dccc37e11a8e72840e07a37479b70427b637e5a292abf531dc111c505d991",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/kristin_youre_in_the_round.wav",
+      "sha256": "0c7b44478f6b43dd9e599db771f1adb84a90da8bba934616467a8856bf596a0c",
+      "creator": "Piper voice: kristin",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_acqui_hired.wav",
+      "sha256": "05921c9ae77bcb034dc9dd81542609b60eadd3dec3d233b1705cedb8ecdd8238",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_cannot_comment.wav",
+      "sha256": "49998899a840ff56935d38cd86e254465b87f65663ee6abf80fa431f221a9586",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_does_not_compile.wav",
+      "sha256": "5f829620c6ceac054a79e8b51bae6a797f42dcb49662a55f86a48b2955afaa8b",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_everybody_gets_a_ladder.wav",
+      "sha256": "2029d2fe973172fdda5cea59a77af0d0c47e9ae665c96f9b8cbcb48e922b1c32",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_left_behind.wav",
+      "sha256": "30e75e4464dcb99bc1523b98d82cd81c023e4a22745c69b47f6c2c4e9058389a",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_meeting_adjourned.wav",
+      "sha256": "b94dbda4afbb27698b20083f2fa22a68fd37cd65ff89a430e78083bd2c12465b",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_my_valuation.wav",
+      "sha256": "ebc1ffb44f101f28556781d739c71243547d3200acad5c44edcf779e0bf52139",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_not_gonna_make_it.wav",
+      "sha256": "db4fa80927cd59aab21442a52ab666a9275f8e16edb9fa61bf95e8a426d4c3b2",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_not_in_term_sheet.wav",
+      "sha256": "f3a5b55d4cd115c53877bce598a5c352975bbb3d839a8ef3390f904aa2acfd90",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_package_delivered.wav",
+      "sha256": "ca4246bad829231c7d87786d20b6269b9e09823679656a9741f0dd7e0b1da768",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_pivoting.wav",
+      "sha256": "5a9e0442d703974795b0b0786981d42834aecc8f2135890f35d79b390dd449b2",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l04_03.wav",
+      "sha256": "28cf3a8fca114b7fb2d3708572dc9517e1a2aa9d0f5b44519f15e709fdd93853",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_take_offline.wav",
+      "sha256": "302e54d34abd49ad2462ca005b170964bf0590d92b6d97af033ec60ec8f15c54",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_unsubscribing.wav",
+      "sha256": "b1a54e625d74f6161fbad3f62301df14b59180ca7f5927ed1a160d682a5aa06c",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_we_will_pass.wav",
+      "sha256": "c550dd72e1bc9787bab1bade079ecc8da75d9f4ebd33ceff0e8bc70ca7bf706d",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_who_wrote_this.wav",
+      "sha256": "2536f7d479e4ad0207ea75ba8cf3c54a2329fb8816caeca8469475ac73cd5b9c",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_youre_in_the_round.wav",
+      "sha256": "61a47a2623c00156628d73f0347f6193f1c51947d12ff9ac5d9ef6d1be222857",
+      "creator": "Piper voice: norman",
+      "license": "Public-domain voice dataset",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "branding/yngm-logo.png",
+      "sha256": "36ce9ff58276e13491f56e52906e77bbe4b37a02912a90ae13669e65ecd1f2bb",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "branding/yngm.ico",
+      "sha256": "a6307578dde553cfc1760b7d5f76633572412d61a02f7b8d56b1bcc58f6d1bb0",
+      "creator": "Original project content",
+      "license": "Project content; no third-party asset licence"
+    },
+    {
+      "path": "models/blasters/blaster-a.glb",
+      "sha256": "d6d6fe0ec5baf21d7717449220799d45b95d2d663ace7b22612b255dc1a8b308",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-b.glb",
+      "sha256": "7df4457ed864bc0714fc33059ac56d198304092093b1e78dc407b6c829945a4f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-c.glb",
+      "sha256": "1c4c53f201597b2845c3d71717e0c465af1c21d8f8c30c0e1b4358dc33133d35",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-d.glb",
+      "sha256": "c05bf6af6cded1bc76e32e455507f5d1a21cd58503ce66de33ca39e597b28280",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-e.glb",
+      "sha256": "df3e35c9286d7bfe8bde2ff7231ef40ff89b1e7caa52fbf80ea685cb601de3ca",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-f.glb",
+      "sha256": "ea389c88b7d90ede2763e1f2b5834b9fbaaaa56b8a51ebdf21f61ec46d716320",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-g.glb",
+      "sha256": "1798d7ff656116d04df516dffceceea3be174598a384a48d632b0ef1adf204cd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-h.glb",
+      "sha256": "f124a4ffd990a248e801aa451ab7ec4abde71a18c121b571f9bb52206609b36b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-i.glb",
+      "sha256": "d78880a941fed7785df22c5846f553b7b7560a7b9f307d2993892b0103f7d514",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-j.glb",
+      "sha256": "d0d077820b8b840e0f41947dcb4d05960d94ede7431ae3c5e137847771a2f6a1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-k.glb",
+      "sha256": "f8df17fe6377c6cff52c8ce59d10a5a182f5ba7de4ff291843f3238698471036",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-l.glb",
+      "sha256": "2739ae04bcb1e396b599cbf4af774df73b7708512bde2a054b2918d1161f16df",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-m.glb",
+      "sha256": "ff3f1196f2e9acabbdc44143dc3b93f79f4c5e8176e54514479bd2b788477c80",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-n.glb",
+      "sha256": "e3faa048f8a90fe57fe838a7f86609bd91815358a1ac3a8dd26432f8010590f6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-o.glb",
+      "sha256": "52da12866542e6d9948af535e8070f5cc924783ffefa32222762ee17e2bb7e98",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-p.glb",
+      "sha256": "2ffc94c6d8f12d45410012b13169988b70929c7e6ae7d4f868a188265210e49a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-q.glb",
+      "sha256": "e2062bf76cf9ea7690acbb5ae18c9d92be5f7623ec3a2f4b363eb926d1017522",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/blaster-r.glb",
+      "sha256": "ab0b5f51ecff405238727626d558414750a9946d5e255cd1dc8bf81eebe1f1e2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/bullet-foam-thick.glb",
+      "sha256": "ac12699af02e969be9860794d20f1750505273128864a27bff9393d7d6d3786f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/bullet-foam-tip-thick.glb",
+      "sha256": "27cedf72c41ff00ca1034eca4fb71b9d6e096f538f86f1f0221f9aa4350b6b58",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/bullet-foam-tip.glb",
+      "sha256": "e3f99099d6ec946f053c23cba0f83f6d5b674f217e4f46325659f4dfa6747d3a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/bullet-foam.glb",
+      "sha256": "af03c14f053f64c9d351643ec3d5d0a05210e1234fcd2534f7dac3deab7fa515",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/clip-large.glb",
+      "sha256": "47dff38cf9636abf15cf518324f1612d9409e6b1066d99da249047219e41379e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/clip-small.glb",
+      "sha256": "3501c4c2a1671379643219fc1ea581c9162da0986363cf0f7b1a214c647b5c37",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/crate-medium.glb",
+      "sha256": "187c32592fedaecbbb84152102bbf536f733cbc0c2cfee60828fb18a4803619c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/crate-small.glb",
+      "sha256": "00ed47c02a5016c11ce5ea0bd54888d120f3a112c5eab79dc4bd4ab878ceb805",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/crate-wide.glb",
+      "sha256": "0a17a51b274d238c09ade21674b70742bd5f1703f7b0e8974b6d0b2b92a58c8b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/grenade-a.glb",
+      "sha256": "8b67f9500005efee816f3fe72eb00bcded0282f7a9916f4436bf923877d8a89f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/grenade-b.glb",
+      "sha256": "d36dfabf6c8b5d40ffead1d421934b4aae126f0e55a500d78f1b7d3ddaa4c7cc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/scope-large-a.glb",
+      "sha256": "bf83b1cff0bc56b9a11f2956c8c8eb23ef66624dd357e8f3eeb63d0481323928",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/scope-large-b.glb",
+      "sha256": "0d612ce9f4d5c4bc196df8eadd38e875d80d42021a2af14ef0c18826a023dc8f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/scope-small.glb",
+      "sha256": "e7fed68bd5477b214e5af2c29aca55481bffa9b0fd9db5be4cfb1c2bf3a52a65",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/silencer-larger.glb",
+      "sha256": "21532245b41bd9e5fa1b3768d1880a80b948b5dc2755b8a63d4216931d8a1689",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/silencer-small.glb",
+      "sha256": "ebfc350c024eda0e8a26f79bccea4d7a12fba792d008496739f5a693dbbf15db",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/smoke.glb",
+      "sha256": "6dbf3e971ce419dbbcdee5fccfaa0c059a0333058484cc0949f490d0e21a8b86",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/target-detail.glb",
+      "sha256": "639c45fbdde41d9e8c6bc3d11fa23afe622225728a389215f7fa8fd5d858f88f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/target-fragment-large.glb",
+      "sha256": "e6292ccc645c678b40863eeb5d17e19c7d8831f06eec7cc5b87898daec5227ea",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/target-fragment-small.glb",
+      "sha256": "7bf18ac45f838c27956b8f32163a72914b1514fa4f593c38d17478a1631a9118",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/target-large.glb",
+      "sha256": "e55c0b3652823909268ffeda38f08f53e900ea259ff5834a3e35e386a9220e88",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/target-small.glb",
+      "sha256": "6f2e8fe26b13c8fdeecaab2c4a3309ec3243e17ce4a22c40951b14e0c14833dc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/blasters/Textures/colormap.png",
+      "sha256": "4d0867c3c3c8c539106f91fbc0987d0e1b7d2811362d1daed593169c7d3b0fdc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/blaster-kit"
+    },
+    {
+      "path": "models/cars/ambulance.glb",
+      "sha256": "9e429e2b6202c0d78d0c38b2adbaae6b77716bb2a0f6fbb2811556e1fb31edba",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/box.glb",
+      "sha256": "b773815c791d2708a2a70f1a9bb6d197d7211269ad96e273f9e364ea536c1b18",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/cone-flat.glb",
+      "sha256": "ae3ffbf948c4c8c5c26d0d509f7de4c1dc66e3cc0dfd8ca8abf380aab2d6dd8e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/cone.glb",
+      "sha256": "d6659fc365de47c5d056b14f3d3fb3e191d3a5b869c43171753621dcf14b76bd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-bolt.glb",
+      "sha256": "7951734ddc5256a69e0f15ad1ff91b64fc8e5a3cd2d77be9d7d99b2e9f6d945a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-bumper.glb",
+      "sha256": "dac8b9a01766f187c4f116eb7070e13485b642120f4d53ec611bf987100a1792",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-door-window.glb",
+      "sha256": "b1adc1a83d72f96754c000ab7661844ecc8c26a6b5b8053716c608f2aa91ca42",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-door.glb",
+      "sha256": "c62ab01c07be9be5dfc0f940dbc933fa836019ea1bc8fd0baa2d0e52cd764ea2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-drivetrain-axle.glb",
+      "sha256": "5ac6335574ba941e8afa827a377d667686541668b71192972179b5439e53bf78",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-drivetrain.glb",
+      "sha256": "4a93bba25d3004b028f8494105d1774a91797d116dcb136fde00b4882bfec652",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-nut.glb",
+      "sha256": "1a535f639861746799d95853017c08273d25c2ae888f5cd1ff8d3c973c0b895a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-plate-a.glb",
+      "sha256": "3ecb3242d9e984dadd149fcdd0ded5f43e803b6370b6ddf2b7ab24876aa361ae",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-plate-b.glb",
+      "sha256": "363f9baf530b25fe97b7c54f8ff186249cd974b34897d39dae4c95bafca2a181",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-plate-small-a.glb",
+      "sha256": "d710da638e0709318a06fb06a71a6c8c3b2bc1a59b87c6736f4d14ea84a8ff09",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-plate-small-b.glb",
+      "sha256": "4bca4c02db94ba05a611bf835a638aa7b0a66208d9dc49a66799682c7cbe8446",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-spoiler-a.glb",
+      "sha256": "0deed006f429b46b2583b503d2b32cfe854c997eb63d1de39be2418d9e1bc0ab",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-spoiler-b.glb",
+      "sha256": "93a3ff0d440ecd61f315e257ff81c7ba80cd6fa32a854ff8d0e2d3a0b9c3f498",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/debris-tire.glb",
+      "sha256": "7c3f5968244e2c617c698820e943493b8480c7bef8535fbab04d4a501b3489e9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/delivery-flat.glb",
+      "sha256": "2973152df7699767692ce890b3a0845a11333a52a23aa74b86a12ed443254c1b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/delivery.glb",
+      "sha256": "426a3e3a2c242c05c889b1445ba02ef95b2c8b7cd6f597e1275ef736a826014b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/firetruck.glb",
+      "sha256": "c0c0a22809316536468da7e9c7f57b8ec1a8e387ec3a1cde032976c6d8a6c7a4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/garbage-truck.glb",
+      "sha256": "6f2943e0ba4c6d86eb69a9243224259d6e0f169f474228439cda0579d49d3509",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/hatchback-sports.glb",
+      "sha256": "bd5c9d4c3b4bdd254a66b8426563a68b1487ae7a5076df3a2488e6ffed7be64f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/kart-oobi.glb",
+      "sha256": "035c80531d201f050fb38c3edb348833fd0f6be0b2a132fe8d804f52a15e5756",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/kart-oodi.glb",
+      "sha256": "1a6d7dc227d7f1edb8aebcecaeef0749c614dcb168b69a59e0127ad6a3a71a59",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/kart-ooli.glb",
+      "sha256": "8b496397361b92f481e83dd5d0b74649571bae53e900ffbd785bb2d384182cc2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/kart-oopi.glb",
+      "sha256": "09c1a7522345761dec9d0d1efbf6093aa1611a5ccbd825e1e3260b1607a2d8ab",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/kart-oozi.glb",
+      "sha256": "116afde6ab8e4b94ff8f2d79ea0ef8cca15bab3a3aad2c5d73c0dc0fed5da654",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/police.glb",
+      "sha256": "a617b880594f56239b7ac4cf6fd4d74ebdae3ba6c5d842e77c76a5906eff352a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/race-future.glb",
+      "sha256": "869e2a58d2c12de474e824aff137334491b8f234b97127cf23f1ea04e42deec6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/race.glb",
+      "sha256": "e1408c4c6e135f5a39c5f34cbfbcac9ae21c5c491e793fdee74bccac8334d942",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/sedan-sports.glb",
+      "sha256": "2889c428ca1dd9c975c3ff760eb8757883490410555ab60b818f712f583826d6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/sedan.glb",
+      "sha256": "b532ea7d2c59f7f6b22b138cf1955218a2c1898f1cea932af4d3fd563c3959b7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/suv-luxury.glb",
+      "sha256": "9e2a79dc050189d4555a88d2e9da0f30ff946ba74f1d43b5b3bda3c193d1f7d7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/suv.glb",
+      "sha256": "9df31f6e89e927a8176fc792aa125f0b19dc1ba29d2025bfef7c4f4d6ab1778a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/taxi.glb",
+      "sha256": "3803539718ffd3b84b515dbce8ed6b489f1ff5be58edb1903d2c5db5c584bdc7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/Textures/colormap.png",
+      "sha256": "f3622a03a20c6696065cae9cbe391351be873508af190c2ebd1d420c055787a5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/tractor-police.glb",
+      "sha256": "25cd7801798fd1c81bb82cd8e9d5ec1ec1797b9fb720304efff5e6cbc7949142",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/tractor-shovel.glb",
+      "sha256": "1bc67bcc36dc563baf7b5060e2a790f67a5a0b42fbdf17c18ab933fcc8a4aa53",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/tractor.glb",
+      "sha256": "48b30b3e4bb0adb48378c473dc27ee5ae4d9296ec758c85816f17121a3ce8371",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/truck-flat.glb",
+      "sha256": "4279862f2442e96c6603c514edf50bfb932707545695d8c4747611cd3796cf3b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/truck.glb",
+      "sha256": "5e1bc66c343501dd7d5734b57e672dd949bf95d7abdce680c6508cef99d374f8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/van.glb",
+      "sha256": "ed4ed56e8e5ed98db050af09ed2062b3b6bb7b93eab1e563cb6774b387b233a1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-dark.glb",
+      "sha256": "ca871b4db5c5300314c5873b4c8e412f30fc95c1f1deee87599fde736a7adc20",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-default.glb",
+      "sha256": "7d61941bc27bcc3b235e2e26c598cbcb4166bd66eb8f9920e26842a11015c62b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-racing.glb",
+      "sha256": "5d8dbff9da004a2aabc471a12be0a4b70725c49463ec36ec3465b15c0cf64571",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-tractor-back.glb",
+      "sha256": "818d83067e1196608fe81dbc04d354b0d65af51c2612e683ab755e92c49253b4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-tractor-dark-back.glb",
+      "sha256": "a969fa48317f6da226c1c3505b917603c325080949fbc510bc6fe736bed8fed9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-tractor-dark-front.glb",
+      "sha256": "76eda5c812243a85cac5074c4e0726cb521d45f1e8fdd30c62dacd1c6ba9d364",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-tractor-front.glb",
+      "sha256": "427a632a5b930cdda9d55a63fba94f01f0c77e86face3878ce9fbc63e9879b2f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/cars/wheel-truck.glb",
+      "sha256": "411ff9692f72e9b0490d20574e3efd94b20058732a587abc26f4952e2c91351e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/car-kit"
+    },
+    {
+      "path": "models/characters/aid-cane-blind.glb",
+      "sha256": "b4cea9fee317e70ebbdb2c2396ff08ec1b1f532db526a81111302b40c813dea6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-cane-low-vision.glb",
+      "sha256": "5e0e9547669e92df8560e8532017379f0f48f29b06dce20e35d5796f23e9a1df",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-cane.glb",
+      "sha256": "cf7da205d71bfa531cc5839430392efc8f5c58887e65fe0d3c1e226776c7352a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-crutch.glb",
+      "sha256": "322cd65cea0acb5eefa8a7a085a33bc6215bcbf962f8f691d41c64980223ccf2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-defibrillator-green.glb",
+      "sha256": "f8513662ae769afd7e277a28176bda2aff8c0f3cb096ee7bfa0e8d6cd92793a6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-defibrillator-red.glb",
+      "sha256": "5f4e6496a934030bafce051fa741e4d84d013edd05f423662e8307643e1454e5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-glasses.glb",
+      "sha256": "adb8bb84ba24413068e28a800ccb8cc50060c77dc28df4cdddaee6c4d30b6289",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-mask.glb",
+      "sha256": "92a77b92df28883f363e0b79ee0d6f0510fcd9bca7f5efa1b540e0fce4a67987",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid-sunglasses.glb",
+      "sha256": "5532a56de76274c80941b44fd5c96ba2636ab211d17987e3944ecb5051e88020",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/aid_hearing.glb",
+      "sha256": "4e7579b5ec8d8b3f2c3d88f448e54a79683f4f824755247ddc27f6c6d7ea7c01",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-a.glb",
+      "sha256": "8cfcff43460da8b421f2a7fdfb43ec177321cad2746db9497cbf128d5806e2a8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-b.glb",
+      "sha256": "2288438e7baf9acc91a870c82dc00d66710bb486592cfc3474ef8ed93a03863a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-c.glb",
+      "sha256": "3cd9e1b5d6409fce0ba1af617d9e008c3069493185a4c100f49fb99a2626a055",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-d.glb",
+      "sha256": "67f61708743bd34f91a4c2ba8160b61bf2e7d4ec2ca6647dfe99873422561410",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-e.glb",
+      "sha256": "3ee3939f80d718945fcb9199f909a92c39669e38aeec7f544536b5dce6e79f98",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-female-f.glb",
+      "sha256": "2ff4311897bfaf99be80d2fa13918db30f506607da0291640b2609d82b70e0ca",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-a.glb",
+      "sha256": "77572792bfe2773b715b8cd8e18644b52b3e1f155fe10450254b50f9c364382a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-b.glb",
+      "sha256": "791fc0c203924c175c0a3d5b60d030daf36797b039506689cf7cd01ef5253b3c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-c.glb",
+      "sha256": "672a6506f7475bbd655da1d7ff712c1729a430f134c62385a4e5d3c1378acb40",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-d.glb",
+      "sha256": "dd12b2e75ffb1cdb45aaec3916c3d6e732929ccb4a8b89b946f69baaabfa64da",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-e.glb",
+      "sha256": "cd76681090ce29861b055b0f8b2bdcf84bfccc4ca816f428df42a9bb76d6e1b6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/character-male-f.glb",
+      "sha256": "ed151fc47c5cd6be9693c524e92f045170c965819f4f81b28ed66dcc3c1085bf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/Textures/colormap.png",
+      "sha256": "0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/wheelchair-deluxe.glb",
+      "sha256": "b72046e5ce52770fc7d7cf36623d7599e7247d6071659a39df915a9fc62e942f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/wheelchair-power-deluxe.glb",
+      "sha256": "de6016ef540ce2849420e73264303cd9eaea37d335037990037fd33296c9caf4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/wheelchair-power.glb",
+      "sha256": "b930df2def526f066295e24a441d4406df4ef9183997e5bb6a6740608346929c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/characters/wheelchair.glb",
+      "sha256": "cb7b6cbebc7bbe238ae926b26305661eb66e17659fafa8fa0c098f5e7955fabe",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/mini-characters"
+    },
+    {
+      "path": "models/city/building-a.glb",
+      "sha256": "5cf220f90ee3f21e7abe38055ca409a48aa8ef1d5ffab6e2deb99e5a5e1ed5e0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-b.glb",
+      "sha256": "3b5d3ac0799c024781d92bb15971d42f4f8e380554dc5cf6a40c2f07d948947a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-c.glb",
+      "sha256": "f6887608a95a165503561730252c30506938803731c6546efca12bd47b1666bd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-d.glb",
+      "sha256": "40605608e9aca0c98e294acff4af0f74afa417a51d589be490ca98f33ce4c2f5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-e.glb",
+      "sha256": "edbe5b49858a3c83e72d3cf496129c06082ef3a3d6005769f8883138e275b456",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-f.glb",
+      "sha256": "633a25f7fb3ccf98e304a885a36ed900aecee5bde7ecd554729dec753cceea78",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-g.glb",
+      "sha256": "9a28fa2fdfac07492ee95589882213cfd6eb32d6752cb3b2f5404604c676d27a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-h.glb",
+      "sha256": "6881613ce218bb33a0f56137d4d33b00d307c47e518fbb21ccba1083efbea896",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-i.glb",
+      "sha256": "3e572277d3eead30e24668a653ec6a11a488228a219d4902f08638cbca7c3dfe",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-j.glb",
+      "sha256": "eedc2690cda345b62351f03a218a817a6ad59f399c12e064ca5ff37333d059f5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-k.glb",
+      "sha256": "afd36f573b9d6a6a890675aa0fbe762b29efb6258f322990752d79d9f0da42c6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-l.glb",
+      "sha256": "0c3d1b346c142198b7f504d12b40cb1630bb14c3ff38a013922b700d09f9dcff",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-m.glb",
+      "sha256": "1cdc717ac86a0479043ff0d0146142f5dfc2622c0e3aaac484fad5807f94d580",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-n.glb",
+      "sha256": "35dc225d48516ead483a49e90dd164f1bc62b1ad75d3095488bd404cad1848b0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-skyscraper-a.glb",
+      "sha256": "d8339bbb75944ff91d1ec9a70ec6dead71bd98b94a42d3dd0fc1f3b107ddbe85",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-skyscraper-b.glb",
+      "sha256": "3a383e8a0a8819023d30b2aee1c6f40fa6bc28990227a306a86e531f36c6b8d5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-skyscraper-c.glb",
+      "sha256": "e73c357554f7561fedb8c1cbecf9d7163ba09ada264d661c59a0f0a180e0185f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-skyscraper-d.glb",
+      "sha256": "5c524ec13be53fff85ace8b328bc2587cba4e93962230e4a0ba98998e53d30b5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/building-skyscraper-e.glb",
+      "sha256": "21b58a2f2b18d6a7cf8915e8b947bdb6a6a0706da6cffb5a01677c29f03b5935",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-awning-wide.glb",
+      "sha256": "d37ba34be414cef84db966e548e2c558088aec3fdf68763565b9caf95c11ac5f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-awning.glb",
+      "sha256": "386978daf81dc11ac601638f19a41918a391ff882a8c518ae5a3215a1bed4d8a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-overhang-wide.glb",
+      "sha256": "e94c5d603936a225c8d37650044cebdae99c112c49273dc19a3ee3fb2dca2bf0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-overhang.glb",
+      "sha256": "291b00c1f698296b50cf25c393777eee9547a4aa0f912efe73cb9789d104ba2b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-parasol-a.glb",
+      "sha256": "70e636bea8dc67c3bfd19b163333e824356118458c8c401017322ec43c10a7f7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/detail-parasol-b.glb",
+      "sha256": "2d58c1d16df16f618afd9f7fd9f13e82791c50cd7cd77edaa493fbdd09e708d2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-a.glb",
+      "sha256": "c3986108805f0aa7e27e566f5052cb5e8d478417e267779e55ade583ea809a0a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-b.glb",
+      "sha256": "ef2ab63731c38a469df7f993c26b0e8137746f90ac20ed9485d61f48aa50fbdb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-c.glb",
+      "sha256": "91ea91b2399cbb94e9b2209e12823dc5b720affc7163f74e0cb8ee07faf62d85",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-d.glb",
+      "sha256": "cca2c05bba22e1e33c5aeb3c4746843b61235cc75cb2c0269e9e0755b276f121",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-e.glb",
+      "sha256": "48c9554b54c6a6089ebf7d8acd0186fe5936dfc1711cabebdd97ad918b340fba",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-f.glb",
+      "sha256": "adc5b93981bb86aca9c7459e35920647039aa217d51705e445d4e699d2c54967",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-g.glb",
+      "sha256": "f9bc2fe27ffc93689a317959542ad6d1c24aeeaa1efcfed59f7ba67423f65702",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-h.glb",
+      "sha256": "6de95299129118224b739845202a6d6a688e3ca6f9f61c4b0fd04dba99a61e23",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-i.glb",
+      "sha256": "e277aad27d3e98f5880ac65acee0ec1f68cc20e7fb28eed0a688afe48f6564ae",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-j.glb",
+      "sha256": "a1291d4e277c45ee53fa5dc610490c54c302ab1cdc677b6b6b2ce31670f0423c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-k.glb",
+      "sha256": "36215b34b01de7a48a78b9cc344a577ed436e13596b59d2bcb01bab9f50aab5c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-l.glb",
+      "sha256": "6cc75bfa0e821db2997dca8a14d9f63c675de5987781c2ff0977b8a644d25fd5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-m.glb",
+      "sha256": "597d8c18ac63de895de66fc4fe0695bd9958d76ccb9b340ad0dfd1589666a22e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-n.glb",
+      "sha256": "8ab4dc2ed40e3f0c2d82eb9010b6e50a946dc07a3125e28568f0dfd12eae00bd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-wide-a.glb",
+      "sha256": "4687e3200e1aba16d333a169ca5f7e5489c05ffcaeb06b7159a82c77ea42b42b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/low-detail-building-wide-b.glb",
+      "sha256": "c082149c94ce9f6ae06969a7dbf4b3e92009cda8be90f1bcd5b89b9adcb1ce23",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/city/Textures/colormap.png",
+      "sha256": "191bec3889aaaca5018380038fecc129ebb5c2182879a099b7b538b3fa050b5d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-commercial"
+    },
+    {
+      "path": "models/furniture/bathroomCabinet.glb",
+      "sha256": "9db540227acaaedbbadc6a085f4a00460b73944e608afaad4770e53238a3b7f8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bathroomCabinetDrawer.glb",
+      "sha256": "f32d09c6dab20fe823d238310f75ce81f24e893a91c2078b12efd3f7fe6c6b10",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bathroomMirror.glb",
+      "sha256": "940b986894101ea59b50541554b6dc608a22b133057975849259009012984175",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bathroomSink.glb",
+      "sha256": "39d4f19608cab7e0fed52303b2c689f5f51fae1bad9b6913cb53d838875e797e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bathroomSinkSquare.glb",
+      "sha256": "360853c822f268e7267c62ef20cf646f170a13d76254cc0804a1d397a4a3ea67",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bathtub.glb",
+      "sha256": "54c405c7035aab63dc41e709dc3c50fc5bcfbc4cddc91ffc54188075a6d25d01",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bear.glb",
+      "sha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bedBunk.glb",
+      "sha256": "a3eccbc4a04340dd84878d959e15eede76f517fb8d4de6862ca46877c88d764e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bedDouble.glb",
+      "sha256": "c49b33e7d797d2ba1111895587dba7ff63b17a712eb9b4ceeb40a598f73e476c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bedSingle.glb",
+      "sha256": "ca00c63f9a12da3138d902b2f5f18e0360fb6e8a5ac42ccb4bc3f185724b65d1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bench.glb",
+      "sha256": "ba05a6d23a5a5a44da016757632070e47ff7587ce10e2f6d6d52328b4cf5489b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/benchCushion.glb",
+      "sha256": "5186ad938f8b9eff255361fd1fdc48a81f08c318161cde27c93753ab95a2d354",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/benchCushionLow.glb",
+      "sha256": "d1fac209eae2ea7393beefa4932dacb54d500e8f9932a1b17d2a842527df1b2c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bookcaseClosed.glb",
+      "sha256": "9d210448de5e1179541da895450bbc7a39f4cd673d677654cd6b134e4ea0e047",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bookcaseClosedDoors.glb",
+      "sha256": "ff33f535acdb1825c0e958a293642b39665adcae0b1317b650e83d2bb687f4e2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bookcaseClosedWide.glb",
+      "sha256": "55b9903e9646dc407ed5237a1c41c1f0a14f9edc22e3392bdb9a4804d846af6a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bookcaseOpen.glb",
+      "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/bookcaseOpenLow.glb",
+      "sha256": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/books.glb",
+      "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cabinetBed.glb",
+      "sha256": "b651fafb9e2c8e4adcb8cad3d10dc94404b46fe039b26e66b2c9020df4e5301d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cabinetBedDrawer.glb",
+      "sha256": "e3dfd2e120af3d4d29b66509e317452cd15bd3f57ac8945575462c582adc6de8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cabinetBedDrawerTable.glb",
+      "sha256": "fec6271639df5aff9f8ac75d6679385eab2abb7c8d2f51abeba3ed689ddb6f0d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cabinetTelevision.glb",
+      "sha256": "811719593d676ff76f7b5904d52c845ce0396af2bc9a6a2636c4818ead320b99",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cabinetTelevisionDoors.glb",
+      "sha256": "8959347bfe26b1ac7e44c476f05789466bb84bcd2ad8b0fb40286005399bfcfc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cardboardBoxClosed.glb",
+      "sha256": "4af079dca52960912764574950f0549ff2ae1224b3db1528718629473a2d5d81",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/cardboardBoxOpen.glb",
+      "sha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/ceilingFan.glb",
+      "sha256": "5fdf7b3c4328875462c9887c6b1f2fad08126ea42e758cf86534639b9ea72044",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chair.glb",
+      "sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chairCushion.glb",
+      "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chairDesk.glb",
+      "sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chairModernCushion.glb",
+      "sha256": "245132697e633e907e2b48c86d56f6c8543604a3440a055d1c71c06ce11d2858",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chairModernFrameCushion.glb",
+      "sha256": "fd3351b077cafbd54224e20fa7a3a1b4a4304019cf44c25a6e7709ad71b852b8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/chairRounded.glb",
+      "sha256": "53f4933ec547179c499f04dbda1231cf44b83ec82c7f4ab981cdf680aee5c973",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/coatRack.glb",
+      "sha256": "0f56540d57367ea6fea6b9aedf305d4fc58abeec8ff3b039dbff44360d819c76",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/coatRackStanding.glb",
+      "sha256": "d8231c22dab63ceb9fc8678f6c8ceafc62afa8726b51a73b4ce349043d3cdc91",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/computerKeyboard.glb",
+      "sha256": "9d9135789de2120e9f41ce3f0a56dd1b15f40adcc7888739bb842a2d820da322",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/computerMouse.glb",
+      "sha256": "d3ad1a923f0f7707ef367bb969eb94c9076e211c98c830ba52e133fadc5cdfc0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/computerScreen.glb",
+      "sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/desk.glb",
+      "sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/deskCorner.glb",
+      "sha256": "a6a77ba0083d5ecd34ad50f738867b03ed7b7f469429bb1acc78f423bcc3f034",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/doorway.glb",
+      "sha256": "08983e299822140d580eb55d4b4e4e4552c37bb6e88571e41d2b7b5d2eef987e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/doorwayFront.glb",
+      "sha256": "b5b8e4c14ee1f2ffa10ef5c69badc995ae6fbcc868abac240221c61b8c593b0e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/doorwayOpen.glb",
+      "sha256": "cf05e165ea26dbbeaab4dc6296c143ef5f5a001e2ab5af9cd4fd65739408317e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/dryer.glb",
+      "sha256": "d8b727612fdfc141c0b56360f75b897f1b71d3420c8c0942b5ec626bd3c8303c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/floorCorner.glb",
+      "sha256": "7a3ed4473bd7dc71a7fac74a77c548412ed01caf9fd21be605bc8bbda824f8ff",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/floorCornerRound.glb",
+      "sha256": "d9d5392ecff520a263dd7e5b77e733da125f866002311ea65572731d90fb8990",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/floorFull.glb",
+      "sha256": "99fc5df646d8dc605d6fe35001fe5b15bb7b269cc5c65f4f7793fbc76ff3d822",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/floorHalf.glb",
+      "sha256": "8cf16d67b8185f6c28f957458da92a337f0949d2e127df9a50b53ea5e8894673",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/hoodLarge.glb",
+      "sha256": "e9b60fa02bba74d99103e8ba9d7ca99fbd99299bc57c4f5f84b2add2a6a3afcc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/hoodModern.glb",
+      "sha256": "f5ac7dbadd1d98813c48315e56fa6ab2e8783870b1fb7be30825177bbf2b2afe",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenBar.glb",
+      "sha256": "792c3d31e60c8a8d8c7a28cf7d1efe004c5a601adc1b163a8799dde32c1b559d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenBarEnd.glb",
+      "sha256": "410c6d83defe4ed248a8ec32f81553b56c8b610372d02ecf0e547e3f52cdc0a1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenBlender.glb",
+      "sha256": "f471defb5b2b1cf3b949a1a8aaef0a8b727afe662b0815068cf4e963325a3c1f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinet.glb",
+      "sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetCornerInner.glb",
+      "sha256": "8d1b69e63048424a0559d1e5c77427fab9021def7dea74cf1c4d3d8ce16e6e69",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetCornerRound.glb",
+      "sha256": "333ab73202cb87b76d4ff94939038dcaf315eda55285bdbeba20d255da488e97",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetDrawer.glb",
+      "sha256": "6f784807e3cadb15b4d2d3db726d93357ea5e6c4f2b6e4c9c064048a2d1d9cfc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetUpper.glb",
+      "sha256": "8f2496feed85a745ffb6e554075b8450d647f8f68b01d6a010fcac1510fc173a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetUpperCorner.glb",
+      "sha256": "b23551ff585b5b804cf3ec0fe046b7bc1e84a387021e3cdb01c93add56444e8d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetUpperDouble.glb",
+      "sha256": "7b2abd976f2e8f1727d6ba23490aaf5fe18db9c5ac66e729ef6fe8de835c039e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCabinetUpperLow.glb",
+      "sha256": "c25293d38ad3d4338142f5bfb6832a2f7e8a069a552fc4a6730231b1b382d33e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenCoffeeMachine.glb",
+      "sha256": "063f582c6fa0f00a9f24e3393dac2295491c4becdaf5513c893ab1a2826b6ec3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenFridge.glb",
+      "sha256": "8af4f4bbb1b5525ad8226e97926a5af60fa8fb20a3cb74dbda5328a9d320dbab",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenFridgeBuiltIn.glb",
+      "sha256": "eedcfbca0a9e565424d941b8cf82ddc0c3c4dfc63911a420bfae058e9a18044c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenFridgeLarge.glb",
+      "sha256": "5851cc59c7e12f6f34a01a2ea93d5b9540be4078c1b703f517239fcede98fb32",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenFridgeSmall.glb",
+      "sha256": "35dab7f63711623be321bfd82072f4ab29fe8006aac9371c6e6b78df2e02f5ed",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenMicrowave.glb",
+      "sha256": "dd6a6c919f4bebc6e2080fe419262cf97a0d6461ead3f3998aa3c9edf4d2bd27",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenSink.glb",
+      "sha256": "7b9610277d71f00dcf1bba49cf4d98d77ce5177e84bf76c7da2f8893e542f743",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenStove.glb",
+      "sha256": "3239edb36295dfca9530a9b9a6ad0aff98ce62e7cf8d13ca2a5a1a6b2a904656",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/kitchenStoveElectric.glb",
+      "sha256": "cf646b960d7dfed1fac27898ff6de1f0671cfa33beecbed06ead7d0684517392",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampRoundFloor.glb",
+      "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampRoundTable.glb",
+      "sha256": "75bb644caaa3da003b4fcad7a931722dd61cd2858aab70cf660021d5061fa1b2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampSquareCeiling.glb",
+      "sha256": "57066be51583d83ae60071e8179af275189cb2911ecb9fc24953bb930c8bf118",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampSquareFloor.glb",
+      "sha256": "6466993748d8e184de9ec5b6b0af613867c50c0ce320d1898b1db9e4c27c2561",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampSquareTable.glb",
+      "sha256": "70ec9211af336b1ef3b4da32590b8737b4facf219348c22e6533a1e898cdb13d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/lampWall.glb",
+      "sha256": "a9679ecd3be05731846f22ade97c37069598ca7a06dd9319f50230e63a1ea83c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/laptop.glb",
+      "sha256": "5fa8a1f4a71ab8d82ef64da77a6973ffd350c6d4557516069a4ffd4bb8d808af",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeChair.glb",
+      "sha256": "ddfe6bc4b3451bca61666d7b614552d6ed2a03d82fc76244b72ae3155874dc6c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeChairRelax.glb",
+      "sha256": "def698179e44de6cd17f4cfc2730273da54dd25458a29b079fbf4468abe5d98e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeDesignChair.glb",
+      "sha256": "f0766a7d5698974b711adac18a2108f0e74e3a036fa4e4e0ccf91195b0ee5abf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeDesignSofa.glb",
+      "sha256": "b4f4e6850118e409da301df678228c703b6ac02e94fbb9dbde61543af817fa53",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeDesignSofaCorner.glb",
+      "sha256": "fe665d07d53fdc6bc96e9fed453874ba4202b008194e1e24100b067081c62be1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeSofa.glb",
+      "sha256": "1886b811c0d3ad0d8525a4fd43adf4112c497c8e0ed906f06877ca3517f4c7dd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeSofaCorner.glb",
+      "sha256": "bbdd91791e621ac71321eaf38a2432c53279792ef946707f23b216123bd52655",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeSofaLong.glb",
+      "sha256": "452df1c862f97781615e2c1c832913b48cf6c6f011d3260dc023ff3f117cc9d1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/loungeSofaOttoman.glb",
+      "sha256": "79087654136d7d69653fdc3b52a02d7833fe13e6a0a56b8dcdf652c611dbd959",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/paneling.glb",
+      "sha256": "69234bb71f54b0241ef6b78c3c7aa8aa855aae745475645f9adec4895296a96c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/pillow.glb",
+      "sha256": "6fae7c190d0b676ef3efd35e5178cef21dffb5c80e1257d8b537ad424da0e5f6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/pillowBlue.glb",
+      "sha256": "8326e018c09cb00c19c2c9b745f521cd7eba1169b755322b04f88440dbfef319",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/pillowBlueLong.glb",
+      "sha256": "b643f81a863595071b7907d3d0dcf5b1b0e3bb6ad8521db37778b2242ba46bbc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/pillowLong.glb",
+      "sha256": "d8490ae920413fd04c85a2164ef384d67a1ca257f761dec1cc7f06fa2c027283",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/plantSmall1.glb",
+      "sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/plantSmall2.glb",
+      "sha256": "d7c8ff42c66dd4f9238a73570549813d1ca6c5f6f661d7af9cb764c4fce314b9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/plantSmall3.glb",
+      "sha256": "1aa38b1b22bd19fa4f9f3abd8c4cbf50da2d6fa721cf1f9aa4d80bb89b1bef94",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/pottedPlant.glb",
+      "sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/radio.glb",
+      "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/rugDoormat.glb",
+      "sha256": "bd888e41853342cdc0d34d3f09b99cedc50a144f47b514943b65cdb9a2cfd802",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/rugRectangle.glb",
+      "sha256": "a989d2d59c04e3071e0c90388b113a9a8f339ce1814ef984c51cb6dcd7c8e0eb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/rugRound.glb",
+      "sha256": "c4cdc8f51ed2dbfb853b147521ed40e995307392fd3b19045b2203ea50f376db",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/rugRounded.glb",
+      "sha256": "2ef5cc634bb1060a1a5774cfcaf6e11c235791c99d6b59da5fdbc09edfb95a68",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/rugSquare.glb",
+      "sha256": "18a63634e9bbdde0b309c008f4cd41df8455f7f2ffdb8fe8985fdf8c2cd06b3d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/shower.glb",
+      "sha256": "25c1cebad681fe369dc04839a8f08f5da2ccbd99b3a70aa83fe2e4d1590c6951",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/showerRound.glb",
+      "sha256": "1723208eaba3fb215089e02c8cdd3d7201d0980ad0c7b275319eb539f6094bfb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/sideTable.glb",
+      "sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/sideTableDrawers.glb",
+      "sha256": "911145653c11b103b2c2e84f3d019205d1886186015c3b52aceddc3801ae8fdf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/speaker.glb",
+      "sha256": "78230b9fb382a937cb19e4bf7556ee9402d33ac80b1baaee2d2eb89493cfa1fc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/speakerSmall.glb",
+      "sha256": "34db09984703282822f3f57fc9a31bfdfa6a8f6bf8251893d0c907e7ee6601b2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stairs.glb",
+      "sha256": "b442f997583e417fcb32ec89470ecc441b0556f416d3afe00e3f18c806e556a0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stairsCorner.glb",
+      "sha256": "250d3c51e10fa250c30954b8a3d6bb0d011362be34ba85a50f5bebdd4184e0dc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stairsOpen.glb",
+      "sha256": "cbfe1dc9fd66f1375f9c79ccff7069923655238fdf49c7c366653d17632453a5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stairsOpenSingle.glb",
+      "sha256": "97172c18eff61b844cfa871da32b6c639230adf20901188f378926861e7610de",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stoolBar.glb",
+      "sha256": "a86167a9f92401a61fec7e509ad089ecc552d0f299743add3aeb919acb24e341",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/stoolBarSquare.glb",
+      "sha256": "a7e1099d64eb35416d4d8c9b16921ef12ae7c1c1e6fff5ea75f3ae19cc934a8b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/table.glb",
+      "sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCloth.glb",
+      "sha256": "64de52b5c4370724c29feefd68a65b157c55c88592e2096987bbce007ae80bcb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCoffee.glb",
+      "sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCoffeeGlass.glb",
+      "sha256": "05bf257a086a540b3b79b0c1c7dae35b036ed4d520686aed74ea94ea701c447e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCoffeeGlassSquare.glb",
+      "sha256": "e4a7ebef6ad0dbafee629df78b0edd88433a1059c4dd5fb3d70304ba2f71b945",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCoffeeSquare.glb",
+      "sha256": "bcc81d8919a3af9141c9c93b4520106dd0a90a7144346cd87928014018aac816",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCross.glb",
+      "sha256": "f0d83392aff5df82f6c9585cadff694643dbd30a4ff2b8bb01a00a7a161338a3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableCrossCloth.glb",
+      "sha256": "3c16b86cdf9a9a82b80b97611030a1da2ed2e9e977ac76457e09a1547b0cebbc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableGlass.glb",
+      "sha256": "a5ed516d18b51cf5db3cc78f1403451f853a81db45510543d3ed56c1dd9c412b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/tableRound.glb",
+      "sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/televisionAntenna.glb",
+      "sha256": "00eea4123b3efc7f8050fd3eaac0a83de3053c9e6cead18dc739260a429b2bb7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/televisionModern.glb",
+      "sha256": "d89519ad0a5f28b5b0dccb0d83209dccf610cda959578238dd21bbf9e219cfc6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/televisionVintage.glb",
+      "sha256": "eb144cc8fb1e7f761e3665226e4266c8868679421d21d6548f24d2abad7c67cf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/toaster.glb",
+      "sha256": "38c1fb7b122be9997758c8ee855d87f28014cf282f24d66d39f4e8d8b236d2af",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/toilet.glb",
+      "sha256": "16165cfd03c56c2cb443b800570810a22ef770f65e7a468f6761d9dc14eaaeae",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/toiletSquare.glb",
+      "sha256": "f241e26a22b0d9512d8455f3e868124f8032710c83c5265a546c19c67ecdd4b9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/trashcan.glb",
+      "sha256": "e0ccc1fe50cbd05386477fdff527171d1cf7c0de2ba7ff3233f8d9561feb2561",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wall.glb",
+      "sha256": "69273d5d623bddfce41d12d4e5eeb5621ea04f1edcbd8f35c00a60c2fd3258b7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallCorner.glb",
+      "sha256": "0e6521caee1f9282784c52e0f651084e49f575b091ad97bf25540b8049757aef",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallCornerRond.glb",
+      "sha256": "33e87dd846335dca5fce8a0e242225bb97d4a7b47c3ae84df33ba97fe1da33bf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallDoorway.glb",
+      "sha256": "a55be1da05aa80c74749d0c38bd093fa5e2b1eaf21cbc9a7c3a0e6fbcfbe38e2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallDoorwayWide.glb",
+      "sha256": "877af5b239f31f12027e3cec92aa26e97d511e1ae8673a8e3d7d13302d33edf3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallHalf.glb",
+      "sha256": "24db9f126891b48b443dcfa9f80d79e4321c8780aede83fb6d8f384b3d4eb35f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallWindow.glb",
+      "sha256": "166a10fddb8a78d942bc2791186913f7015dfee8501d20efd7a7b8f196fc5c3e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/wallWindowSlide.glb",
+      "sha256": "33e51d7ee74f13de318e419b0ebfb31fe7f6e9fd37050f13aa9347641b49376a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/washer.glb",
+      "sha256": "0c9704df1817d2699b72305b96cde097c9558bacabaef2fd5ab1ff4c03b81abf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/furniture/washerDryerStacked.glb",
+      "sha256": "efcc2155ef170092dc2602a98179380de3442c2500998a6ca37cc5554d275676",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/furniture-kit"
+    },
+    {
+      "path": "models/helicopter/helicopter.glb",
+      "sha256": "1eff0579e18e5a8585b4f2cdc4d234772a4285b2f93a435da545a41f42a76819",
+      "creator": "kazuma",
+      "license": "CC0-1.0",
+      "source": "https://poly.pizza/m/EQJ2MECUbx"
+    },
+    {
+      "path": "models/roads/bridge-pillar-wide.glb",
+      "sha256": "8e605ee4b59bdb5066a08d32458c0676a2763da483925e9761a28e6a77120b82",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/bridge-pillar.glb",
+      "sha256": "71c8d9dbaa502e63bf803c6873165873df4601f7285e1fe040d0f03acab3f0ec",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/construction-barrier.glb",
+      "sha256": "906f73a6d62d8de58a4c5a19e76ff95b460c42b37e5fa37478b8612f06793f26",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/construction-cone.glb",
+      "sha256": "50ceae45cd1d71f738a8f7c40f8b6b46f360063c2754bf717aae54013d6f2ee4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/construction-fence.glb",
+      "sha256": "8414c211efbc68358eb747cf6d0ad6b9ba4fbc5094603ddabaadf18e8573abbe",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/construction-light.glb",
+      "sha256": "80dd781d6ad1bcb6e07670cc1ce03027031381768aca62b9c7b6e7df99c33650",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/dumpster.glb",
+      "sha256": "c60ebecc23487c38b5e0750856a3b50744d2ea12b3c83ad03d537e5a4670777a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-pole-single.glb",
+      "sha256": "28d9b7a7ee300999b4ea59c1a5fd9ad197c599ad5be5ab299d63483049af337d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-pole-wide.glb",
+      "sha256": "85ec58e9e0e29465eed4f96f380b0f540404f097e90f7b6997ef0a3d212e900c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-pole.glb",
+      "sha256": "08c9b924e297eaa46bbd79ac09795c045848a4e38a72b2ce4f973517f840c2d3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-side-single.glb",
+      "sha256": "60d5641f288bf7fa30c6ecb181df8664034c307af27f15c65f54d066a7c8e738",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-side-wide.glb",
+      "sha256": "e167d413f65c11701df36af9aca834977ae35e1aa20c8e14dea3dce6149eb098",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-side.glb",
+      "sha256": "ce0c278d4da86e7fde075c64b540d4c9a4572ea7a6563fc60b3a0aed2597ef1a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-wires-wide.glb",
+      "sha256": "858de38d8583cbf78f6cc7dfb65ece4c0c94628bc3a2e281fd8485a16af395bd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/electricity-wires.glb",
+      "sha256": "514027014328d1465c9cb60755efc184a2b53a9c1ecd77fd34c5265856bd699f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-curved-cross.glb",
+      "sha256": "df14b20f3b748fba97f9d4c419e7c03dae97cbe71851d74063d358ed1bb77490",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-curved-double.glb",
+      "sha256": "038808ab235b889686ae348994e1605f9ec239fecc47b04ba89131b5fb70969c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-curved.glb",
+      "sha256": "154dcce9d58ec2cd165e26c91a89c97bdd2838cf06d255099b3570df84f82ec6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-square-cross.glb",
+      "sha256": "0492d4389579336c0385e3e786bff351be43434b8a2805fb09aa380e28e2d108",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-square-double.glb",
+      "sha256": "b6d0441f7ef65ddc7baefe83de93d00f7df8343f89c5ee6b7b19e732386e29ad",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/light-square.glb",
+      "sha256": "6230d136c8883d7f9bc1b86f0309077e452e26e5e1e587ef1b77abef3c5f047c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bend-barrier.glb",
+      "sha256": "dc0dc4f8e82e25eee81c9dd31b5376d31a699e6541d7bb767d7722e3b93e0d86",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bend-sidewalk.glb",
+      "sha256": "4e8f7a4cc6c130d55bd754693d5aaba94e037d8639389656964ad57abefd882d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bend-square-barrier.glb",
+      "sha256": "279a8aef4a6fc0603dbe970c1b251461fb3d66afc34280704e04976cd51651cc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bend-square.glb",
+      "sha256": "5864b49931091625ad5249f34b9f1ac4614170b8a3569494a003d4ec0d47907d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bend.glb",
+      "sha256": "9752f63448c8e7a3d30ca2e0e1bb6784c5adb72b56a2b05667be8d546c1674bc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-bridge.glb",
+      "sha256": "5e2bdaabddf39b309a3b5d109d7c6423cd68829a8e63960fcc2d23d62c8425b0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-crossing.glb",
+      "sha256": "eb8575335f77da513add4a5277a7b60cad4886c07966f024b15cf55e5966cde3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-crossroad-barrier.glb",
+      "sha256": "7e159556f91d216aa519be29021d950612ed863bd1f5c61cccec726062d068e3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-crossroad-line.glb",
+      "sha256": "87bde0f75b741d4d66e5992e003bb70ceb42847f32092e38c54893babbc4f7e9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-crossroad-path.glb",
+      "sha256": "5876a578474fabaac8608819936c499bec3d5c68b8096e27498b2163efe1ca78",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-crossroad.glb",
+      "sha256": "2dc52a28cf89ec88025a047c0f6fff4c643f16b0f50f0e9a1140f16230c28b12",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-curve-barrier.glb",
+      "sha256": "32c812901deaa09dc3a7ae02ffc54d9cba6725c22e5fd0ada4069741dabe67aa",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-curve-intersection-barrier.glb",
+      "sha256": "d0620b573330af2325c5c2d27db0a092f16bd49c7a7601bdeac62cc2de183390",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-curve-intersection.glb",
+      "sha256": "76aa1cd40ab3fb649920c8c06d8a37d25d2dda990425603be370e360d587759c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-curve-pavement.glb",
+      "sha256": "f028db0675286bfa0f48fe174bef9ff8d8c65886c327a85abe05fed9453e9853",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-curve.glb",
+      "sha256": "d076717bfe3493dfd5a4b4207a7825e4aff1876273f0d58f5e16e8e8670906f7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-driveway-double-barrier.glb",
+      "sha256": "057ef29517e70a02dabda572779ae664f55beb3bfad92523e8f78e6cd9d2b287",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-driveway-double.glb",
+      "sha256": "784549802fc55d63a6a13d3ee2acc18ef1c6893d49787f4949c40a7873f887c0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-driveway-single-barrier.glb",
+      "sha256": "a5bffceacfc54833b15bd4839e49b83c68c1e729f6df4a72391b036eb6977c66",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-driveway-single.glb",
+      "sha256": "59f22734d5c22b55ae007914939227e7742fdddf4c371ace106e8161bdfb5ad2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-end-barrier.glb",
+      "sha256": "c7a73cfae01de7441c8dcc89a9dd77d64c34af467fc3f03a3cd644a85f1ca8bc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-end-round-barrier.glb",
+      "sha256": "4dac7ad32a27354cf5201b6f4cca54547874d461a487e5173ba8b19e3b913569",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-end-round.glb",
+      "sha256": "0ad2c0cd4fde52724a5fe277f0eba71df530a5b6c7570d0efe1686c7b456bc76",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-end.glb",
+      "sha256": "bdf62518cfcc2c1a1425a4c8bc845e8e344f9c8b34dfb364b6b7d442e6171f11",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-intersection-barrier.glb",
+      "sha256": "924922890e2d01eb1c953b6def47b87392717cd7243e44ae4b4117f5eae0c670",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-intersection-line.glb",
+      "sha256": "a9a202594178362e89ae62b1d9cbfbc7c892f9fcb8564d014cdd96a81823a8d9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-intersection-path.glb",
+      "sha256": "b5e5fcb458249c3059d12fb30880014781dcb5e3c6f958660d255986cebd865f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-intersection.glb",
+      "sha256": "fdf4f213abe41ddfe2a7e798a0ef1c3de5b7a68143e21c44f1893985ec6aae58",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-roundabout-barrier.glb",
+      "sha256": "fc65f8b3f445146bed071c372e06fe3329c94f327f418c801f66c739955e2531",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-roundabout.glb",
+      "sha256": "6bde41e46040fa35c90f86a524fe5ff344ede07f50f077e1732762b82f8e2d66",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side-barrier.glb",
+      "sha256": "35101d5cb8774c51b7203fabefc04c49335a5e54ef30e5ae5b858cbf0a3a2f9d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side-entry-barrier.glb",
+      "sha256": "a2186fdb216e0a59c2238efd2cb9c5d8cce30f8b8f23243132230966710aac54",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side-entry.glb",
+      "sha256": "94828a34b4987f1dcbc7972df1612a7ee72f7d9fab207ffd234e021a7093027f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side-exit-barrier.glb",
+      "sha256": "4e79f3a1b06250b6423ea8a68692930b032052fdf4d021056eda998e5dbfaf92",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side-exit.glb",
+      "sha256": "356df3d64123669461b7b176ab90173e1c8a84ab35af00034a62f2658e56c38f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-side.glb",
+      "sha256": "f5482c921a40719f89b1e7c0f6cc9d662b1f3a6149060e9b6bb543390fbdff66",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-empty-hanging.glb",
+      "sha256": "41021007cd856fada1f372a1f8ed93c229461cfac85ad888e16549e559455b23",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-empty.glb",
+      "sha256": "7681ee84c5363e2c95a37593fc3bdd0afb81b23fa46ae6be1c0939a112a4306a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-object-stop.glb",
+      "sha256": "9691bb7ff4a7b911f9713d71cf473e0b8f30ac3964052650fd2395cd19dc36e4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-object-street.glb",
+      "sha256": "c44690d1d12f1a45dd1a24254fecf95c62c1ba088ef6104d677bf716f2a1cad3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-object-warning.glb",
+      "sha256": "5c9608d70854ba7ad3bca061b643d5731f2040c650653d4daca564f5a2b487c2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-stop.glb",
+      "sha256": "0991181f37171daf8d2501e436a688e46ea2bcebb5e27aa451640fcbaab107ef",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-street.glb",
+      "sha256": "570ab030366f549575f0b111fca3965aa8d103043bd3a002f40fad2a3f8175c1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-sign-warning.glb",
+      "sha256": "db8049a51eb60c77e40253e8b5a9d41359a49d2a9083223dce361cfb0605c3a9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-barrier.glb",
+      "sha256": "c620119f0a3b23c8e883d4f8089a2449432846a4908b7611ef9a22091d72bd2c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-curve-barrier.glb",
+      "sha256": "ebc41618b5f63bb339f9877520000e63d4c33c4fd350bc81ff6bb21dcc778eac",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-curve.glb",
+      "sha256": "9cf7fed9d5770bdc6043825d99b9e814bf3315de56dd3e77ea38e1f2e54f3d4c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-flat-curve.glb",
+      "sha256": "a8a9a3c7a3ec243129bcf297ea1f9dbe97893ef839f4e9f3741bb25b069ef7ee",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-flat-high.glb",
+      "sha256": "b203a50b1b4b021806b5639030c021ddd8113ae9f0600c0609467a26e48518ca",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-flat.glb",
+      "sha256": "c9aca2db3277d4556c08b9950bf08f6c274023e8f6401fd649e271412f0d125f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-high-barrier.glb",
+      "sha256": "47df00c9a9ee8637d001958b002d0929e31fe3b65df3641c1ad5f85a01f5194b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant-high.glb",
+      "sha256": "ecd06a3227745a7967a886ca80c6b467ca29430c17119334b6e1a26c4193b692",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-slant.glb",
+      "sha256": "c14bb57253db5cae32c4a10b572b9ddd7e3aa6fedad9f5e49ce92e1ca24f0a41",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-split-barrier.glb",
+      "sha256": "574e9ea5ae31b80ba02442d9c5f801877a75f0596e129a090e2ec540d8421a7b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-split.glb",
+      "sha256": "4ef637bb724062d2165f3a288254117ae8e2d88f301a84578a2f21ab57de5542",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-square-barrier.glb",
+      "sha256": "fae603409f1375b51993a470e9f273c240c37da9983de87e20b7c61ef9bc86a2",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-square.glb",
+      "sha256": "97ee7a325fd53087388c317fdee2620a61fc8a9f5e467bbe1a0a80f0b52a98c0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-straight-barrier-end.glb",
+      "sha256": "d8df21f1a931fc618d28440b5cbcbfaaa13c422dd5a240666bdc83cb8988f889",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-straight-barrier-half.glb",
+      "sha256": "6f850dedf540f9aadc618cf70c24af317a69a35e10cefd2da16df2c85311b994",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-straight-barrier.glb",
+      "sha256": "eeaf5469bb34b94e3edaf71c5d7c9da152c0a398f86c9ec6c234a82a42833e4e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-straight-half.glb",
+      "sha256": "8dc2e2f4f6d38094f9c35004f78f20a596554454246d348db2832e6c443188bc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/road-straight.glb",
+      "sha256": "f8f744fb6fc96dedd5ad1f763b550166f2624a3757bf36b4b39969d2e7cacac5",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/sign-highway-detailed.glb",
+      "sha256": "122d293bc9ee3378ab2492242ac615fee1c791066ec747599829a801f6a5b99d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/sign-highway-wide.glb",
+      "sha256": "9b133033576388d10fdced59d2ef92bc30409fda3dfb40d6334f35276729d1fd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/sign-highway.glb",
+      "sha256": "95858108df403b7051f97598a78b93ddc398ac6cac85ad8abc0bf9198a9fe282",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/Textures/colormap.png",
+      "sha256": "a48e2962661ae44368ffddf3054f80ed8491d082b757dcc3011184cd9a98b185",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/tile-high.glb",
+      "sha256": "b3628407e66c95605c0290d177128e0a0dccead3e9b079399a7eb56aa8b86525",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/tile-low.glb",
+      "sha256": "23f54fced68c7647f6d851c8080791b56e2a7e7f541eac2e95c647006a5901c4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/tile-slant.glb",
+      "sha256": "7900e14823d5cf1b0ffd2eb14bd8c6629bd35d972f181fcfb39f707f0dfe1caa",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/tile-slantHigh.glb",
+      "sha256": "f4d24adb093b598fd4f874c653b39ec9dc426e07754109c6e64394fb0674b2c7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/traffic-light-hanging.glb",
+      "sha256": "a433ad0e253da289f40a859fd4f3fe35dd6b575804c5f8262fec7fad331b9522",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/traffic-light-object-hanging.glb",
+      "sha256": "67aa6068344ae6c17683aa80fcfc59224253b9136759e27e220dbe1ba43ca641",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/traffic-light-object-horizontal.glb",
+      "sha256": "882fbe0b1934445282ee4499b354f63b3d837615ffe1898ec679ecbb95cbb3a1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/traffic-light-object-vertical.glb",
+      "sha256": "0e620c08dd25cd4eee700ff983f35ce2e7ebd20f1027e13b01c020fd961d0730",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/roads/traffic-light.glb",
+      "sha256": "6c9ee253b7370e1043168493b2e662b349484a0cdd02100cff04d9d8d1bd9abb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/city-kit-roads"
+    },
+    {
+      "path": "models/robot/RobotExpressive.glb",
+      "sha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+      "creator": "Tomas Laulhe / Quaternius; modifications by Don McCurdy",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "models/station/balcony-floor-center.glb",
+      "sha256": "1e5ad21f42639f6cf89700960de21944c99516965ffb004a0450ec963f382bfd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/balcony-floor-corner.glb",
+      "sha256": "451fe081f094c757becaeebd5f249b17af71ab156c797ac55621f692c24cefa1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/balcony-floor.glb",
+      "sha256": "d181b5acaa17b73d7d24dd75932bae41b1c2f1ff931609d7cd41504591e92241",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/balcony-rail-center.glb",
+      "sha256": "a0816c2cf3189bef602d5e5d4ec3eb8932432b6f35e946290c5ff63fdecc41d3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/balcony-rail-corner.glb",
+      "sha256": "e72c1fa4b87268e733f2e7358c27c9d79cdf915b9440d08b97d975a7d5e3f36d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/balcony-rail.glb",
+      "sha256": "8195227936b0b53047c1f813708a10f1ebc82e14b92baa4f47c8b36ec35d1cda",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/bed-double-cover.glb",
+      "sha256": "7f2fd2e8b39aa07de8e538ff79239d7c2f6ba63b9a9b745fbc693df461dafbee",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/bed-double.glb",
+      "sha256": "311047ed0eb49e5e13a5e43204ad24149ae9d931ebdcdab26c409b8a1ef76ae7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/bed-single-cover.glb",
+      "sha256": "1fd3738b10f71de374d8c3ac6fd69edf397866c822ce42bc805b7c929a7acee8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/bed-single.glb",
+      "sha256": "5eca54cb1f72da773380ded3a326e1c116e9353aebdf202b9353ed7ddc1cc6db",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair-armrest-headrest.glb",
+      "sha256": "5f177776c26aac0cad6f90a128332e190f23958159ea6f62f78cdac54e4acd84",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair-armrest.glb",
+      "sha256": "37d619c7c2e8551543407be0e06c5e66eba69354e627c44b73dd1e4ca5d23147",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair-cushion-headrest.glb",
+      "sha256": "c0e6cdad402a48112bf125e0742b88b09522517783663bf5ea9a705debdff5a8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair-cushion.glb",
+      "sha256": "c46da13f8891d38331142972ec53275490cbad4ed3693af6565f974738af12cc",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair-headrest.glb",
+      "sha256": "5161572587d11a1e6702885a05d42f4ebe3da951225af8dfd654bfa79218a77c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/chair.glb",
+      "sha256": "2c42449422dc33515cb894858d2e842d81125301df88b5a4b9dc8b73ae60a1c4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/computer-screen.glb",
+      "sha256": "dd2a95a9c46f430e6fd0d2af6c6a94b4542d0501dda2700504642cecc33369e3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/computer-system.glb",
+      "sha256": "87666d5211fdce8830d1abf55fab16bc21d67714d78f9525f1399c33c4cb54bb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/computer-wide.glb",
+      "sha256": "62420ce928f288f91ce85e2245e80e6c9efbee9b6e91b7ea9b83d0289fa647c4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/computer.glb",
+      "sha256": "dede29d81fd122c484af3e0dbf566f34893ed0f3c80182586feb19b23c33c0b7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/container-flat-open.glb",
+      "sha256": "b85823ea93a830fe515732e800e515f66432453369a2f3ff42597bdf3588d832",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/container-flat.glb",
+      "sha256": "f76bdebf96ad858dd8a6be5cb71694616a63488cbac3f61d01485dccde99fd0c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/container-tall.glb",
+      "sha256": "e790f12cdab2e50d266d54e1bbb8a05a1cd77629a065254be3734a67b6053358",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/container-wide.glb",
+      "sha256": "3bed318d187ce26b816b7f84b706ecb57cffef94ab1bb8266ca91aa35073e6f0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/container.glb",
+      "sha256": "719b77f62979e9e02047489fcc1e86432be300ac35ed02fe496a2dfc6a3fcdd6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/display-wall-wide.glb",
+      "sha256": "27b9b2cddd27ac6c5590d98af6ff71e5bb23fb621f171974cbdb661b4b54f1d0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/display-wall.glb",
+      "sha256": "64eb414b4ae9c665b8ef95711d8bade6285b0a7f6dfb8f1f8bd51a67ab4dec89",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-double-closed.glb",
+      "sha256": "131dcf41b0a37c25974261a510b1d20950e27ecf17ce25232a4e37573fd988ca",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-double-half.glb",
+      "sha256": "ae76af7119b9760c074fafa860ca6ac28f8c8fd9b147ac77d8a861c70531150e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-double.glb",
+      "sha256": "708642ab37f6c924200ebe61bc5feb3e4ce8614f7cb2af39546e97f1e7aaa3ae",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-single-closed.glb",
+      "sha256": "ef12008071c51503a0ba79d029430baacbd6466c9ce7ec20979f477b315cf45e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-single-half.glb",
+      "sha256": "645349723f841d0f0f6d2b7502d4f6fb9420d9e2e417991d2b8dc41a63f55a63",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/door-single.glb",
+      "sha256": "85f80cd0ef327f322694b46bebb4d07996ceccaaf10b14fd0ccc6585d252c8c3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-corner.glb",
+      "sha256": "bdde5c66f5d1c39662dce1dbc0cb378018d412c9341d78a1b9821c3fb977cadd",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-detail.glb",
+      "sha256": "68e95e80989494e7a28407ddecfa4a45cd22cb269772a29e72c07676d00ce92c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-panel-corner.glb",
+      "sha256": "d1af5db603dbcbd709f5fb19c6e0f5577d6e14bd6b75789cae1affdab4384efa",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-panel-end.glb",
+      "sha256": "a64edc5d000510b1ec19a339e900edc92ef41b09c4da1bf68cc546a3b2e39043",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-panel-straight.glb",
+      "sha256": "dd7ebd5d75d4ee396afb91a2fd5d64ff4798549569579d0730b675136f781df0",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor-panel.glb",
+      "sha256": "5b9f1689347a1c490b8ddbf79f8741a6fcab1140ebcf62eb5853b36fbbdab53e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/floor.glb",
+      "sha256": "bf61eafc5c4159e1103d88a2973664f55b9e1531a0b3451d90b42d3387132449",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-bend-diagonal.glb",
+      "sha256": "43cf3783d91df2d6d7353fef9cf5d972edeb925602d37587737759eccc5a351d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-bend.glb",
+      "sha256": "dcbb380dde0687af80f74a84c8fbd22efbb5dc007b822a6522577fba0fd0e676",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-end-colored.glb",
+      "sha256": "dc114061b60a441df6b32696481ba32e135a6c3d58f4ebfc3a7f9945d9ae23aa",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-end.glb",
+      "sha256": "f2fded89b58d981a88f793d85ed260169307261aa92a00dba0c31ff25bf98b66",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-ring-colored.glb",
+      "sha256": "037a65be81225b9a59d4bc51fb53e047b336d710ef2d5c950b9e3768f072eb45",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe-ring.glb",
+      "sha256": "5e5821b9e9579c60c1200414eece3d8ad3c5ffaa3488e9c3a172eb49700f64f8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/pipe.glb",
+      "sha256": "b33fe37fee9d1dfe92dc75d5af7e54877199b9d865cb988afa25f40b7bed49ef",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/rail-narrow.glb",
+      "sha256": "92bfc582b5d1cc35f0ffaeffe5a2866a0bc23093b361c24a82763a6371af79fa",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/rail.glb",
+      "sha256": "fda7cd2ab910db8e251345a9b488a41bd55da2f55627ad4344653c9d6d5c088f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/rocks.glb",
+      "sha256": "cdad530e15972f1f3cdf4dec1d1ca2d3b9406b46c2bbd67bb67abf3bbf173aa3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/skip-rocks.glb",
+      "sha256": "2cdb4a670d18dc9ddf8fd8edfbd24e2541bf12cd89d4a3c758a312036cd95167",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/skip.glb",
+      "sha256": "1187ffe3baa86b27733760bd4fb4a022dbe565cee8b681039ad485da46716b18",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-corner-inner.glb",
+      "sha256": "26094770b295c9b3868cfb58d0591481c25602040d9c3196b3edbff7be22f8cf",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-corner.glb",
+      "sha256": "d05cd62f354fd462b89c3f013d8d68213667f41ae66076480ba351d338c79fc9",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-handrail-single.glb",
+      "sha256": "0aba72c06dca971fff539a098451921d1b1649a7557f9539520061ae138ce87c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-handrail.glb",
+      "sha256": "aaa2631a43af0ea376f519b825ca4ac299dbd13c9573074f98f3b057ecb1dd49",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-ramp.glb",
+      "sha256": "20447d16cd23b537b46811b7fe52e4c70aa3b9ddfd99bc4d1d82ef4681af124a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-center.glb",
+      "sha256": "1f9287927bab991c99f9f0013e75aa1d8a2a24b13b4b1a043d11dac08e195b48",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-corner-inner.glb",
+      "sha256": "f302a463376dcf9630991bcb3649b91bf2b2b864e428be176d8f27aa908d0b39",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-corner.glb",
+      "sha256": "24e5c3ea2a6e15a38663d275775d05d4a36aef5ece602d52f7d98b56c18a2ac7",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-edge-handrail.glb",
+      "sha256": "3b81089045e2cac339aac83206ad166e6e26d4a954abdd2eafc96c5832221cc4",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-edge.glb",
+      "sha256": "60bcdeae71b406ba2131d69850d90dbb42c22d67279f0e36349bd7c7635eced6",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-edges-handrail.glb",
+      "sha256": "4eda8c348ecf3130060aba270b39f18641acf80dad967ded2cc20707fbf85fd3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs-small-edges.glb",
+      "sha256": "40d80a3d1257dbe053b6fe5fef0458fa26d57c14313216101cd75f79e4601119",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/stairs.glb",
+      "sha256": "c288069628036c179f030e8669e020a94d40efa932bf8610a08dc81fec6b9e60",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/structure-barrier-high.glb",
+      "sha256": "7c2c9a3ec930baa18200ebf72ae2995f63bbc30d457c199e49ede20c6743871e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/structure-barrier.glb",
+      "sha256": "5b5998fe395032812d58fb8936b10d76f57ef2880d83d54a14a83e7f9643d923",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/structure-panel.glb",
+      "sha256": "4544540913ac40e9a4363b8866a926e8a57d48cbadf92020491f20aa7817f641",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/structure.glb",
+      "sha256": "ef12f1eaec019116ece1aebb0c512ce19a5cbc385f7a393c62d9f32f129cf088",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-display-planet.glb",
+      "sha256": "55f4055020546163a7bc4b025d150b128917a046f903def087a9cc52767fa68a",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-display-small.glb",
+      "sha256": "cb896c1f0ef4535b5209d40cb0a74fc1dd78874a00c10b99b25621ebadc7b197",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-display.glb",
+      "sha256": "6a078d92a273a95f82c2017038c15cf1fb534c0d5dbf4800ea014e63fed3edd3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-inset-small.glb",
+      "sha256": "2853d905c00b2a84fb7afad89ec697b37c4d739dc5dd38f6a233c332475013ec",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-inset.glb",
+      "sha256": "37d7aa8d45994313f7bb417dddf6b651201f42445a143ff1333ccca4de2dec6b",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table-large.glb",
+      "sha256": "ea32e4fa45beb7841995e9c2ae5f1208566247ce06ffb3ca8d06a55055e3337e",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/table.glb",
+      "sha256": "c0670a41634afe2ad3fc8236371afbcd26f97ae9d5cb8971bd773fbad30f4f0c",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/Textures/colormap.png",
+      "sha256": "6ca023be9f12e8c2358fcf94320c8a894b4c05a3dd0bad1f5c268312053caca1",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-banner.glb",
+      "sha256": "8fbaa4721ebf83124e7e413b30a315df40a72e2c160ace346ecfaaa739bd0011",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-corner-banner.glb",
+      "sha256": "f498a7b588f2cebb80928e1fb36516c036f386bf950501a02b559580107f9b08",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-corner-round-banner.glb",
+      "sha256": "84f2c296c688295cccbf8b2a584ebac26397b0711e9e8181dd9b5fde2a365b53",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-corner-round.glb",
+      "sha256": "041f4f6758f978cf493a969bcfb47572b6c7e9957649d5116552d5d6897ede68",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-corner.glb",
+      "sha256": "95dffaca238fbb3bc59a7209ef24fb624aa03998ccf9091e9df1c5cd907a22be",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-detail.glb",
+      "sha256": "7cee7abe1ea412acdf182da770bd3920bf023ecd165d5c9b3db3a60a0d7ae7d8",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-banner.glb",
+      "sha256": "9c16bfcb9496edb0986ab4c35b435b0393e616876fa9301a5a8a7fab613c2e3d",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-center.glb",
+      "sha256": "f0549ba2346d3400cce85212910117d915911f90bf8552432417e6eaec944fea",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-edge-banner.glb",
+      "sha256": "0f1972185a4e84d467f37133c60b2396c47d48dd0c28b82563709738db75042f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-edge.glb",
+      "sha256": "7280f5bb4bb891c067fce26015455904719c8d934cf0c94ebfa043aad7d57739",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-wide-banner.glb",
+      "sha256": "be35dbb37e6ccaacd2769a7ab11b7d433181840d9fd3c556da8c9d94d6df8721",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door-wide.glb",
+      "sha256": "7a4d64e24032ce0419b751b47c9677222798d22a6efc32973a2c05d2c1b18a56",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-door.glb",
+      "sha256": "e1692da0f0a0ebd2dfd36787dbe9a47748141d82bbbb12b0381919d52e271603",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-pillar-banner.glb",
+      "sha256": "988f5952a705e7ccedd1eb47eff3fa0f74ff60bb1082581639f784a375fbf3fb",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-pillar.glb",
+      "sha256": "aa87480d88da5feffff04a654d78059e59882cf7fcfbb9c0cd37ce4183728014",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-switch.glb",
+      "sha256": "2b297783053aa9b091972f31f5fc3892b7cb7572d017dd37fc22af9ac2640c20",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-window-banner.glb",
+      "sha256": "330d4b2653bf5224149e91acaef2d493e2085e984e25315610d4afa11bd7bcfe",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-window-frame.glb",
+      "sha256": "b9750b0975c7a06c757ce493bb0e75c27197c83247f1d98f798b92946122a623",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-window-shutters.glb",
+      "sha256": "ba607af511db91c8ec6768550962cfb05fb7fcf3d6b834bf953ac25945abbb49",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall-window.glb",
+      "sha256": "55053731040bad9e0a02cd5cbef4d6ce4516f40019d41488eb36a5bdebcda6f3",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "models/station/wall.glb",
+      "sha256": "561253375e765f825899d13031e52c07b84304d394e1d69579e0749e23fba42f",
+      "creator": "Kenney",
+      "license": "CC0-1.0",
+      "source": "https://kenney.nl/assets/space-station-kit"
+    },
+    {
+      "path": "sky/the_sky_is_on_fire_2k.hdr",
+      "sha256": "0d6de5d26052d30546ebd291ad6e96de88c342da3e5d8aee37298e9c12647911",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/the_sky_is_on_fire"
+    },
+    {
+      "path": "textures/asphalt_02/albedo.jpg",
+      "sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/asphalt_02"
+    },
+    {
+      "path": "textures/asphalt_02/normal.jpg",
+      "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/asphalt_02"
+    },
+    {
+      "path": "textures/asphalt_02/roughness.jpg",
+      "sha256": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/asphalt_02"
+    },
+    {
+      "path": "textures/blue_metal_plate/albedo.jpg",
+      "sha256": "a0162bffce47d4a35613a12af22571b28c18412dc5805cbb69eac343554ef750",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/blue_metal_plate"
+    },
+    {
+      "path": "textures/blue_metal_plate/normal.jpg",
+      "sha256": "970f0273c9e2e3b4fc8338bfd58a28c413b70ac4d1734d9dc8a136724bde56e6",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/blue_metal_plate"
+    },
+    {
+      "path": "textures/blue_metal_plate/roughness.jpg",
+      "sha256": "37168cf57144db28dd0743dab47fbebc09147fac919d5e2b5610b069c0b13a46",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/blue_metal_plate"
+    },
+    {
+      "path": "textures/concrete_floor_02/albedo.jpg",
+      "sha256": "6db84a6d87dc50508b9d134d6fbd2b7e876b8081a5f43a118a249ca18de73af5",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "path": "textures/concrete_floor_02/normal.jpg",
+      "sha256": "fcda391b57a816d646ae15544688be53790478da5cd48dbe514b3c6901415e61",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "path": "textures/concrete_floor_02/roughness.jpg",
+      "sha256": "c7f026a611b7859903c61ec7fd4574944157223e9e7796413dd6e2a66eaeac7a",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "path": "textures/concrete_floor_worn_001/albedo.jpg",
+      "sha256": "6e40c0fc908f4d66431836f5abe203f3a4eb064e88824378a91a46a26e2f464c",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001"
+    },
+    {
+      "path": "textures/concrete_floor_worn_001/normal.jpg",
+      "sha256": "523bd94a1be5dd2f11c2ae2b7d7c77445cf5bd9e41604db515a7c8364dcba067",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001"
+    },
+    {
+      "path": "textures/concrete_floor_worn_001/roughness.jpg",
+      "sha256": "069efe4ca018e0ef61fd8cc9964395ba8272284ae239da68d7f87988e2e9f488",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001"
+    },
+    {
+      "path": "textures/concrete_wall_008/albedo.jpg",
+      "sha256": "a203166d280d3cfc6a91bbc9ffdae406eb9555b4a4f658cd92619063eb17c147",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_wall_008"
+    },
+    {
+      "path": "textures/concrete_wall_008/normal.jpg",
+      "sha256": "83cd3fa2c7cbf4c81402386065daf8fa6f72e1f1f77e02ccb1eedb28496909ae",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_wall_008"
+    },
+    {
+      "path": "textures/concrete_wall_008/roughness.jpg",
+      "sha256": "2344fe72c4dc2fb9e4ce9b47079524ee8969f22c4af4bee85667511073fbf14a",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_wall_008"
+    },
+    {
+      "path": "textures/corrugated_iron/albedo.jpg",
+      "sha256": "7f3649dd0d056a55a910146f09b1d5298370696a90f511a255fb4c5715bb4b58",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/corrugated_iron"
+    },
+    {
+      "path": "textures/corrugated_iron/normal.jpg",
+      "sha256": "e98b839ae681ba929eb80f07348c70d0731b48239abe69268effab18420cd271",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/corrugated_iron"
+    },
+    {
+      "path": "textures/corrugated_iron/roughness.jpg",
+      "sha256": "1addcfc0210fc101f9f12c8e4dbd7a7d2642a5ef76699a8a485f00b5476af357",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/corrugated_iron"
+    },
+    {
+      "path": "textures/dirty_carpet/albedo.jpg",
+      "sha256": "b0ef2b248cb7dfa1d33f1b2215fb3b83e815527d4091a2c3a423bdcd63bef60a",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/dirty_carpet"
+    },
+    {
+      "path": "textures/dirty_carpet/normal.jpg",
+      "sha256": "ba96f6f098ac64456f4cc310469200ff702596a9070d2553f990da8f7b86d29f",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/dirty_carpet"
+    },
+    {
+      "path": "textures/dirty_carpet/roughness.jpg",
+      "sha256": "a2e13692bd7e5af9875150130ce9904c11879e693e70753d417b93121cf65be4",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/dirty_carpet"
+    },
+    {
+      "path": "textures/floor_tiles_06/albedo.jpg",
+      "sha256": "ac159ca6072e30dd9d5c65e2d6eae7bb55a7dc9f06e6d141e9119390563511c2",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/floor_tiles_06"
+    },
+    {
+      "path": "textures/floor_tiles_06/normal.jpg",
+      "sha256": "efaff964d5688dd52ea3b876d5dac63ffee76d8d7270e30c11c81095246d5fdd",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/floor_tiles_06"
+    },
+    {
+      "path": "textures/floor_tiles_06/roughness.jpg",
+      "sha256": "9c1996177892f220bcfdbc44675d0cd404482cfa80b1c577c7bcc100637ef8b6",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/floor_tiles_06"
+    },
+    {
+      "path": "textures/hangar_concrete_floor/albedo.jpg",
+      "sha256": "8c365cc65bc3026045c4e3ecba9642cbe0bee1cf705edafe4a8fed5b78c08a4d",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hangar_concrete_floor"
+    },
+    {
+      "path": "textures/hangar_concrete_floor/normal.jpg",
+      "sha256": "b1fc3146e62c5d5cd7859eb0d8174480e1ea87c80c92ba4364229547d1f8dda7",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hangar_concrete_floor"
+    },
+    {
+      "path": "textures/hangar_concrete_floor/roughness.jpg",
+      "sha256": "84c37e42dd93de6c3743c7bca3558a7264cc6b8be3d0ae74babe0cdf98d5f877",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/hangar_concrete_floor"
+    },
+    {
+      "path": "textures/laminate_floor_02/albedo.jpg",
+      "sha256": "c112a8fb107d8600a2974af2f9fa9b595c491a33a59982e22706e9650990bf8f",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/laminate_floor_02"
+    },
+    {
+      "path": "textures/laminate_floor_02/normal.jpg",
+      "sha256": "ec501e1c76269cabc1648ab0e3f38db1b062ffef7ff4ce037fdc369383afd005",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/laminate_floor_02"
+    },
+    {
+      "path": "textures/laminate_floor_02/roughness.jpg",
+      "sha256": "1d48d21a8497d83d4148e4378bf6891e052c98b58cdce1f79003bcc24a3aff8f",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/laminate_floor_02"
+    },
+    {
+      "path": "textures/large_red_bricks/albedo.jpg",
+      "sha256": "f9f1f0f2c0302c13741b92e2382c5c0e34beee32628fb1d6853a27a3071e05a9",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/large_red_bricks"
+    },
+    {
+      "path": "textures/large_red_bricks/normal.jpg",
+      "sha256": "a8f3f10c0a2625a5291bf86a581e618c920fb2d29189bf29f75d842078164a4e",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/large_red_bricks"
+    },
+    {
+      "path": "textures/large_red_bricks/roughness.jpg",
+      "sha256": "8555f5fec255316e337217ce24d79c287842525eb77f3a3297e15035ed7394e7",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/large_red_bricks"
+    },
+    {
+      "path": "textures/marble_01/albedo.jpg",
+      "sha256": "b10dabea976d68baa976a0d4e8dac58789df8d26a1b50697f320106f1b00a229",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "textures/marble_01/normal.jpg",
+      "sha256": "77c2a9b549a6a408659f8197be91945aeb0abc33e697f1dd2ce24ee8dc7c2bc0",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "textures/marble_01/roughness.jpg",
+      "sha256": "a3e9f373d22aebc449af73f6a18c9817e2146f17e567a083609ba8fbb62a72f5",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "textures/metal_grate_rusty/albedo.jpg",
+      "sha256": "dc24176c7cdc8f526611fca206e852179b5fe2be157eea8a180ddd8985347df8",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_grate_rusty"
+    },
+    {
+      "path": "textures/metal_grate_rusty/normal.jpg",
+      "sha256": "3bb15a5408a33b6291a7d6ded358c1426d4d3d166bd0ff43c14c4102e1638483",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_grate_rusty"
+    },
+    {
+      "path": "textures/metal_grate_rusty/roughness.jpg",
+      "sha256": "5784f8e8e8d309382b343b17344ec7a9902ec84b737a6be5f9a4b36195715a8b",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_grate_rusty"
+    },
+    {
+      "path": "textures/metal_plate/albedo.jpg",
+      "sha256": "c6b6739eac2c75ccc898e753d7833df24eafbdb9aa92fb6eabfb92abd1a680a5",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_plate"
+    },
+    {
+      "path": "textures/metal_plate/normal.jpg",
+      "sha256": "994f851a84d52b51e97906021a1b7070ee6eac9a789fef041132268de47d8e6b",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_plate"
+    },
+    {
+      "path": "textures/metal_plate/roughness.jpg",
+      "sha256": "756308485ce742a52831453c296452f48cf0adead7d85adfffd34c08dce23ec1",
+      "creator": "Poly Haven",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/metal_plate"
+    }
+  ]
+}

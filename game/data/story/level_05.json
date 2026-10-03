@@ -1,0 +1,33 @@
+{
+	"lines": [
+		{
+			"id": "l05_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "Upround's keys got you into the convention center. The world's last hackathon is still going. Three thousand people, all building the same chatbot wrapper.",
+			"spoken": "Upround's keys got you into the convention center. The world's last hackathon is still going. Three thousand people, all building the same chatbot wrapper."
+		},
+		{
+			"id": "l05_02",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (public address)",
+			"shot": "stage",
+			"text": "Attention, hackers. A disgruntled former user is in the building. Whoever stops them wins a term sheet and a one-way ticket off the waitlist.",
+			"spoken": "Attention, hackers. A disgruntled former user is in the building. Whoever stops them wins a term sheet, and a one way ticket off the waitlist."
+		},
+		{
+			"id": "l05_03",
+			"cast": "dana",
+			"shot": "shuttle",
+			"text": "Overclass's campus shuttle leaves from the back hall, but security locked every door. I'm cracking the lock. It'll take a minute. Until then, survive.",
+			"spoken": "Overclass's campus shuttle leaves from the back hall, but security locked every door. I'm cracking the lock. It'll take a minute. Until then, survive."
+		},
+		{
+			"id": "l05_04",
+			"cast": "dana",
+			"shot": "player",
+			"text": "And grab first prize off the stage: a valuation bubble gun. Press 6. Whatever it hits, it inflates, and then it pops.",
+			"spoken": "And grab first prize off the stage. A valuation bubble gun. Press six. Whatever it hits, it inflates. And then it pops."
+		}
+	]
+}

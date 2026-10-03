@@ -1,0 +1,26 @@
+{
+	"lines": [
+		{
+			"id": "l08_01",
+			"cast": "dana",
+			"shot": "overview",
+			"text": "OMEGA's throttled, but Exitwell isn't sticking around to watch. He's evacuating the board to the Ark, a private launch platform offshore.",
+			"spoken": "Omega's throttled, but Exitwell isn't sticking around to watch. He's evacuating the board to the Ark, a private launch platform offshore."
+		},
+		{
+			"id": "l08_02",
+			"cast": "exitwell",
+			"role": "Founder & CEO, Overclass (public address)",
+			"shot": "tender",
+			"text": "Attention, board members. The tender departs shortly. Please leave your conscience at the gate. It will not fit in the overhead bin.",
+			"spoken": "Attention, board members. The tender departs shortly. Please leave your conscience at the gate. It will not fit in the overhead bin."
+		},
+		{
+			"id": "l08_03",
+			"cast": "dana",
+			"shot": "containers",
+			"text": "Get through the container yard. Once you're through the gate, that boat starts its engines. Run.",
+			"spoken": "Get through the container yard. Once you're through the gate, that boat starts its engines. Run."
+		}
+	]
+}

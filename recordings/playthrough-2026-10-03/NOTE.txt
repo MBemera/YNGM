@@ -1,0 +1,4 @@
+NOTE (2026-10-03): this run proves all 11 levels can be completed on AUTO graphics (MEDIUM on Intel UHD).
+Its fps_while_playing numbers are NOT valid: they flat-line at ~125 fps, the CPU-only ceiling, because the
+game window was minimised or covered for most of the run, so Windows skipped drawing it. The Level 1 attempt-1
+stall coincides with that. Use ../performance-2026-10-03/benchmark.json for frame rates (rendered in a visible window).
