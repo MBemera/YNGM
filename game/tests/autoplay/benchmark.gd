@@ -88,7 +88,7 @@ func benchmark_level(level_number: int, resolution: Vector2i) -> void:
 	var player: Player = main.player
 	player.runway_months = 99999
 	await wait_frames(SETTLE_FRAMES)
-	var rendered_size := get_root().get_visible_rect().size
+	var rendered_size := Vector2(get_root().size)
 	var row := {"level": level_number, "title": main.level.title, "quality": GraphicsSettings.get_resolved(), "resolution": "%dx%d" % [int(rendered_size.x), int(rendered_size.y)]}
 	row["start_view"] = await record_phase(PHASE_SECONDS["start_view"], Callable())
 	row["turn_360"] = await record_phase(PHASE_SECONDS["turn_360"], turn_player.bind(player))

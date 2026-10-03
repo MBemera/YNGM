@@ -11,6 +11,7 @@ var failures: Array[String] = []
 
 func _initialize() -> void:
 	SaveData.is_persistence_enabled = false
+	load("res://scripts/main.gd").is_staged_loading_enabled = false
 	Difficulty.set_current(Difficulty.NORMAL)
 	GraphicsSettings.set_current(GraphicsSettings.HIGH)
 	run_all_tests()
@@ -56,6 +57,8 @@ func run_all_tests() -> void:
 	await test_destroy_stage_survives_freed_targets()
 	await test_graphics_presets_apply_to_the_renderer()
 	await test_menu_graphics_and_fps_toggles()
+	await test_staged_loading_shows_progress_then_the_menu()
+	await test_loading_screen_scrolls_tips()
 	report_and_quit()
 
 
@@ -765,7 +768,7 @@ func test_graphics_presets_apply_to_the_renderer() -> void:
 		var main = await load_level(3)
 		var preset := GraphicsSettings.get_preset()
 		var viewport: Viewport = main.get_viewport()
-		var render_scale := GraphicsSettings.get_render_scale(viewport.get_visible_rect().size.y)
+		var render_scale := GraphicsSettings.get_render_scale(GraphicsSettings.get_output_height(viewport))
 		check(is_equal_approx(viewport.scaling_3d_scale, render_scale), "%s: 3D renders at %d%% resolution" % [quality, roundi(render_scale * 100.0)])
 		check(viewport.msaa_3d == preset["msaa"], "%s: anti-aliasing matches the preset" % quality)
 		var has_shadows: bool = preset["shadows"]
@@ -786,7 +789,7 @@ func test_menu_graphics_and_fps_toggles() -> void:
 	GraphicsSettings.set_current(GraphicsSettings.AUTO)
 	menu.cycle_graphics_quality()
 	check(GraphicsSettings.current == GraphicsSettings.LOW and menu.graphics_button.text.ends_with("LOW"), "the graphics button cycles to LOW")
-	var expected_scale := GraphicsSettings.get_render_scale(main.get_viewport().get_visible_rect().size.y)
+	var expected_scale := GraphicsSettings.get_render_scale(GraphicsSettings.get_output_height(main.get_viewport()))
 	check(is_equal_approx(main.get_viewport().scaling_3d_scale, expected_scale), "changing graphics on the menu applies immediately")
 	menu.toggle_fps_counter()
 	await process_frame
@@ -796,3 +799,45 @@ func test_menu_graphics_and_fps_toggles() -> void:
 	check(not main.hud.fps_label.visible, "SHOW FPS can be turned off again")
 	GraphicsSettings.set_current(GraphicsSettings.HIGH)
 	await unload_main(main)
+
+
+func test_staged_loading_shows_progress_then_the_menu() -> void:
+	var main_script = load(MAIN_SCRIPT_PATH)
+	main_script.is_staged_loading_enabled = true
+	var main = await load_main()
+	var loading_screen: LoadingScreen = main.loading_screen
+	check(loading_screen != null and main.get_state_name() == "LOADING", "staged loading starts on the loading screen")
+	check(loading_screen != null and loading_screen.level_label.text == main.level.get_chapter_label(), "loading screen names the level")
+	var highest_progress := 0.0
+	var frames_waited := 0
+	while main.get_state_name() == "LOADING" and frames_waited < 600:
+		if is_instance_valid(loading_screen):
+			highest_progress = maxf(highest_progress, loading_screen.target_progress)
+		frames_waited += 1
+		await process_frame
+	if is_instance_valid(loading_screen):
+		highest_progress = maxf(highest_progress, loading_screen.target_progress)
+	check(main.get_state_name() == "MENU", "staged loading ends on the start menu")
+	check(is_equal_approx(highest_progress, 1.0), "progress bar reaches 100% as the menu opens")
+	for frame: int in 60:
+		await process_frame
+	check(not is_instance_valid(loading_screen), "loading screen removes itself after fading out")
+	main_script.is_staged_loading_enabled = false
+	await unload_main(main)
+
+
+func test_loading_screen_scrolls_tips() -> void:
+	var loading_screen := LoadingScreen.new()
+	root.add_child(loading_screen)
+	await process_frame
+	var first_tip := loading_screen.tip_label.text
+	check(first_tip.begins_with("TIP:"), "loading screen shows a tip")
+	loading_screen.tip_seconds_left = 0.0
+	for frame: int in 45:
+		await process_frame
+	check(loading_screen.tip_label.text != first_tip and loading_screen.tip_label.text.begins_with("TIP:"), "loading screen scrolls to the next tip")
+	loading_screen.set_progress(0.4, "BUILDING")
+	loading_screen.set_progress(0.2, "BUILDING")
+	check(is_equal_approx(loading_screen.target_progress, 0.4), "progress never moves backwards")
+	loading_screen.queue_free()
+	await process_frame

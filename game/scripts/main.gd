@@ -1,6 +1,8 @@
 extends Node3D
 
-enum GameState { MENU, INTRO, READY, PLAYING, WON, LOST, ENDING, FINISHED }
+signal navigation_ready
+
+enum GameState { LOADING, MENU, INTRO, READY, PLAYING, WON, LOST, ENDING, FINISHED }
 
 const NAVIGATION_SOURCE_GROUP := "navigation_source"
 const SKY_TEXTURE_PATH := "res://assets/sky/the_sky_is_on_fire_2k.hdr"
@@ -18,8 +20,9 @@ const FINISHED_BODY := "You made it. We all did.\n\nThanks for playing Escape fr
 static var current_level_number := 1
 static var should_show_menu := true
 static var should_play_story := true
+static var is_staged_loading_enabled := true
 
-var state := GameState.MENU
+var state := GameState.LOADING
 var level: Level
 var world_environment: WorldEnvironment
 var sun: DirectionalLight3D
@@ -27,6 +30,7 @@ var player: Player
 var hud: Hud
 var screen_overlay: ScreenOverlay
 var start_menu: StartMenu
+var loading_screen: LoadingScreen
 var intro: IntroSequence
 var objectives: ObjectiveTracker
 var navigation_region: NavigationRegion3D
@@ -45,21 +49,62 @@ func _ready() -> void:
 	AudioBank.preload_enemy_voices()
 	level = LevelCatalog.create(current_level_number)
 	loaded_difficulty = Difficulty.current
+	if is_staged_loading_enabled:
+		build_level_in_stages()
+	else:
+		build_level_now()
+
+
+func build_level_now() -> void:
+	create_lighting()
+	build_static_world()
+	spawn_actors()
+	bake_navigation()
+	choose_opening_screen()
+
+
+func build_level_in_stages() -> void:
+	loading_screen = LoadingScreen.new()
+	add_child(loading_screen)
+	loading_screen.setup(level.get_chapter_label())
+	loading_screen.set_progress(0.05, "PREPARING")
+	await get_tree().process_frame
+	create_lighting()
+	loading_screen.set_progress(0.15, "BUILDING THE WORLD")
+	await get_tree().process_frame
+	build_static_world()
+	loading_screen.set_progress(0.6, "HIRING ENEMIES")
+	await get_tree().process_frame
+	spawn_actors()
+	loading_screen.set_progress(0.75, "MAPPING ROUTES")
+	await get_tree().process_frame
+	bake_navigation()
+	if not is_navigation_ready:
+		await navigation_ready
+	loading_screen.finish()
+	choose_opening_screen()
+
+
+func create_lighting() -> void:
 	world_environment = create_world_environment()
 	add_child(world_environment)
 	sun = create_sun()
 	add_child(sun)
 	apply_graphics_settings()
 	get_viewport().size_changed.connect(_on_viewport_resized)
+
+
+func build_static_world() -> void:
 	level.build_world(self)
 	StaticBatcher.batch(self, get_batching_exclusions())
+
+
+func spawn_actors() -> void:
 	spawn_player()
 	spawn_enemies()
 	spawn_health_packs()
 	spawn_hud()
 	create_objectives()
-	bake_navigation()
-	choose_opening_screen()
 
 
 func _exit_tree() -> void:
@@ -506,6 +551,7 @@ func _on_navigation_map_changed(map_rid: RID) -> void:
 		return
 	NavigationServer3D.map_changed.disconnect(_on_navigation_map_changed)
 	is_navigation_ready = true
+	navigation_ready.emit()
 
 
 func _on_enemy_defeated(_enemy: Enemy) -> void:

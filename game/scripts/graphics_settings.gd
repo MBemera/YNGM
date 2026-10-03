@@ -105,10 +105,17 @@ static func get_render_scale(output_height: float) -> float:
 	return clampf(render_height / output_height, MIN_RENDER_SCALE, 1.0)
 
 
+static func get_output_height(viewport: Viewport) -> float:
+	var window := viewport as Window
+	if window != null and window.size.y > 0:
+		return float(window.size.y)
+	return viewport.get_visible_rect().size.y
+
+
 static func apply_to_viewport(viewport: Viewport) -> void:
 	var preset := get_preset()
 	viewport.scaling_3d_mode = Viewport.SCALING_3D_MODE_BILINEAR
-	viewport.scaling_3d_scale = get_render_scale(viewport.get_visible_rect().size.y)
+	viewport.scaling_3d_scale = get_render_scale(get_output_height(viewport))
 	viewport.msaa_3d = preset["msaa"]
 	RenderingServer.directional_shadow_atlas_set_size(preset["shadow_atlas"], true)
 

@@ -1,9 +1,19 @@
 ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
 Version 1.0.0
 
+GAME LICENCE
+Original game code, story, sound effects, logo and cover art:
+MIT licence, Copyright (c) 2026 Matthew Bright. Full text: licenses/YNGM-LICENSE.txt.
+Exceptions: the third-party components below keep their own licences, and the
+joe_*.wav voice clips are not MIT (see VOICES).
+
+FICTION
+This is satire. All characters, companies, products, startups, investors and AI
+models are fictional; any resemblance to real people or businesses is
+coincidental. Real places appear only as settings. No company or person depicted
+or parodied is affiliated with, endorses or sponsors this game.
+
 THIRD-PARTY CREDITS AND LICENCES
-These notices cover the named third-party components. They do not change
-ownership or licensing of the original game code, dialogue, sound effects or artwork.
 
 ENGINE
 Godot Engine 4.7.2: MIT / Expat licence.
@@ -41,19 +51,26 @@ Individual source URLs: licenses/PolyHaven.txt.
 Full CC0 legal text: licenses/CC0-1.0.txt.
 
 VOICES
-Prepared using Piper TTS with these voice datasets:
-Joe: CC0 dataset from the Open Home Foundation voice datasets.
-https://github.com/OHF-Voice/voice-datasets
+Generated offline with Piper TTS 1.8.0 (GPL-3.0-or-later, build tool only).
+https://github.com/OHF-Voice/piper1-gpl
 John, Kristin and Norman: public-domain LibriVox recordings, voice models
 prepared by Bryce Beattie. https://brycebeattie.com/files/tts/
+Joe: CC0 dataset from the Open Home Foundation voice datasets, but the model
+was fine-tuned from Piper's lessac voice, which was trained on the Blizzard
+Challenge 2013 Lessac data (research-only licence, no commercial use).
+The joe_*.wav clips are therefore excluded from the project's MIT licence and
+are distributed only as part of this free, non-commercial game.
+https://github.com/OHF-Voice/voice-datasets
 https://huggingface.co/rhasspy/piper-voices
 Original model cards: licenses/voice-*.txt.
 The distribution contains generated WAV recordings; no Piper executable,
 voice model, Python environment or development tool is included.
 
-SOUND EFFECTS AND LOGO
+SOUND EFFECTS, LOGO AND COVER ART
 Sound effects created for this game by tools/generate_sfx.py.
 YNGM logo created for this project; no external image reference assets used.
+Cover art supplied by the project author for this game. It is also used for the
+boot splash, loading screen and installer pictures.
 
 INSTALLER
 NSIS 3.13, copyright 1999-2026 Contributors, zlib/libpng licence.
@@ -63,3 +80,5 @@ Full unmodified NSIS licence notice: licenses/NSIS-COPYING.txt.
 Source: https://sourceforge.net/projects/nsis/files/NSIS%203/3.13/nsis-3.13-src.tar.bz2
 
 Asset-by-asset provenance and hashes: licenses/asset-manifest.json.
+Source code, build tools and the full legal notes (LEGAL.md):
+https://github.com/MBemera/YNGM

@@ -13,6 +13,7 @@ var failures: Array[String] = []
 
 func _initialize() -> void:
 	SaveData.is_persistence_enabled = false
+	load("res://scripts/main.gd").is_staged_loading_enabled = false
 	Difficulty.set_current(Difficulty.NORMAL)
 	run_all.call_deferred()
 
