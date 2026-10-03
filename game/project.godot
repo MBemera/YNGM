@@ -9,6 +9,12 @@ config/name="Escape from the Permanent Underclass"
 config/version="1.0.0"
 config/icon="res://assets/branding/yngm-logo.png"
 config/windows_native_icon="res://assets/branding/yngm.ico"
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=true
+boot_splash/image="res://assets/branding/cover-art.png"
+boot_splash/fullsize=true
+boot_splash/stretch_mode=1
+boot_splash/use_filter=true
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
@@ -16,6 +22,8 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [rendering]
 

@@ -65,8 +65,8 @@ func add_backdrop() -> void:
 
 
 func build_main_panel() -> Control:
-	var column := create_centered_column(12)
-	column.add_child(create_label("ESCAPE FROM THE\nPERMANENT UNDERCLASS", 60, TITLE_COLOR))
+	var column := create_centered_column(8)
+	column.add_child(create_label("ESCAPE FROM THE\nPERMANENT UNDERCLASS", 52, TITLE_COLOR))
 	column.add_child(create_label("ELEVEN LEVELS. ONE LADDER.", 22, ACCENT_COLOR))
 	column.add_child(create_spacer(14))
 	column.add_child(create_button("START", new_game_requested.emit))
@@ -114,15 +114,20 @@ func build_how_to_panel() -> Control:
 	column.add_child(create_label("HOW TO PLAY", 34, TITLE_COLOR))
 	var panel := PanelContainer.new()
 	panel.add_theme_stylebox_override("panel", create_panel_style(PANEL_COLOR, ACCENT_COLOR))
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(1040, 470)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
 	var body := RichTextLabel.new()
 	body.bbcode_enabled = true
 	body.fit_content = true
+	body.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	body.custom_minimum_size = Vector2(1000, 0)
 	body.add_theme_font_size_override("normal_font_size", 14)
 	body.add_theme_font_size_override("bold_font_size", 16)
 	body.add_theme_color_override("default_color", TEXT_COLOR)
 	body.text = HOW_TO_PLAY_TEXT
-	panel.add_child(body)
+	scroll.add_child(body)
+	panel.add_child(scroll)
 	column.add_child(panel)
 	column.add_child(create_button("BACK", show_main_panel))
 	return column.get_parent()
@@ -185,7 +190,7 @@ func create_spacer(height: int) -> Control:
 func create_button(text: String, on_pressed: Callable) -> Button:
 	var button := Button.new()
 	button.text = text
-	button.custom_minimum_size = Vector2(340, 50)
+	button.custom_minimum_size = Vector2(340, 44)
 	button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	button.add_theme_font_size_override("font_size", 22)
 	button.add_theme_color_override("font_color", TEXT_COLOR)
