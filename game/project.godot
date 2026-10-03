@@ -6,7 +6,7 @@ config_version=5
 [application]
 
 config/name="Escape from the Permanent Underclass"
-config/version="1.0.0"
+config/version="1.0.1"
 config/icon="res://assets/branding/yngm-logo.png"
 config/windows_native_icon="res://assets/branding/yngm.ico"
 boot_splash/bg_color=Color(0, 0, 0, 1)

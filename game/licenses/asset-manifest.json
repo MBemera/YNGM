@@ -4,923 +4,811 @@
       "path": "audio/sfx/alarm.wav",
       "sha256": "61a8474935d490b2e8021d7cce28dd5f51d4c35acd5fb8d9a17fdbb6bf34a6d7",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/beam.wav",
       "sha256": "966c5ae949ebb10a52b71f7889c2a1fde377aa391e3340d02276e087b4572280",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/bounce.wav",
       "sha256": "817407ad5123088c1f004a780a9ebb6d32f36e2d69981abce47b567f3a0a9a82",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/bubble.wav",
       "sha256": "0c4c7f4b538aeec967090a68561ac7e7375b9293bc70f46e08d227e868520570",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/confetti.wav",
       "sha256": "eacb5a43b079eab7cf6e10c63334c6fec0d9ea244e18d3768c5ee910f3e2e327",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/dart.wav",
       "sha256": "850d167ac68a93861138d0971ca1e29f5b65b471113d391e62de971c33a31f84",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/hit.wav",
       "sha256": "fec0b53026baec7ded4967a32497932bdb1274bdc0ef58411fa45c7944e89fb4",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/hurt.wav",
       "sha256": "608cbfd0357a920d9867c9c4236bf3c4fe8a49a0736ce4c56c4ccf819bbcb3e7",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/lose.wav",
       "sha256": "8cb9edc50ca40809267fbbc059bf2de5955fc79d66b6c50ae1388b79cba63a75",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/objective.wav",
       "sha256": "ac22024e87e5a1fd00aead982d64e37be239a7b62f06db336746014994077aa0",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/pickup.wav",
       "sha256": "c884a392741b5b4c8f2e40b6bb22fa5282f98a3987ef9ae6bab19b0cba918f99",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/pop.wav",
       "sha256": "775037ebd58b9a352c213cc1aae695dd4e589cc03ea83602d3125795f5daeed6",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/rail.wav",
       "sha256": "38d91439e6cf4e15545dce418175cc1528b59a367fa02f15c0f16ff3edaa2346",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/rotor.wav",
       "sha256": "58cce8b5e1d448d1b6b7549e7a627da6926dd0fc9241c2b19d7cd1284354131a",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/slam.wav",
       "sha256": "8ea632b895eecd3b58a00c26bc13eafbe4dcbbe08047d4ad1096bf030048879b",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/slop_explosion.wav",
       "sha256": "abcff2a976173c5463993da7278ec079500af3a697c46e11f73367f2031e492d",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/staple.wav",
       "sha256": "44b36b737f18d00ab308633c072f21f23f325d448e1adc30ef2c4b02af7108e0",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/throw.wav",
       "sha256": "0d45d38677353e7df2da8f31f393e2aed5884b02ced12df4e12b18f64d47ddb7",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/win.wav",
       "sha256": "1e624477f7e43f8b3bd1bc4cb75d34092692f7a7044229f0975d1801a4d3cf63",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "audio/sfx/zap.wav",
       "sha256": "4ae0676791b6e05a0ddb602c29961e8dd654d0a088b05e6d4e05bc0822e7bc5e",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
-    },
-    {
-      "path": "audio/voice/joe_acqui_hired.wav",
-      "sha256": "8bd6e35e2edf80bf77c84b4190dcdcf446f580674b7d4efd7764edf7030ef81f",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_cannot_comment.wav",
-      "sha256": "fd36acb747f23f93215dd9781a7c2a50651eac52ceb9e04627a3b7c72daddd9d",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_does_not_compile.wav",
-      "sha256": "36c571f68dcbd1604df2ec799be7ecb0e0d2d247f2a50b2eb5ab961aba4a4bc2",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_everybody_gets_a_ladder.wav",
-      "sha256": "f03f29eb1e2b45e6ea26b437c7b5c7ff032c5185a58722192142e39781be5024",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_left_behind.wav",
-      "sha256": "fcb09a3cbb9ba8ee049b991668f9170453ba424f7e2fdd85f5ffb5cd6dd9445c",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_meeting_adjourned.wav",
-      "sha256": "dcc38db9d3f35e853a26671ec70d593c6b9c936f1a34706fd5e2c8b40787b381",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_my_valuation.wav",
-      "sha256": "a3bb72bc25c287aad7effd447dd4f4cd1de7aa3ec512b03851a96debfb6a26e2",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_not_gonna_make_it.wav",
-      "sha256": "15156a7ded30e212d8b565da1dab9f1c0c4df4b3b4c8fe9c6cf7a16751aad999",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_not_in_term_sheet.wav",
-      "sha256": "8973a5bb1b74c4762d2f12c6e88084b68e2317f3a85646cdb371501be755bcc7",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_package_delivered.wav",
-      "sha256": "ae824ab4861014376ea4aa676446095262b014bcf1497e009d0a60bb6184b003",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_pivoting.wav",
-      "sha256": "e0880465c46fe604dcc340d682bb520ab325a79df98e87d74f903e918de66bd7",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_end_03.wav",
-      "sha256": "2276e97f41a0b0e2e93b52aca0c9ada23b2764855e4313a921e77fc9f771a6f0",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_01.wav",
-      "sha256": "118a66d5995d0f28f765471cc042c0e143b1e38679fcb3b6ccf81a9aaf3beb41",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_02.wav",
-      "sha256": "93c1b6c794dce959531cfb094d92cc4f3c557b062af4dd96e5658a131f25dc3f",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_03.wav",
-      "sha256": "b8e9df7d118479d5c40202eadf7650ebaf7c80f66d2067b255acbf3c6409f635",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_04.wav",
-      "sha256": "79c97c61c2238c77350c6a49fa8809ae17d828a3aa5ff650019aafd866652950",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_05.wav",
-      "sha256": "4e22b9de5b037b45f50b315485d3c231ba784c1776ff53d33cac8dfee85f2ab9",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_06.wav",
-      "sha256": "3036240ec761ae64f5b90d9ea716fe0070cf50f9788eb249d751309c61cf5bb7",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_intro_07.wav",
-      "sha256": "8e961f7663b951a4b8f4963f71f67fc49d19c0e437b16e993733af2817b4d4b9",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l02_01.wav",
-      "sha256": "869fcb00155094bb913e16ae36d923252a82f2d5a82748dc4b25b05d1d4f3ad3",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l05_02.wav",
-      "sha256": "19a88e0cd7628f0bec71be18ffb442e077b1cc51704ebf110353b79bf053e3ea",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l06_01.wav",
-      "sha256": "cfff1775f3b5e134d6cd57ceff8eb43380330466838c59a983cbe5fe3e6641c6",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l06_04.wav",
-      "sha256": "4a824edaf0139e6ae10bce384d255ac0a525dc6dc90d64bf3ba4243f759110c0",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l08_02.wav",
-      "sha256": "956cde1e87601fe5e2c930baad4a123bd74be2dd064086d9bdb9f8f9f9877953",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l10_02.wav",
-      "sha256": "05bdf1d6e58d4807d23a5baee776c98aa2add756d66bd3f4400d66943e6afb78",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_story_l11_01.wav",
-      "sha256": "ed6bce17aedc05debb5772443efc9de40f48a0f1566722963ab3b2df993adb89",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_take_offline.wav",
-      "sha256": "4841a5b870f9e512a9b03523ff4d76744c9c80f94f653559496ce9dfa6f3cbc3",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_unsubscribing.wav",
-      "sha256": "c33faaa4a44cb82c13a0c8348b429b70ff18377b982241ea9bf0c2dc7cfc7ae0",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_we_will_pass.wav",
-      "sha256": "29e4ea331cb2b195cc0e6e32d8d374d4b9b13e97e5a4391c38f60c1085ea8c51",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_who_wrote_this.wav",
-      "sha256": "fdc2e78ef9ff507565c360a88f18bfc6731d681684d53a87d4fd7bc6f420b48f",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
-    },
-    {
-      "path": "audio/voice/joe_youre_in_the_round.wav",
-      "sha256": "c4c63782a85838bf3680f095551ca47dd57076a4880d86687385877709d74912",
-      "creator": "Piper voice: joe",
-      "license": "CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); excluded from the project's MIT licence",
-      "notice": "voice-en_US-joe-medium.MODEL_CARD.txt"
+      "license": "MIT"
     },
     {
       "path": "audio/voice/john_acqui_hired.wav",
       "sha256": "e2394a2ff35e5821ee379dfb2bd23fc0c8658f9ecebb40348b0505a395b5501a",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_cannot_comment.wav",
       "sha256": "8f4009c7972f4fa626a917696cfeaac4c82f161152e9e2db936162c32be559d2",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_does_not_compile.wav",
       "sha256": "f9dac196f08a3445c8825b3d9747f819c398bdee8fd3df827e0f12524c1ee82c",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_everybody_gets_a_ladder.wav",
       "sha256": "33b48bf5733b6a051d98eb74f0c32e7de4d7bc96e6be75955d71f491f0d814ab",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_left_behind.wav",
       "sha256": "595f2b61b230dcbe893ef8b7dcb337163a03739f1cda38c1c92890160fcfcf87",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_meeting_adjourned.wav",
       "sha256": "343591744996444463071d233040da160761908af06d19bc830797444119b7e4",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_my_valuation.wav",
       "sha256": "b38c6b22aaa3c287b1d65eff084ac3edd476be16cd30b472b72fab5d85cd7f26",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_not_gonna_make_it.wav",
       "sha256": "47389bb1ab19b91a310a3283456d25e201de6eb9bf5b5f57412c088d11be0de6",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_not_in_term_sheet.wav",
       "sha256": "83200f32a2b8ef5069d2b46db1d96a41068e78720ee3c2cb15ec30cdfbcff131",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_package_delivered.wav",
       "sha256": "842a2b0eb813fa1981519e665437b02d4a82496e386d866079b239960d24198a",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_pivoting.wav",
       "sha256": "968edfa9fdd2a0d84bd6b6b24f673536d36933a81c72887ded0caef066e65a69",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_story_end_02.wav",
       "sha256": "91eeefd9e70a40fce5cfcfcfcefe0528d89ee4456455f6cf852a5827b039ce57",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_story_l07_02.wav",
       "sha256": "b3937227f8014a9194fd01abbe7c4a0156c8bd0bb52f09dddfae86c210747af7",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_story_l09_02.wav",
       "sha256": "4818e90ea99ad860897bda865a8ab4ed40dd6f345feb639ef1cf0f7f7dd0b5b2",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_story_l11_03.wav",
       "sha256": "0181b3d986e2f7b72f2f37be08aa4eb7135b4dba0ef9eb150d57d8ae40fb6b06",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_take_offline.wav",
       "sha256": "7e434d912cfcfcb349c4489d271feba622cb6c0b9da1ca8e7db2e5559dbec378",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_unsubscribing.wav",
       "sha256": "7d245a9bcb15fa19a6fa8efe8eb6fae6759f33f752d7af56bd52601921dd66fd",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_we_will_pass.wav",
       "sha256": "d7ed192c482fc64d7b5011bd431e61936aefd3f9cbc6d26224144d87a9d5aa3d",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_who_wrote_this.wav",
       "sha256": "8d1acc700d8c4d1edf69e74aaa489a33a4bb6e7148fcb6b8361beb738162eb16",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/john_youre_in_the_round.wav",
       "sha256": "6cd44622a25fef542f7834c289c8c507867014a6d36d8293c0c39f10afff476c",
       "creator": "Piper voice: john",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-john-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_acqui_hired.wav",
       "sha256": "0413e80f2c215b8805e33209257209bf78d18e4e298d7fb3d0e5ab59c558d7af",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_cannot_comment.wav",
       "sha256": "298cce6741a9c6f277d4fc832a26aaad23b46c6ddb2de355879c799452c19d17",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_does_not_compile.wav",
       "sha256": "18d3ebd26a9a3f9414a8db039414bfddc1353f8b560b8baaf8b9779f0fcfd63f",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_everybody_gets_a_ladder.wav",
       "sha256": "37fcfa9628071947c1af05fb1d875641831eadf54aefcce803571ca5b83cfcc1",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_left_behind.wav",
       "sha256": "84a6b10c77e747b878a22328b514c460c84441f1ac81572368140fb29fdb3713",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_meeting_adjourned.wav",
       "sha256": "4c635591575c23330262b8f774c398700d445e41f9663ac8661291ee1bd0f12b",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_my_valuation.wav",
       "sha256": "61cf20921f8365f487c3979ac744afcc305ccdedc722f219566756b52a277500",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_not_gonna_make_it.wav",
       "sha256": "3a5d99207cf2dd715900d1aaa6a377852a15651acbf406c6abbf9ac2b07c9023",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_not_in_term_sheet.wav",
       "sha256": "af809a67cf3702f06b613d28f12e93a23f64323a3fdbb4c31ecfb5ee00ca9262",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_package_delivered.wav",
       "sha256": "3baeb43c78126aaf96138099a58f0a091b787d0aad48249a1d1897160bb62e57",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_pivoting.wav",
       "sha256": "9a86845ac66756b0c4c92651c19074fed80f3e898effbfb96d553eebd7a72efe",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_end_01.wav",
       "sha256": "661e9496dd492da86f559ddb5cc0f7d35bc239f241b67e5168139387af093446",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_end_04.wav",
       "sha256": "eead4ca086bbc67294c4e852d2c6dae05396f9f46c5fb2d3b5b4b0b607229a4a",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_end_05.wav",
       "sha256": "bde53d0e4119d60de89f5abb5c0509e1d7ced00b2690a53c1ed5bf06ea654cdb",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l02_02.wav",
       "sha256": "a291d34945a82b6e422bf0700c706eee9209eeea12f734b7ef88c138f9050d13",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l02_03.wav",
       "sha256": "5e7d0502b7bd07a275947b6f4c1ac40b3554e8154c9214cf8c968950605b1ebc",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l02_04.wav",
       "sha256": "4e02bfe696f1df65f4447168310d0e433ff67585be5f2c1216b6cd6bd82f1915",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l03_01.wav",
       "sha256": "816c3c2be17a39db7164356e3940202fb85bf0d042619b558b144a919968fe6e",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l03_02.wav",
       "sha256": "b2c8c924a8bbc610d4cc47447b5059d5e06030e6781858cab550d1809ca91c54",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l03_03.wav",
       "sha256": "9777c61be8a629e658e95b3030d07d1b0e4910d4bdcf035363406b5e4de87170",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l03_04.wav",
       "sha256": "45dda5b882d249ff815fa71ea45369696b2920872056b8f240f6147eb8e85902",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l04_01.wav",
       "sha256": "37349474ff9ccd7c1c5f514ae5a0ac916edbcf6b7f82b84701a95e4739b7b085",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l04_02.wav",
       "sha256": "0421d4e8a403683dffcb6321c72a990803f5e670fb47e108211449c2acb48d7e",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l04_04.wav",
       "sha256": "f4527bdd3ebb509cbdea210cf1715316c788b0b43c69ed022caeca1af73aa601",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l05_01.wav",
       "sha256": "0fd09bd8131299f68c8a498d8c6b19c695025cd423da1772b1b39c6199a80f0a",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l05_03.wav",
       "sha256": "6c7ebe08538385c82bf43a8eae6580095304fe65aa39c925f056d3a34228f5ed",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l05_04.wav",
       "sha256": "f8084988478571396ec7844a0da2be0685a128119118409cf6d8c371cc47ff93",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l06_02.wav",
       "sha256": "d7999bc45ef64c9a29f6a39ec5c0d210668da7051b4b7a699872392f5c01d476",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l06_03.wav",
       "sha256": "de1659b025b2e57305e791753ef34cfe1d749c90c89bf23dae3f0bd525b503d2",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l07_01.wav",
       "sha256": "4ac7cc4d40b74c3fa95ce5b166503ca0f31d18d05e1e86dbfc6cfafd88c7193e",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l07_03.wav",
       "sha256": "7d1d2992b44adee6be8a6b6645cdc6eb55b48c3d6162f14e2918f5c957e7aa9e",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l07_04.wav",
       "sha256": "de23ff9862192106f8b0ab062c76fbd584ca43381bc7e2ae72ac73fb0f28127f",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l08_01.wav",
       "sha256": "532300227e5abfa1a75b1e1fa3028ee69d3046a8b831d57bdb6163e73c155d83",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l08_03.wav",
       "sha256": "7fe523c6bc06c7c884bb2ac5027b1e6a92eee18a37dfb3e730610adb98823a24",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l09_01.wav",
       "sha256": "15dd6390889341302ff5cf8bb738bf3907275b6886ae4f834579f103eb56fd76",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l09_03.wav",
       "sha256": "10d953a3f52781deec873612e51917640038b1641ec132b8911f9f3056fabd51",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l10_01.wav",
       "sha256": "9c6f50ba334b2e42bf2eecd354939439c1007ab2170a9a127155466c4efceaea",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l10_03.wav",
       "sha256": "98f9faa52af502afe40b98cf03f122b6b41be92b4e995064059c062b0977308e",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_story_l11_02.wav",
       "sha256": "21f7b7f436e1a9fe4e51aadd994b177ff9a7cc6a1505212916b024cf7142a8e6",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_take_offline.wav",
       "sha256": "067962d5bdfb725e6b40b3068436adaf3d965e148cbecd86766183a09dcdfe79",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_unsubscribing.wav",
       "sha256": "43609200e026be5fee54dec515f9b3dfd9f02032dd45481b403e92d7406bd7d2",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_we_will_pass.wav",
       "sha256": "917c3c3b737ce3ecd85425587b4b488fca017ff66517fb68a90cd1392e7fdef1",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_who_wrote_this.wav",
       "sha256": "a69dccc37e11a8e72840e07a37479b70427b637e5a292abf531dc111c505d991",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/kristin_youre_in_the_round.wav",
       "sha256": "0c7b44478f6b43dd9e599db771f1adb84a90da8bba934616467a8856bf596a0c",
       "creator": "Piper voice: kristin",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-kristin-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_acqui_hired.wav",
       "sha256": "05921c9ae77bcb034dc9dd81542609b60eadd3dec3d233b1705cedb8ecdd8238",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_cannot_comment.wav",
       "sha256": "49998899a840ff56935d38cd86e254465b87f65663ee6abf80fa431f221a9586",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_does_not_compile.wav",
       "sha256": "5f829620c6ceac054a79e8b51bae6a797f42dcb49662a55f86a48b2955afaa8b",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_everybody_gets_a_ladder.wav",
       "sha256": "2029d2fe973172fdda5cea59a77af0d0c47e9ae665c96f9b8cbcb48e922b1c32",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_left_behind.wav",
       "sha256": "30e75e4464dcb99bc1523b98d82cd81c023e4a22745c69b47f6c2c4e9058389a",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_meeting_adjourned.wav",
       "sha256": "b94dbda4afbb27698b20083f2fa22a68fd37cd65ff89a430e78083bd2c12465b",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_my_valuation.wav",
       "sha256": "ebc1ffb44f101f28556781d739c71243547d3200acad5c44edcf779e0bf52139",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_not_gonna_make_it.wav",
       "sha256": "db4fa80927cd59aab21442a52ab666a9275f8e16edb9fa61bf95e8a426d4c3b2",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_not_in_term_sheet.wav",
       "sha256": "f3a5b55d4cd115c53877bce598a5c352975bbb3d839a8ef3390f904aa2acfd90",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_package_delivered.wav",
       "sha256": "ca4246bad829231c7d87786d20b6269b9e09823679656a9741f0dd7e0b1da768",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_pivoting.wav",
       "sha256": "5a9e0442d703974795b0b0786981d42834aecc8f2135890f35d79b390dd449b2",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_end_03.wav",
+      "sha256": "55d51119ca99aa4ca00af7e121f205c1ad01abb8011e925ae5ffb9a7a6133215",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_01.wav",
+      "sha256": "217b2fb9408e1dbfb6fb2566ac35325eb36942982fe6bac2a97fd1000abec65e",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_02.wav",
+      "sha256": "8aeecd606022cd59c5f2128be30bdf488456a12a667fcb0c45074a65ee8c243e",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_03.wav",
+      "sha256": "858a804adddc05a3a1826f02da1c124e6155d21be363c2822220c97af64c77c1",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_04.wav",
+      "sha256": "e8ad3196b027300a52fef109a345859e9ba5d2275d9abaa597517a20b8a603d2",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_05.wav",
+      "sha256": "7eec618dddcb2588646eef8f3666c0ada0b7907258b8ae49541970260ec5f3aa",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_06.wav",
+      "sha256": "89c5990b0dad8fc82b15c2320b64dce644b469a92f2bebdaf8af5b4f860c02a1",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_intro_07.wav",
+      "sha256": "4d1fdd48555854a2a1fd13ba304192daa04d2fc684526ecb228e64a74925ef14",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l02_01.wav",
+      "sha256": "2818ed31f6890b563630ebcd05e9d89d788e31c51f7e6a478a114b3d9b249001",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_story_l04_03.wav",
       "sha256": "28cf3a8fca114b7fb2d3708572dc9517e1a2aa9d0f5b44519f15e709fdd93853",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l05_02.wav",
+      "sha256": "6f71bcfd2d8aae38c8c350fe6cc660416f164cd97e1e23f000556eee72ee4608",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l06_01.wav",
+      "sha256": "c536f20ada33e4d72e107ed4522fc97f9b7c7e57ad0d035f725dfbb6913ae4a1",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l06_04.wav",
+      "sha256": "5f0d1b36f2cd5ceaff000fad8ebd457344081719d5b1d3ce4c58c59fb4261658",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l08_02.wav",
+      "sha256": "395a08c96e4119ef2e16f1d175d853f17af936f690b806411c40084e3ea86bc8",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l10_02.wav",
+      "sha256": "7d57567f0f5210309484b9e89ba9a08da101c08f86d0d9a0d3bfa0f994205335",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
+      "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
+    },
+    {
+      "path": "audio/voice/norman_story_l11_01.wav",
+      "sha256": "7582e08c2c22d0bcdd62eda6d5b581632dc4fb28b05f30f4097668ec293ba199",
+      "creator": "Piper voice: norman",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_take_offline.wav",
       "sha256": "302e54d34abd49ad2462ca005b170964bf0590d92b6d97af033ec60ec8f15c54",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_unsubscribing.wav",
       "sha256": "b1a54e625d74f6161fbad3f62301df14b59180ca7f5927ed1a160d682a5aa06c",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_we_will_pass.wav",
       "sha256": "c550dd72e1bc9787bab1bade079ecc8da75d9f4ebd33ceff0e8bc70ca7bf706d",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_who_wrote_this.wav",
       "sha256": "2536f7d479e4ad0207ea75ba8cf3c54a2329fb8816caeca8469475ac73cd5b9c",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "audio/voice/norman_youre_in_the_round.wav",
       "sha256": "61a47a2623c00156628d73f0347f6193f1c51947d12ff9ac5d9ef6d1be222857",
       "creator": "Piper voice: norman",
-      "license": "Public-domain voice dataset",
+      "license": "MIT; generated with a public-domain voice model",
       "notice": "voice-en_US-norman-medium.MODEL_CARD.txt"
     },
     {
       "path": "branding/cover-art.png",
       "sha256": "2f9cbd3340661755b5cf9d27dc1427c2a65a979f25cd7cb83bf89a4c4bab9c60",
       "creator": "Supplied by the project author",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "branding/yngm-logo.png",
       "sha256": "36ce9ff58276e13491f56e52906e77bbe4b37a02912a90ae13669e65ecd1f2bb",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "branding/yngm.ico",
       "sha256": "a6307578dde553cfc1760b7d5f76633572412d61a02f7b8d56b1bcc58f6d1bb0",
       "creator": "Original project content",
-      "license": "Project content; no third-party asset licence"
+      "license": "MIT"
     },
     {
       "path": "models/blasters/blaster-a.glb",
