@@ -6,6 +6,7 @@ import logging
 import shutil
 import subprocess
 from pathlib import Path
+from yngm_installer_artwork import create_installer_artwork
 from yngm_windows_resources import embed_windows_resources
 from yngm_unix_packages import ASSISTANT_HELP, build_linux_package, build_macos_package
 
@@ -16,12 +17,25 @@ KENNEY = {"blasters": "blaster-kit", "cars": "car-kit", "characters": "mini-char
           "city": "city-kit-commercial", "furniture": "furniture-kit",
           "roads": "city-kit-roads", "station": "space-station-kit"}
 
+JOE_VOICE_LICENSE = ("CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); "
+                     "excluded from the project's MIT licence")
+
 CREDITS = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
 Version 1.0.0
 
+GAME LICENCE
+Original game code, story, sound effects, logo and cover art:
+MIT licence, Copyright (c) 2026 Matthew Bright. Full text: licenses/YNGM-LICENSE.txt.
+Exceptions: the third-party components below keep their own licences, and the
+joe_*.wav voice clips are not MIT (see VOICES).
+
+FICTION
+This is satire. All characters, companies, products, startups, investors and AI
+models are fictional; any resemblance to real people or businesses is
+coincidental. Real places appear only as settings. No company or person depicted
+or parodied is affiliated with, endorses or sponsors this game.
+
 THIRD-PARTY CREDITS AND LICENCES
-These notices cover the named third-party components. They do not change
-ownership or licensing of the original game code, dialogue, sound effects or artwork.
 
 ENGINE
 Godot Engine 4.7.2: MIT / Expat licence.
@@ -59,19 +73,26 @@ Individual source URLs: licenses/PolyHaven.txt.
 Full CC0 legal text: licenses/CC0-1.0.txt.
 
 VOICES
-Prepared using Piper TTS with these voice datasets:
-Joe: CC0 dataset from the Open Home Foundation voice datasets.
-https://github.com/OHF-Voice/voice-datasets
+Generated offline with Piper TTS 1.8.0 (GPL-3.0-or-later, build tool only).
+https://github.com/OHF-Voice/piper1-gpl
 John, Kristin and Norman: public-domain LibriVox recordings, voice models
 prepared by Bryce Beattie. https://brycebeattie.com/files/tts/
+Joe: CC0 dataset from the Open Home Foundation voice datasets, but the model
+was fine-tuned from Piper's lessac voice, which was trained on the Blizzard
+Challenge 2013 Lessac data (research-only licence, no commercial use).
+The joe_*.wav clips are therefore excluded from the project's MIT licence and
+are distributed only as part of this free, non-commercial game.
+https://github.com/OHF-Voice/voice-datasets
 https://huggingface.co/rhasspy/piper-voices
 Original model cards: licenses/voice-*.txt.
 The distribution contains generated WAV recordings; no Piper executable,
 voice model, Python environment or development tool is included.
 
-SOUND EFFECTS AND LOGO
+SOUND EFFECTS, LOGO AND COVER ART
 Sound effects created for this game by tools/generate_sfx.py.
 YNGM logo created for this project; no external image reference assets used.
+Cover art supplied by the project author for this game. It is also used for the
+boot splash, loading screen and installer pictures.
 
 INSTALLER
 NSIS 3.13, copyright 1999-2026 Contributors, zlib/libpng licence.
@@ -81,6 +102,8 @@ Full unmodified NSIS licence notice: licenses/NSIS-COPYING.txt.
 Source: https://sourceforge.net/projects/nsis/files/NSIS%203/3.13/nsis-3.13-src.tar.bz2
 
 Asset-by-asset provenance and hashes: licenses/asset-manifest.json.
+Source code, build tools and the full legal notes (LEGAL.md):
+https://github.com/MBemera/YNGM
 """
 
 PLAYER_README = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM 1.0.0
@@ -154,6 +177,7 @@ def collect_asset_notices(project: Path, licenses: Path) -> None:
         shutil.copy2(voice, licenses / f"voice-{voice.name}")
     shutil.copy2(project / "installer/CC0-1.0.txt", licenses / "CC0-1.0.txt")
     shutil.copy2(project / "tools/nsis/nsis-3.13/COPYING", licenses / "NSIS-COPYING.txt")
+    shutil.copy2(project / "LICENSE", licenses / "YNGM-LICENSE.txt")
 
 def describe_asset(path: Path) -> dict:
     parts = path.parts
@@ -170,8 +194,10 @@ def describe_asset(path: Path) -> dict:
         voice = "joe" if path.name.startswith("intro_") else path.name.split("_", 1)[0]
         if voice not in ("joe", "john", "kristin", "norman"):
             raise ValueError(f"Unknown voice: {path}")
-        return {"creator": "Piper voice: " + voice, "license": "CC0 voice dataset" if voice == "joe" else "Public-domain voice dataset",
+        return {"creator": "Piper voice: " + voice, "license": JOE_VOICE_LICENSE if voice == "joe" else "Public-domain voice dataset",
                 "notice": f"voice-en_US-{voice}-medium.MODEL_CARD.txt"}
+    if parts[:2] == ("branding", "cover-art.png"):
+        return {"creator": "Supplied by the project author", "license": "Project content; no third-party asset licence"}
     if parts[:2] == ("audio", "sfx") or parts[0] == "branding":
         return {"creator": "Original project content", "license": "Project content; no third-party asset licence"}
     raise ValueError(f"Missing asset provenance: {path}")
@@ -224,9 +250,11 @@ def compile_installer(project: Path, package: Path) -> Path:
     compiler = project / "tools/nsis/nsis-3.13/makensis.exe"
     output = project / f"dist/YNGM-{VERSION}-Windows-x64-Setup.exe"
     output.parent.mkdir(exist_ok=True)
+    artwork = project / "build/installer-art"
     write_uninstall_files(project, package)
+    create_installer_artwork(project / "game/assets/branding/cover-art.png", artwork)
     run_command([str(compiler), "/V3", f"/DPROJECT_ROOT={project}", f"/DPACKAGE_ROOT={package}",
-                 f"/DOUTPUT_FILE={output}", str(project / "installer/yngm.nsi")],
+                 f"/DARTWORK_ROOT={artwork}", f"/DOUTPUT_FILE={output}", str(project / "installer/yngm.nsi")],
                 project / "installer", project / "installer/compile.log")
     return output
 
@@ -250,7 +278,7 @@ def build_unix_packages(project: Path) -> list[Path]:
     return [linux, macos]
 
 def describe_artifact(path: Path, platform: str, signing: str) -> dict:
-    return {"platform": platform, "file": str(path), "size_mb": round(path.stat().st_size / 1e6, 2),
+    return {"platform": platform, "file": path.name, "size_mb": round(path.stat().st_size / 1e6, 2),
             "sha256": hashlib.sha256(path.read_bytes()).hexdigest(), "signing": signing}
 
 def save_build_result(project: Path, installer: Path, linux: Path, macos: Path) -> None:
