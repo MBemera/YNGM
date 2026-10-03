@@ -1,0 +1,169 @@
+name: Release install check
+
+# Downloads the published release packages and installs and launches them on clean Linux and macOS runners.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to check, for example v1.0.1 (blank for the latest release)
+        required: false
+  pull_request:
+    paths:
+      - .github/workflows/release-install.yml
+
+permissions:
+  contents: read
+
+env:
+  GH_TOKEN: ${{ github.token }}
+  REQUESTED_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+  APP_NAME: Escape from the Permanent Underclass
+  FAILURE_PATTERN: "SCRIPT ERROR|Parse Error|crashed with signal"
+
+jobs:
+  linux:
+    name: Linux install (Ubuntu 24.04)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Download the release package and check its hash
+        run: |
+          tag="${REQUESTED_TAG:-$(gh release view --repo "$GITHUB_REPOSITORY" --json tagName --jq .tagName)}"
+          echo "Checking release $tag"
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern '*-Linux-x86_64.tar.gz'
+          package=$(ls *-Linux-x86_64.tar.gz)
+          gh api "repos/$GITHUB_REPOSITORY/contents/dist/build-result.json?ref=$tag" \
+            -H "Accept: application/vnd.github.raw" > build-result.json
+          expected=$(jq -r --arg file "$package" '.artifacts[] | select(.file == $file) | .sha256' build-result.json)
+          test -n "$expected"
+          echo "$expected  $package" | sha256sum --check --strict
+          echo "PACKAGE=$package" >> "$GITHUB_ENV"
+
+      - name: Install display and graphics libraries
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q xvfb libgl1-mesa-dri libglx-mesa0 libxcursor1 libxinerama1 libxrandr2 libxi6 \
+            desktop-file-utils imagemagick
+
+      - name: Run install.sh
+        run: |
+          tar -xzf "$PACKAGE"
+          cd YNGM
+          ./install.sh
+          test -x "$HOME/.local/share/yngm/YNGM.x86_64"
+          test -f "$HOME/.local/share/yngm/YNGM.pck"
+          desktop-file-validate "$HOME/.local/share/applications/yngm.desktop"
+          cat "$HOME/.local/share/applications/yngm.desktop"
+
+      - name: Launch the installed game headless
+        run: |
+          "$HOME/.local/share/yngm/YNGM.x86_64" --headless --audio-driver Dummy --quit-after 900 2>&1 | tee linux-headless.log
+          if grep -E "$FAILURE_PATTERN" linux-headless.log; then echo "::error::Errors in linux-headless.log"; exit 1; fi
+
+      - name: Launch the installed game in a window and take a screenshot
+        env:
+          DISPLAY: ":99"
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: |
+          Xvfb :99 -screen 0 1280x720x24 &
+          sleep 2
+          "$HOME/.local/share/yngm/YNGM.x86_64" --display-driver x11 --audio-driver Dummy > linux-window.log 2>&1 &
+          game=$!
+          sleep 45
+          kill -0 "$game"
+          import -window root linux-game.png
+          kill "$game"
+          wait "$game" || true
+          cat linux-window.log
+          if grep -E "$FAILURE_PATTERN" linux-window.log; then echo "::error::Errors in linux-window.log"; exit 1; fi
+          spread=$(convert linux-game.png -colorspace Gray -format "%[fx:standard_deviation]" info:)
+          echo "Screenshot brightness spread: $spread"
+          awk -v spread="$spread" 'BEGIN { exit !(spread > 0.05) }'
+
+      - name: Uninstall
+        run: |
+          "$HOME/.local/share/yngm/install.sh" --uninstall
+          test ! -e "$HOME/.local/share/yngm"
+          test ! -e "$HOME/.local/share/applications/yngm.desktop"
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: linux-install
+          path: |
+            linux-*.log
+            linux-game.png
+          if-no-files-found: ignore
+
+  macos:
+    name: macOS install (${{ matrix.runner }})
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [macos-15, macos-15-intel]
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 20
+    steps:
+      - name: Download the release package and check its hash
+        run: |
+          tag="${REQUESTED_TAG:-$(gh release view --repo "$GITHUB_REPOSITORY" --json tagName --jq .tagName)}"
+          echo "Checking release $tag on $(uname -m)"
+          gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern '*-macOS-universal.zip'
+          package=$(ls *-macOS-universal.zip)
+          gh api "repos/$GITHUB_REPOSITORY/contents/dist/build-result.json?ref=$tag" \
+            -H "Accept: application/vnd.github.raw" > build-result.json
+          expected=$(jq -r --arg file "$package" '.artifacts[] | select(.file == $file) | .sha256' build-result.json)
+          test -n "$expected"
+          echo "$expected  $package" | shasum -a 256 --check
+          echo "PACKAGE=$package" >> "$GITHUB_ENV"
+          echo "VERSION=${tag#v}" >> "$GITHUB_ENV"
+
+      - name: Install into Applications
+        run: |
+          ditto -x -k "$PACKAGE" extracted
+          ditto "extracted/$APP_NAME.app" "/Applications/$APP_NAME.app"
+          echo "APP=/Applications/$APP_NAME.app" >> "$GITHUB_ENV"
+
+      - name: Check the signature, architectures and version
+        run: |
+          codesign --verify --deep --strict --verbose=2 "$APP"
+          archs=$(lipo -archs "$APP/Contents/MacOS/$APP_NAME")
+          echo "Architectures: $archs"
+          case " $archs " in *" $(uname -m) "*) ;; *) echo "Missing $(uname -m)"; exit 1 ;; esac
+          test "$(plutil -extract CFBundleShortVersionString raw "$APP/Contents/Info.plist")" = "$VERSION"
+
+      - name: Launch the installed app headless
+        run: |
+          "$APP/Contents/MacOS/$APP_NAME" --headless --audio-driver Dummy --quit-after 900 2>&1 | tee macos-headless.log
+          if grep -E "$FAILURE_PATTERN" macos-headless.log; then echo "::error::Errors in macos-headless.log"; exit 1; fi
+
+      - name: Open the installed app and take a screenshot
+        run: |
+          open -n "$APP" --args --audio-driver Dummy
+          sleep 45
+          pgrep -f "$APP/Contents/MacOS/$APP_NAME"
+          screencapture -x "macos-game-$(uname -m).png" || echo "::notice::screencapture is not permitted on this runner"
+          pkill -f "$APP/Contents/MacOS/$APP_NAME" || true
+          sleep 3
+          window_log="macos-window-$(uname -m).log"
+          log_file=$(find "$HOME/Library/Application Support/Godot/app_userdata" -name godot.log | head -n 1)
+          test -n "$log_file"
+          cp "$log_file" "$window_log"
+          cat "$window_log"
+          if grep -E "$FAILURE_PATTERN" "$window_log"; then echo "::error::Errors in $window_log"; exit 1; fi
+
+      - name: Uninstall
+        run: |
+          rm -rf "$APP" "$HOME/Library/Application Support/Godot/app_userdata/$APP_NAME"
+          test ! -e "$APP"
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: macos-install-${{ matrix.runner }}
+          path: |
+            macos-*.log
+            macos-game-*.png
+          if-no-files-found: ignore

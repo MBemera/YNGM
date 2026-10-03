@@ -213,7 +213,7 @@ const CONFIGS := {
 		"collision_height": 5.2,
 		"animations": {"idle": "Idle", "move": "Walking", "attack": "Punch", "defeat": "ThumbsUp", "exit": "ThumbsUp"},
 		"tint": Color(1.0, 0.72, 0.15, 0.3),
-		"voice": "joe",
+		"voice": "norman",
 		"health": 2600,
 		"move_speed": 2.6,
 		"min_range": 8.0,

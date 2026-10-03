@@ -11,23 +11,20 @@ from yngm_windows_resources import embed_windows_resources
 from yngm_unix_packages import ASSISTANT_HELP, build_linux_package, build_macos_package
 
 PROJECT = Path(__file__).resolve().parents[2]
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 TITLE = "Escape from the Permanent Underclass"
+WINDOWS_PACKAGE_ENTRIES = {"YNGM.exe", "YNGM.pck", "README.txt", "CREDITS-AND-LICENSES.txt", "yngm.ico", "licenses"}
 KENNEY = {"blasters": "blaster-kit", "cars": "car-kit", "characters": "mini-characters",
           "city": "city-kit-commercial", "furniture": "furniture-kit",
           "roads": "city-kit-roads", "station": "space-station-kit"}
 
-JOE_VOICE_LICENSE = ("CC0 dataset; model fine-tuned from Piper lessac (Blizzard 2013 research-only licence); "
-                     "excluded from the project's MIT licence")
-
 CREDITS = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
-Version 1.0.0
+Version 1.0.1
 
 GAME LICENCE
-Original game code, story, sound effects, logo and cover art:
+Original game code, story, voice clips, sound effects, logo and cover art:
 MIT licence, Copyright (c) 2026 Matthew Bright. Full text: licenses/YNGM-LICENSE.txt.
-Exceptions: the third-party components below keep their own licences, and the
-joe_*.wav voice clips are not MIT (see VOICES).
+The third-party components below keep their own licences.
 
 FICTION
 This is satire. All characters, companies, products, startups, investors and AI
@@ -43,6 +40,9 @@ Copyright 2014-present Godot Engine contributors.
 Copyright 2007-2014 Juan Linietsky, Ariel Manzur.
 https://godotengine.org/license/
 Full engine and third-party notices, including embedded fonts, are in licenses/.
+Portions of this software are copyright (c) The FreeType Project (www.freetype.org).
+All rights reserved.
+This software is based in part on the work of the Independent JPEG Group.
 Corresponding engine and embedded-library source:
 https://github.com/godotengine/godot/tree/4.7.2-stable
 https://github.com/godotengine/godot/archive/refs/tags/4.7.2-stable.tar.gz
@@ -75,14 +75,9 @@ Full CC0 legal text: licenses/CC0-1.0.txt.
 VOICES
 Generated offline with Piper TTS 1.8.0 (GPL-3.0-or-later, build tool only).
 https://github.com/OHF-Voice/piper1-gpl
-John, Kristin and Norman: public-domain LibriVox recordings, voice models
-prepared by Bryce Beattie. https://brycebeattie.com/files/tts/
-Joe: CC0 dataset from the Open Home Foundation voice datasets, but the model
-was fine-tuned from Piper's lessac voice, which was trained on the Blizzard
-Challenge 2013 Lessac data (research-only licence, no commercial use).
-The joe_*.wav clips are therefore excluded from the project's MIT licence and
-are distributed only as part of this free, non-commercial game.
-https://github.com/OHF-Voice/voice-datasets
+Voices: Kristin and Norman (trained from scratch) and John (fine-tuned from
+Kristin), all trained by Bryce Beattie on public-domain LibriVox recordings.
+https://brycebeattie.com/files/tts/
 https://huggingface.co/rhasspy/piper-voices
 Original model cards: licenses/voice-*.txt.
 The distribution contains generated WAV recordings; no Piper executable,
@@ -106,7 +101,7 @@ Source code, build tools and the full legal notes (LEGAL.md):
 https://github.com/MBemera/YNGM
 """
 
-PLAYER_README = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM 1.0.0
+PLAYER_README = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM 1.0.1
 
 Run YNGM.exe, or use the installed Start-menu shortcut.
 Windows 10/11 x64; keyboard and mouse; OpenGL 3.3 compatible graphics.
@@ -191,15 +186,15 @@ def describe_asset(path: Path) -> dict:
         identifier = parts[1] if parts[0] == "textures" else "the_sky_is_on_fire"
         return {"creator": "Poly Haven", "license": "CC0-1.0", "source": "https://polyhaven.com/a/" + identifier}
     if parts[:2] == ("audio", "voice"):
-        voice = "joe" if path.name.startswith("intro_") else path.name.split("_", 1)[0]
-        if voice not in ("joe", "john", "kristin", "norman"):
+        voice = path.name.split("_", 1)[0]
+        if voice not in ("john", "kristin", "norman"):
             raise ValueError(f"Unknown voice: {path}")
-        return {"creator": "Piper voice: " + voice, "license": JOE_VOICE_LICENSE if voice == "joe" else "Public-domain voice dataset",
+        return {"creator": "Piper voice: " + voice, "license": "MIT; generated with a public-domain voice model",
                 "notice": f"voice-en_US-{voice}-medium.MODEL_CARD.txt"}
     if parts[:2] == ("branding", "cover-art.png"):
-        return {"creator": "Supplied by the project author", "license": "Project content; no third-party asset licence"}
+        return {"creator": "Supplied by the project author", "license": "MIT"}
     if parts[:2] == ("audio", "sfx") or parts[0] == "branding":
-        return {"creator": "Original project content", "license": "Project content; no third-party asset licence"}
+        return {"creator": "Original project content", "license": "MIT"}
     raise ValueError(f"Missing asset provenance: {path}")
 
 def write_asset_manifest(project: Path, licenses: Path) -> None:
@@ -225,7 +220,8 @@ def prepare_package_notices(project: Path, package: Path) -> None:
     write_text(licenses / "CREDITS-AND-LICENSES.txt", CREDITS)
     write_text(package / "CREDITS-AND-LICENSES.txt", CREDITS)
     write_text(package / "README.txt", PLAYER_README + "\n" + ASSISTANT_HELP.format(readme="README.txt"))
-    shutil.copytree(licenses, package / "licenses", dirs_exist_ok=True)
+    shutil.rmtree(package / "licenses", ignore_errors=True)
+    shutil.copytree(licenses, package / "licenses")
     shutil.copy2(project / "game/assets/branding/yngm.ico", package / "yngm.ico")
 
 def export_game(project: Path, package: Path) -> None:
@@ -235,8 +231,19 @@ def export_game(project: Path, package: Path) -> None:
     run_command([str(engine), "--headless", "--path", str(project / "game"), "--export-release",
                  "Windows Desktop", str(package / "YNGM.exe")], project / "game", project / "installer/export.log")
     embed_windows_resources(package / "YNGM.exe", package / "yngm.ico", VERSION, TITLE)
+    remove_resource_update_leftovers(package)
     if not (package / "YNGM.pck").is_file():
         raise RuntimeError("Release export did not produce its game pack")
+
+def remove_resource_update_leftovers(package: Path) -> None:
+    for leftover in package.glob("YNGM.exe~RF*.TMP"):
+        leftover.unlink()
+        logging.info("Removed resource-update leftover %s", leftover.name)
+
+def check_package_contents(package: Path) -> None:
+    unexpected = sorted(path.name for path in package.iterdir() if path.name not in WINDOWS_PACKAGE_ENTRIES)
+    if unexpected:
+        raise RuntimeError(f"Unexpected files in the Windows package: {unexpected}")
 
 def write_uninstall_files(project: Path, package: Path) -> None:
     files = sorted((path.relative_to(package) for path in package.rglob("*") if path.is_file()), reverse=True)
@@ -250,6 +257,7 @@ def compile_installer(project: Path, package: Path) -> Path:
     compiler = project / "tools/nsis/nsis-3.13/makensis.exe"
     output = project / f"dist/YNGM-{VERSION}-Windows-x64-Setup.exe"
     output.parent.mkdir(exist_ok=True)
+    check_package_contents(package)
     artwork = project / "build/installer-art"
     write_uninstall_files(project, package)
     create_installer_artwork(project / "game/assets/branding/cover-art.png", artwork)

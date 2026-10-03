@@ -2,10 +2,10 @@
 
 `python tools/packaging/build-yngm.py`, run from the project root on Windows, builds:
 
-- `dist/YNGM-1.0.0-Windows-x64-Setup.exe`: a per-user NSIS installer. No admin prompt; Start-menu shortcuts
+- `dist/YNGM-1.0.1-Windows-x64-Setup.exe`: a per-user NSIS installer. No admin prompt; Start-menu shortcuts
   for the game, credits and uninstaller; optional desktop shortcut.
-- `dist/YNGM-1.0.0-Linux-x86_64.tar.gz`: the game, `install.sh` and `README-LINUX.txt`.
-- `dist/YNGM-1.0.0-macOS-universal.zip`: an ad-hoc signed universal app (Apple Silicon and Intel) and
+- `dist/YNGM-1.0.1-Linux-x86_64.tar.gz`: the game, `install.sh` and `README-LINUX.txt`.
+- `dist/YNGM-1.0.1-macOS-universal.zip`: an ad-hoc signed universal app (Apple Silicon and Intel) and
   `README-MACOS.txt`.
 
 Sizes and SHA-256 hashes are written to `dist/build-result.json`. The packages themselves are published as

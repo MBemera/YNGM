@@ -51,6 +51,7 @@ func run_all_tests() -> void:
 	await test_boss_enrages_and_final_boss_plays_the_ending()
 	test_going_to_the_next_level_updates_progress()
 	test_every_story_line_has_a_voice_clip()
+	test_every_voice_clip_uses_a_listed_voice()
 	await test_menu_difficulty_change_rebuilds_the_level()
 	await test_level_select_requests_the_chosen_level()
 	await test_board_bosses_can_be_beaten_one_at_a_time()
@@ -841,3 +842,15 @@ func test_loading_screen_scrolls_tips() -> void:
 	check(is_equal_approx(loading_screen.target_progress, 0.4), "progress never moves backwards")
 	loading_screen.queue_free()
 	await process_frame
+
+
+func test_every_voice_clip_uses_a_listed_voice() -> void:
+	var unexpected: Array[String] = []
+	var clip_count := 0
+	for file_name: String in ResourceLoader.list_directory(AudioBank.VOICE_FOLDER):
+		if not file_name.ends_with(".wav"):
+			continue
+		clip_count += 1
+		if not AudioBank.VOICES.has(file_name.get_slice("_", 0)):
+			unexpected.append(file_name)
+	check(clip_count > 0 and unexpected.is_empty(), "all %d voice clips use the listed public-domain voices (unexpected %s)" % [clip_count, unexpected])

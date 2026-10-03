@@ -1,11 +1,10 @@
 ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
-Version 1.0.0
+Version 1.0.1
 
 GAME LICENCE
-Original game code, story, sound effects, logo and cover art:
+Original game code, story, voice clips, sound effects, logo and cover art:
 MIT licence, Copyright (c) 2026 Matthew Bright. Full text: licenses/YNGM-LICENSE.txt.
-Exceptions: the third-party components below keep their own licences, and the
-joe_*.wav voice clips are not MIT (see VOICES).
+The third-party components below keep their own licences.
 
 FICTION
 This is satire. All characters, companies, products, startups, investors and AI
@@ -21,6 +20,9 @@ Copyright 2014-present Godot Engine contributors.
 Copyright 2007-2014 Juan Linietsky, Ariel Manzur.
 https://godotengine.org/license/
 Full engine and third-party notices, including embedded fonts, are in licenses/.
+Portions of this software are copyright (c) The FreeType Project (www.freetype.org).
+All rights reserved.
+This software is based in part on the work of the Independent JPEG Group.
 Corresponding engine and embedded-library source:
 https://github.com/godotengine/godot/tree/4.7.2-stable
 https://github.com/godotengine/godot/archive/refs/tags/4.7.2-stable.tar.gz
@@ -53,14 +55,9 @@ Full CC0 legal text: licenses/CC0-1.0.txt.
 VOICES
 Generated offline with Piper TTS 1.8.0 (GPL-3.0-or-later, build tool only).
 https://github.com/OHF-Voice/piper1-gpl
-John, Kristin and Norman: public-domain LibriVox recordings, voice models
-prepared by Bryce Beattie. https://brycebeattie.com/files/tts/
-Joe: CC0 dataset from the Open Home Foundation voice datasets, but the model
-was fine-tuned from Piper's lessac voice, which was trained on the Blizzard
-Challenge 2013 Lessac data (research-only licence, no commercial use).
-The joe_*.wav clips are therefore excluded from the project's MIT licence and
-are distributed only as part of this free, non-commercial game.
-https://github.com/OHF-Voice/voice-datasets
+Voices: Kristin and Norman (trained from scratch) and John (fine-tuned from
+Kristin), all trained by Bryce Beattie on public-domain LibriVox recordings.
+https://brycebeattie.com/files/tts/
 https://huggingface.co/rhasspy/piper-voices
 Original model cards: licenses/voice-*.txt.
 The distribution contains generated WAV recordings; no Piper executable,

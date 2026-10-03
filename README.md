@@ -11,6 +11,19 @@ wait for you. Codename **YNGM**.
 **[Download the latest release](https://github.com/MBemera/YNGM/releases/latest)** for Windows 10/11, Linux x86_64 or
 macOS 11+. Free, offline, no account.
 
+## Support breast cancer research
+
+The game is free and stays free whether or not you donate. If you play it, like it, or just want to support the
+cause, please give to my fundraiser for the National Breast Cancer Foundation:
+
+### **[Donate on my NBCF fundraising page: "You are gunna make it"](https://fundraise.nbcf.org.au/fundraisers/matthewbright/you-are-gunna-make-it)**
+
+Donations go straight to NBCF, which issues the receipts. Gifts of $2 or more are tax-deductible in Australia. I
+never hold the money, and donating doesn't unlock anything in the game.
+
+Proud Community Supporter of the National Breast Cancer Foundation. This game is my own project. It is not run,
+produced or endorsed by NBCF.
+
 ## The story
 
 Preston Exitwell, founder and CEO of Overclass, has announced "the transition". His flagship model, OMEGA, now does
@@ -63,17 +76,17 @@ a mouse and OpenGL 3.3-class graphics.
 
 ### Windows 10/11 (64-bit)
 
-1. Download `YNGM-1.0.0-Windows-x64-Setup.exe` from [Releases](https://github.com/MBemera/YNGM/releases/latest).
+1. Download `YNGM-1.0.1-Windows-x64-Setup.exe` from [Releases](https://github.com/MBemera/YNGM/releases/latest).
 2. Run it. The installer is not code-signed, so SmartScreen may warn you: choose **More info > Run anyway**.
 3. It installs for your user only (no admin prompt) to `%LOCALAPPDATA%\Programs\YNGM` and adds a Start-menu
    shortcut, plus a desktop shortcut if you tick it.
 
-To uninstall, use Windows **Installed apps** or `Uninstall.exe` in the game folder. Silent install: `YNGM-1.0.0-Windows-x64-Setup.exe /S`.
+To uninstall, use Windows **Installed apps** or `Uninstall.exe` in the game folder. Silent install: `YNGM-1.0.1-Windows-x64-Setup.exe /S`.
 
 ### Linux (x86_64)
 
 ```sh
-tar -xzf YNGM-1.0.0-Linux-x86_64.tar.gz
+tar -xzf YNGM-1.0.1-Linux-x86_64.tar.gz
 cd YNGM
 ./install.sh            # copies to ~/.local/share/yngm and adds a menu entry
 ```
@@ -82,7 +95,7 @@ To run without installing, use `./YNGM.x86_64`. To uninstall, run `~/.local/shar
 
 ### macOS (Apple Silicon on 13+, Intel on 11+)
 
-1. Unzip `YNGM-1.0.0-macOS-universal.zip` and drag the app into Applications.
+1. Unzip `YNGM-1.0.1-macOS-universal.zip` and drag the app into Applications.
 2. The app is ad-hoc signed but not notarised, so the first time you open it, right-click it and choose **Open**, then
    **Open** again.
 
@@ -93,8 +106,8 @@ Each package README ends with a request you can paste into Claude Code or Codex,
 > Install "Escape from the Permanent Underclass" from the download in this folder. Read the README in the download
 > and follow its steps exactly. Do not change anything else on my computer, and tell me what you did.
 
-The Linux and macOS builds were exported and checked on Windows (binary format, permissions, signing, package
-contents, and the game pack passing the test suite). They have not yet been run on real Linux or Mac hardware.
+Each release's Linux and macOS packages are installed and launched on clean GitHub runners (Ubuntu 24.04, and macOS 15
+on Apple Silicon and Intel). They have not been played on a physical Linux PC or Mac.
 
 ## Controls
 
@@ -135,7 +148,11 @@ python -m pytest tools/packaging                                                
 ```
 
 [GitHub Actions](.github/workflows/tests.yml) runs all three on every push and pull request, using the official
-Godot 4.7.2 Linux build with its checksum verified. `game/tests/autoplay/` also contains a frame-rate benchmark and
+Godot 4.7.2 Linux build with its checksum verified. Every published release is also downloaded and installed on clean
+GitHub runners ([release install check](.github/workflows/release-install.yml)). On Ubuntu 24.04 it checks the hash,
+runs `install.sh`, launches the game headless and in a window with a screenshot, and uninstalls. On macOS 15, on both
+Apple Silicon and Intel, it installs to Applications, verifies the signature and architectures, launches the app
+headless and through `open`, and removes it. `game/tests/autoplay/` also contains a frame-rate benchmark and
 a bot that plays the whole campaign.
 
 ## Repository layout
@@ -151,9 +168,9 @@ a bot that plays the whole campaign.
 ## Legal
 
 Everything here is fictional satire: no real company, product or person is depicted, and none is affiliated with
-the game. The original code and content are [MIT licensed](LICENSE). Third-party assets (Godot, Kenney, Quaternius,
-Poly Haven, Poly Pizza, NSIS) keep their own licences, nearly all CC0 or MIT. The `joe_*.wav` voice clips are
-excluded from MIT because of their training-data licence.
+the game. Everything is free and open source. The original code and content, including every voice clip, are
+[MIT licensed](LICENSE). Third-party assets and tools (Godot, Kenney, Quaternius, Poly Haven, Poly Pizza, NSIS) keep
+their own open licences, mostly CC0 or MIT.
 
 [LEGAL.md](LEGAL.md) has the full list of tools and assets, licences, voice provenance, AI-assistance disclosure,
 trademark notes and privacy statement.

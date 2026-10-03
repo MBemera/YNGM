@@ -1,4 +1,4 @@
-"""Generate every voice clip in the game with Piper TTS and public-domain/CC0 voices.
+"""Generate every voice clip in the game with Piper TTS and public-domain LibriVox voices.
 
 Existing clips are kept; only missing clips are synthesised.
 Run: tools\\tts\\venv\\Scripts\\python tools\\generate_voice.py
@@ -16,7 +16,6 @@ OUTPUT_DIRECTORY = PROJECT_ROOT / "game" / "assets" / "audio" / "voice"
 STORY_DIRECTORY = PROJECT_ROOT / "game" / "data" / "story"
 CAST_FILE = STORY_DIRECTORY / "cast.json"
 VOICES = {
-    "joe": "en_US-joe-medium.onnx",
     "norman": "en_US-norman-medium.onnx",
     "kristin": "en_US-kristin-medium.onnx",
     "john": "en_US-john-medium.onnx",
