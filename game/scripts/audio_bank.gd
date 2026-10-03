@@ -23,7 +23,7 @@ const ALARM := preload("res://assets/audio/sfx/alarm.wav")
 const SLAM := preload("res://assets/audio/sfx/slam.wav")
 
 const VOICE_FOLDER := "res://assets/audio/voice/"
-const VOICES: Array[String] = ["joe", "norman", "kristin", "john"]
+const VOICES: Array[String] = ["norman", "kristin", "john"]
 const YELL_LINE_IDS: Array[String] = ["left_behind", "not_gonna_make_it"]
 const DEFEAT_LINE_IDS: Array[String] = [
 	"we_will_pass", "pivoting", "acqui_hired", "take_offline", "unsubscribing", "package_delivered",
