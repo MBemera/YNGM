@@ -422,7 +422,7 @@ func is_target_in_attack_range() -> bool:
 
 
 func claim_ranged_attack_slot() -> bool:
-	var now_msec := Time.get_ticks_msec()
+	var now_msec := GameClock.get_msec()
 	if now_msec < next_ranged_attack_msec:
 		return false
 	next_ranged_attack_msec = now_msec + MIN_MSEC_BETWEEN_RANGED_ATTACKS
@@ -613,7 +613,7 @@ func yell() -> void:
 
 
 func claim_voice_slot() -> bool:
-	var now_msec := Time.get_ticks_msec()
+	var now_msec := GameClock.get_msec()
 	if now_msec - last_yell_msec < MIN_MSEC_BETWEEN_ANY_YELLS:
 		return false
 	last_yell_msec = now_msec

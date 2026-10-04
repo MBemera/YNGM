@@ -165,7 +165,7 @@ func handle_gameplay_input(event: InputEvent) -> void:
 
 
 func handle_won_input(event: InputEvent) -> void:
-	if Time.get_ticks_msec() - result_shown_msec < RESULT_INPUT_DELAY_MSEC:
+	if GameClock.get_msec() - result_shown_msec < RESULT_INPUT_DELAY_MSEC:
 		return
 	if event.is_action_pressed("restart"):
 		restart_level()
@@ -442,7 +442,7 @@ func complete_level() -> void:
 	level.on_completed(self, player)
 	SaveData.unlock_level(mini(level.number + 1, LevelCatalog.get_count()))
 	AudioBank.play_ui(self, AudioBank.WIN)
-	result_shown_msec = Time.get_ticks_msec()
+	result_shown_msec = GameClock.get_msec()
 	if LevelCatalog.is_final_level(level.number):
 		start_ending()
 		return
