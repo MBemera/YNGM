@@ -5,21 +5,21 @@
       "platform": "Windows x64",
       "file": "YNGM-1.0.2-Windows-x64-Setup.exe",
       "size_mb": 101.59,
-      "sha256": "849cfc2cd9f3c71c28fcffe03f93022fdbe579fe3d184cdf59d83a59ba5d22de",
+      "sha256": "c19a1719ac6b081121f0bcf33814afdcee2194ea0d5fce5c519149fb0d67f1fe",
       "signing": "unsigned"
     },
     {
       "platform": "Linux x86_64",
       "file": "YNGM-1.0.2-Linux-x86_64.tar.gz",
       "size_mb": 92.08,
-      "sha256": "ea8b0aa93c97ef31c11c12d4699c16b7aeb451e1e8222ca62644202f12de0270",
+      "sha256": "b56f078f9350a317d07d492be00a40205d34a0e3bf24d91ada7d588cc1ac484e",
       "signing": "not applicable"
     },
     {
       "platform": "macOS universal (Apple Silicon + Intel)",
       "file": "YNGM-1.0.2-macOS-universal.zip",
       "size_mb": 124.66,
-      "sha256": "02a3fe18a0a5b5216ca1cf3a32755697dc0664f685c5e11610070ea6a672b042",
+      "sha256": "1e1107196ae58052faaee679e9ab3468a3ff34d3a5c9329bbe79770a1d4ec710",
       "signing": "ad-hoc signed, not notarised"
     }
   ]
