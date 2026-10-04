@@ -41,6 +41,33 @@ static func get_world_bounds(root: Node3D) -> AABB:
 	return bounds
 
 
+static func get_front_point(root: Node3D, space: Node3D, depth_tolerance := 0.015) -> Vector3:
+	var vertices := collect_vertices(root, space)
+	if vertices.is_empty():
+		return Vector3.ZERO
+	var front_z := INF
+	for vertex: Vector3 in vertices:
+		front_z = minf(front_z, vertex.z)
+	var total := Vector3.ZERO
+	var count := 0
+	for vertex: Vector3 in vertices:
+		if vertex.z <= front_z + depth_tolerance:
+			total += vertex
+			count += 1
+	return total / count
+
+
+static func collect_vertices(root: Node3D, space: Node3D) -> PackedVector3Array:
+	var vertices := PackedVector3Array()
+	var to_space := space.global_transform.affine_inverse()
+	for mesh_instance: MeshInstance3D in root.find_children("*", "MeshInstance3D", true, false):
+		var to_local := to_space * mesh_instance.global_transform
+		for surface_index: int in mesh_instance.mesh.get_surface_count():
+			for vertex: Vector3 in mesh_instance.mesh.surface_get_arrays(surface_index)[Mesh.ARRAY_VERTEX]:
+				vertices.append(to_local * vertex)
+	return vertices
+
+
 static func add_collider_around(parent: Node3D, model: Node3D) -> StaticBody3D:
 	var bounds := get_world_bounds(model)
 	return LevelBuilder.add_collider(parent, bounds.size, bounds.get_center())

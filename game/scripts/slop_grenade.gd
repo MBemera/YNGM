@@ -5,6 +5,8 @@ const WORLD_LAYER := 1
 const ENEMY_LAYER := 4
 const MODEL_PATH := Models.BLASTERS + "grenade-a.glb"
 const MODEL_LENGTH := 0.3
+const THROWN_START_SCALE := 0.37
+const THROWN_GROW_SECONDS := 0.25
 const COLLISION_RADIUS := 0.12
 const FUSE_SECONDS := 1.6
 const BLAST_RADIUS := 7.0
@@ -83,12 +85,16 @@ func add_collision_shape() -> void:
 
 
 func add_model() -> void:
-	var model := Models.spawn(self, MODEL_PATH, Vector3.ZERO)
+	var visual := Node3D.new()
+	add_child(visual)
+	var model := Models.spawn(visual, MODEL_PATH, Vector3.ZERO)
 	var bounds := Models.get_world_bounds(model)
 	var longest_side := maxf(bounds.size.x, maxf(bounds.size.y, bounds.size.z))
 	model.scale = Vector3.ONE * (MODEL_LENGTH / longest_side)
 	model.position = -to_local(Models.get_world_bounds(model).get_center())
 	paint_slop(model)
+	visual.scale = Vector3.ONE * THROWN_START_SCALE
+	visual.create_tween().tween_property(visual, "scale", Vector3.ONE, THROWN_GROW_SECONDS)
 
 
 func add_glow() -> void:

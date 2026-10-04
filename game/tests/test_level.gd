@@ -45,6 +45,11 @@ func run_all_tests() -> void:
 	await test_hype_railgun_pierces_a_line_of_enemies()
 	await test_valuation_bubble_pops_with_splash_damage()
 	await test_disruptor_chains_between_enemies()
+	await test_shots_leave_from_the_barrel_tip()
+	await test_beams_start_at_the_barrel()
+	await test_weapons_hit_what_the_crosshair_is_on()
+	await test_thrown_grenade_leaves_the_hand()
+	await test_point_blank_shot_stays_on_this_side_of_a_wall()
 	await test_destroy_stage_opens_the_door_and_exit_wins()
 	await test_survive_stage_opens_the_elevator()
 	await test_timed_reach_fails_when_the_clock_runs_out()
@@ -569,6 +574,94 @@ func test_disruptor_chains_between_enemies() -> void:
 	player.fire_weapon()
 	var damaged := enemies.filter(func(enemy: Enemy) -> bool: return enemy.health < enemy.max_health)
 	check(damaged.size() == 3, "the disruptor arcs through all three enemies (%d hit)" % damaged.size())
+	await unload_main(main)
+
+
+func test_shots_leave_from_the_barrel_tip() -> void:
+	var main = await load_main()
+	var player := await prepare_weapon_range(main)
+	for weapon_index: int in Weapons.ALL.size():
+		player.select_weapon(weapon_index)
+		await process_frame
+		var muzzle := player.get_muzzle_position()
+		var bounds := Models.get_world_bounds(player.weapon_model).grow(0.02)
+		var is_at_front := muzzle.z <= bounds.position.z + 0.04
+		check(bounds.has_point(muzzle) and is_at_front, "%s shots leave from the front of the gun model" % Weapons.get_weapon(weapon_index)["name"])
+	await unload_main(main)
+
+
+func test_beams_start_at_the_barrel() -> void:
+	var main = await load_main()
+	var player := await prepare_weapon_range(main)
+	spawn_test_enemy(main, EnemyTypes.LAB_BOT, Vector3(0, 0.1, -8))
+	await wait_physics_seconds(0.1)
+	for weapon_index: int in [4, 6]:
+		player.select_weapon(weapon_index)
+		await process_frame
+		var muzzle := player.get_muzzle_position()
+		player.fire_cooldown_left = 0.0
+		player.fire_weapon()
+		var nearest := INF
+		for segment: MeshInstance3D in find_children_of_type(main, MeshInstance3D):
+			var box := segment.mesh as BoxMesh
+			if box != null:
+				nearest = minf(nearest, get_segment_start(segment, box).distance_to(muzzle))
+		check(nearest < 0.05, "the %s beam starts at the barrel (%.2f m away)" % [Weapons.get_weapon(weapon_index)["name"], nearest])
+		await wait_physics_seconds(0.7)
+	await unload_main(main)
+
+
+func get_segment_start(segment: MeshInstance3D, box: BoxMesh) -> Vector3:
+	return segment.global_position + segment.global_transform.basis.z.normalized() * box.size.z * 0.5
+
+
+func test_weapons_hit_what_the_crosshair_is_on() -> void:
+	var ranges := {0: 30.0, 1: 8.0, 3: 30.0, 4: 30.0, 5: 12.0, 6: 25.0}
+	var main = await load_main()
+	var player := await prepare_weapon_range(main)
+	for weapon_index: int in ranges:
+		var enemy: Enemy = main.spawn_enemy({"type": EnemyTypes.LAB_BOT, "position": Vector3(0, 0.1, 4.0 - ranges[weapon_index]), "health_scale": 20.0})
+		await wait_physics_seconds(0.1)
+		enemy.set_physics_process(false)
+		aim_player_at(player, enemy.global_position + Vector3.UP * 1.1)
+		player.select_weapon(weapon_index)
+		player.fire_cooldown_left = 0.0
+		player.fire_weapon()
+		await wait_physics_seconds(1.9)
+		check(enemy.health < enemy.max_health, "the %s hits an enemy %.0f m away under the crosshair" % [Weapons.get_weapon(weapon_index)["name"], ranges[weapon_index]])
+		enemy.queue_free()
+		await wait_physics_seconds(0.1)
+	await unload_main(main)
+
+
+func aim_player_at(player: Player, point: Vector3) -> void:
+	var direction := point - player.camera.global_position
+	player.rotation.y = atan2(-direction.x, -direction.z)
+	player.head.rotation.x = atan2(direction.y, Vector2(direction.x, direction.z).length())
+
+
+func test_thrown_grenade_leaves_the_hand() -> void:
+	var main = await load_main()
+	var player := await prepare_weapon_range(main)
+	player.select_weapon(2)
+	await process_frame
+	check(player.weapon_model.visible, "the slop grenade is held before it is thrown")
+	player.fire_weapon()
+	await process_frame
+	check(not player.weapon_model.visible, "the held grenade leaves the hand when thrown")
+	await wait_physics_seconds(Weapons.ALL[2]["cooldown"])
+	await process_frame
+	check(player.weapon_model.visible, "a new grenade is in hand once the throw cools down")
+	await unload_main(main)
+
+
+func test_point_blank_shot_stays_on_this_side_of_a_wall() -> void:
+	var main = await load_main()
+	var player := await prepare_weapon_range(main)
+	var wall_z := player.camera.global_position.z - 0.35
+	LevelBuilder.add_collider(main, Vector3(6, 6, 0.2), Vector3(0, 2, wall_z - 0.1))
+	await wait_physics_seconds(0.1)
+	check(player.get_muzzle_position().z > wall_z, "a shot fired into a wall at point blank starts on the player's side")
 	await unload_main(main)
 
 
