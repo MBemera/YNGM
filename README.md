@@ -76,17 +76,17 @@ a mouse and OpenGL 3.3-class graphics.
 
 ### Windows 10/11 (64-bit)
 
-1. Download `YNGM-1.0.1-Windows-x64-Setup.exe` from [Releases](https://github.com/MBemera/YNGM/releases/latest).
+1. Download `YNGM-1.0.2-Windows-x64-Setup.exe` from [Releases](https://github.com/MBemera/YNGM/releases/latest).
 2. Run it. The installer is not code-signed, so SmartScreen may warn you: choose **More info > Run anyway**.
 3. It installs for your user only (no admin prompt) to `%LOCALAPPDATA%\Programs\YNGM` and adds a Start-menu
    shortcut, plus a desktop shortcut if you tick it.
 
-To uninstall, use Windows **Installed apps** or `Uninstall.exe` in the game folder. Silent install: `YNGM-1.0.1-Windows-x64-Setup.exe /S`.
+To uninstall, use Windows **Installed apps** or `Uninstall.exe` in the game folder. Silent install: `YNGM-1.0.2-Windows-x64-Setup.exe /S`.
 
 ### Linux (x86_64)
 
 ```sh
-tar -xzf YNGM-1.0.1-Linux-x86_64.tar.gz
+tar -xzf YNGM-1.0.2-Linux-x86_64.tar.gz
 cd YNGM
 ./install.sh            # copies to ~/.local/share/yngm and adds a menu entry
 ```
@@ -95,7 +95,7 @@ To run without installing, use `./YNGM.x86_64`. To uninstall, run `~/.local/shar
 
 ### macOS (Apple Silicon on 13+, Intel on 11+)
 
-1. Unzip `YNGM-1.0.1-macOS-universal.zip` and drag the app into Applications.
+1. Unzip `YNGM-1.0.2-macOS-universal.zip` and drag the app into Applications.
 2. The app is ad-hoc signed but not notarised, so the first time you open it, right-click it and choose **Open**, then
    **Open** again.
 

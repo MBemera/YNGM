@@ -1,5 +1,5 @@
 ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
-Version 1.0.1
+Version 1.0.2
 
 GAME LICENCE
 Original game code, story, voice clips, sound effects, logo and cover art:

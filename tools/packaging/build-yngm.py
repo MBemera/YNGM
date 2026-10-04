@@ -11,7 +11,7 @@ from yngm_windows_resources import embed_windows_resources
 from yngm_unix_packages import ASSISTANT_HELP, build_linux_package, build_macos_package
 
 PROJECT = Path(__file__).resolve().parents[2]
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 TITLE = "Escape from the Permanent Underclass"
 WINDOWS_PACKAGE_ENTRIES = {"YNGM.exe", "YNGM.pck", "README.txt", "CREDITS-AND-LICENSES.txt", "yngm.ico", "licenses"}
 KENNEY = {"blasters": "blaster-kit", "cars": "car-kit", "characters": "mini-characters",
@@ -19,7 +19,7 @@ KENNEY = {"blasters": "blaster-kit", "cars": "car-kit", "characters": "mini-char
           "roads": "city-kit-roads", "station": "space-station-kit"}
 
 CREDITS = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
-Version 1.0.1
+Version 1.0.2
 
 GAME LICENCE
 Original game code, story, voice clips, sound effects, logo and cover art:
@@ -101,7 +101,7 @@ Source code, build tools and the full legal notes (LEGAL.md):
 https://github.com/MBemera/YNGM
 """
 
-PLAYER_README = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM 1.0.1
+PLAYER_README = """ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM 1.0.2
 
 Run YNGM.exe, or use the installed Start-menu shortcut.
 Windows 10/11 x64; keyboard and mouse; OpenGL 3.3 compatible graphics.

@@ -1,25 +1,25 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "artifacts": [
     {
       "platform": "Windows x64",
-      "file": "YNGM-1.0.1-Windows-x64-Setup.exe",
-      "size_mb": 101.58,
-      "sha256": "c2191ee514015ecc99cfcbdba2f9d2df472a754cec03abe87c1b0c5b6286aeb6",
+      "file": "YNGM-1.0.2-Windows-x64-Setup.exe",
+      "size_mb": 101.59,
+      "sha256": "849cfc2cd9f3c71c28fcffe03f93022fdbe579fe3d184cdf59d83a59ba5d22de",
       "signing": "unsigned"
     },
     {
       "platform": "Linux x86_64",
-      "file": "YNGM-1.0.1-Linux-x86_64.tar.gz",
-      "size_mb": 92.07,
-      "sha256": "65689073fbea6757f2b92141ea3ded1e26ccfb0b9d723a88d4cfd272cd531b72",
+      "file": "YNGM-1.0.2-Linux-x86_64.tar.gz",
+      "size_mb": 92.08,
+      "sha256": "ea8b0aa93c97ef31c11c12d4699c16b7aeb451e1e8222ca62644202f12de0270",
       "signing": "not applicable"
     },
     {
       "platform": "macOS universal (Apple Silicon + Intel)",
-      "file": "YNGM-1.0.1-macOS-universal.zip",
+      "file": "YNGM-1.0.2-macOS-universal.zip",
       "size_mb": 124.66,
-      "sha256": "22fa92dcfabb98e825a2a8b9730cf48110cb23cfc4cbace6f0ae024c210782e3",
+      "sha256": "02a3fe18a0a5b5216ca1cf3a32755697dc0664f685c5e11610070ea6a672b042",
       "signing": "ad-hoc signed, not notarised"
     }
   ]
