@@ -30,6 +30,9 @@ const SWAY_AMOUNT := 0.0006
 const SWAY_LIMIT := 0.05
 const SWAY_RETURN_SPEED := 9.0
 const WEAPON_SWITCH_SECONDS := 0.18
+const GRENADE_REDRAW_SECONDS := 0.35
+const DEFAULT_MUZZLE_POSITION := Vector3(0, 0.05, -0.35)
+const BLOCKED_MUZZLE_FRACTION := 0.9
 
 var max_runway_months := 24
 var runway_months := 24
@@ -43,6 +46,7 @@ var camera: Camera3D
 var weapon_pivot: Node3D
 var weapon_model: Node3D
 var muzzle_light: OmniLight3D
+var muzzle_local_position := DEFAULT_MUZZLE_POSITION
 var bob_time := 0.0
 var sway_offset := Vector2.ZERO
 var recoil_offset := 0.0
@@ -132,7 +136,6 @@ func create_weapon_model() -> void:
 	muzzle_light.light_energy = 0.0
 	muzzle_light.visible = false
 	muzzle_light.omni_range = 4.0
-	muzzle_light.position = Vector3(0, 0.05, -0.35)
 	weapon_pivot.add_child(muzzle_light)
 	update_weapon_model()
 
@@ -150,6 +153,8 @@ func update_weapon_model() -> void:
 		mesh_instance.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	if weapon["kind"] == Weapons.GRENADE:
 		SlopGrenade.paint_slop(blaster)
+	muzzle_local_position = Models.get_front_point(blaster, weapon_pivot)
+	muzzle_light.position = muzzle_local_position
 
 
 func update_weapon_motion(delta: float) -> void:
@@ -163,6 +168,7 @@ func update_weapon_motion(delta: float) -> void:
 	recoil_offset = lerpf(recoil_offset, 0.0, clampf(14.0 * delta, 0.0, 1.0))
 	weapon_pivot.position = WEAPON_REST_POSITION + bob + Vector3(sway_offset.x, sway_offset.y, recoil_offset)
 	weapon_pivot.rotation = Vector3(recoil_offset * 2.5, -sway_offset.x * 2.0, sway_offset.x * 1.5)
+	weapon_model.visible = not is_reaching_for_grenade()
 	muzzle_light.light_energy = lerpf(muzzle_light.light_energy, 0.0, clampf(25.0 * delta, 0.0, 1.0))
 	muzzle_light.visible = muzzle_light.light_energy > 0.05
 
@@ -218,8 +224,17 @@ func fire_weapon() -> void:
 
 
 func get_muzzle_position() -> Vector3:
-	var camera_basis := camera.global_transform.basis
-	return camera.global_position - camera_basis.z * 0.4 + camera_basis.x * 0.12 - camera_basis.y * 0.1
+	var barrel_tip := weapon_pivot.global_transform * muzzle_local_position
+	var query := PhysicsRayQueryParameters3D.create(camera.global_position, barrel_tip, PROJECTILE_MASK, [get_rid()])
+	var hit := get_world_3d().direct_space_state.intersect_ray(query)
+	if hit.is_empty():
+		return barrel_tip
+	return camera.global_position.lerp(hit["position"], BLOCKED_MUZZLE_FRACTION)
+
+
+func is_reaching_for_grenade() -> bool:
+	var is_grenade: bool = Weapons.get_weapon(current_weapon_index)["kind"] == Weapons.GRENADE
+	return is_grenade and fire_cooldown_left > GRENADE_REDRAW_SECONDS
 
 
 func get_camera_forward() -> Vector3:
@@ -261,6 +276,7 @@ func play_fire_feedback(weapon: Dictionary, muzzle: Vector3) -> void:
 	if confetti_amount > 0:
 		Effects.spawn_confetti_burst(get_parent(), muzzle, confetti_amount)
 	if weapon["kind"] != Weapons.GRENADE:
+		Effects.spawn_muzzle_flash(weapon_pivot, muzzle, weapon["color"])
 		muzzle_light.light_color = weapon["color"]
 		muzzle_light.light_energy = 2.5
 		muzzle_light.visible = true

@@ -5,7 +5,6 @@ const WORLD_LAYER := 1
 const ENEMY_LAYER := 4
 const CHEST_HEIGHT := 1.1
 const FIZZLE_DISTANCE := 6.0
-const VISUAL_START_OFFSET := 0.9
 
 
 static func fire_rail(shooter: Player, muzzle: Vector3, weapon: Dictionary) -> void:
@@ -28,7 +27,7 @@ static func fire_rail(shooter: Player, muzzle: Vector3, weapon: Dictionary) -> v
 		shooter.register_hit(collider)
 		Effects.spawn_spark_burst(shooter.get_parent(), hit["position"], color, 24)
 		excluded.append((collider as CollisionObject3D).get_rid())
-	Effects.spawn_beam(shooter.get_parent(), get_visual_start(muzzle, beam_end), beam_end, color, 0.06, 0.4)
+	Effects.spawn_beam(shooter.get_parent(), muzzle, beam_end, color, 0.06, 0.4)
 	Effects.spawn_spark_burst(shooter.get_parent(), beam_end, color, 16)
 	Effects.spawn_flash(shooter.get_parent(), beam_end, color, 4.0, 5.0, 0.2)
 
@@ -38,20 +37,16 @@ static func fire_chain(shooter: Player, muzzle: Vector3, weapon: Dictionary) -> 
 	var first_target := find_chain_start(shooter, weapon)
 	if first_target == null:
 		var fizzle_end := muzzle + shooter.get_camera_forward() * FIZZLE_DISTANCE
-		Effects.spawn_lightning(shooter.get_parent(), [get_visual_start(muzzle, fizzle_end), fizzle_end], color, 0.15)
+		Effects.spawn_lightning(shooter.get_parent(), [muzzle, fizzle_end], color, 0.15)
 		return
 	var chained := collect_chain(shooter, first_target, weapon)
-	var points: Array[Vector3] = [get_visual_start(muzzle, get_target_point(first_target))]
+	var points: Array[Vector3] = [muzzle]
 	for target: Node3D in chained:
 		points.append(get_target_point(target))
 		target.take_damage(weapon["damage"])
 		shooter.register_hit(target)
 		Effects.spawn_spark_burst(shooter.get_parent(), get_target_point(target), color, 14)
 	Effects.spawn_lightning(shooter.get_parent(), points, color, 0.22)
-
-
-static func get_visual_start(muzzle: Vector3, toward: Vector3) -> Vector3:
-	return muzzle + (toward - muzzle).normalized() * VISUAL_START_OFFSET
 
 
 static func find_chain_start(shooter: Player, weapon: Dictionary) -> Node3D:

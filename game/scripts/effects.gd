@@ -16,6 +16,10 @@ const SLOP_COLORS: Array[Color] = [
 ]
 const SLOP_FLASH_COLOR := Color(0.6, 1.0, 0.3)
 const SLOP_SHOCKWAVE_COLOR := Color(0.55, 1.0, 0.2, 0.4)
+const MUZZLE_FLASH_RADIUS := 0.045
+const MUZZLE_FLASH_GROWTH := 1.8
+const MUZZLE_FLASH_SECONDS := 0.07
+const LIGHTNING_JITTER := 0.35
 
 
 static func create_particles() -> CPUParticles3D:
@@ -88,22 +92,31 @@ static func spawn_hit_burst(parent: Node, position: Vector3, color: Color) -> vo
 
 
 static func spawn_muzzle_flash(parent: Node, position: Vector3, color: Color) -> void:
-	spawn_flash(parent, position, color, 3.0, 4.0, 0.08)
-	var particles := create_particles()
-	particles.amount = 6
-	particles.lifetime = 0.12
-	particles.one_shot = true
-	particles.explosiveness = 1.0
-	particles.spread = 180.0
-	particles.initial_velocity_min = 1.0
-	particles.initial_velocity_max = 3.0
-	particles.gravity = Vector3.ZERO
-	particles.mesh = create_particle_mesh(Vector3(0.03, 0.03, 0.03), false)
-	particles.color = color.lightened(0.4)
-	parent.add_child(particles)
-	particles.global_position = position
-	particles.emitting = true
-	free_after(particles, particles.lifetime + 0.3)
+	var mesh := SphereMesh.new()
+	mesh.radius = MUZZLE_FLASH_RADIUS
+	mesh.height = MUZZLE_FLASH_RADIUS * 2.0
+	mesh.radial_segments = 8
+	mesh.rings = 4
+	var material := create_glow_material(color.lightened(0.5))
+	var core := MeshInstance3D.new()
+	core.mesh = mesh
+	core.material_override = material
+	core.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	parent.add_child(core)
+	core.global_position = position
+	var tween := core.create_tween().set_parallel(true)
+	tween.tween_property(core, "scale", Vector3.ONE * MUZZLE_FLASH_GROWTH, MUZZLE_FLASH_SECONDS)
+	tween.tween_property(material, "albedo_color:a", 0.0, MUZZLE_FLASH_SECONDS)
+	tween.chain().tween_callback(core.queue_free)
+
+
+static func create_glow_material(color: Color) -> StandardMaterial3D:
+	var material := StandardMaterial3D.new()
+	material.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+	material.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+	material.blend_mode = BaseMaterial3D.BLEND_MODE_ADD
+	material.albedo_color = color
+	return material
 
 
 static func create_fire(offset: Vector3) -> CPUParticles3D:
@@ -498,8 +511,9 @@ static func create_jagged_path(from: Vector3, to: Vector3) -> Array[Vector3]:
 	var path: Array[Vector3] = [from]
 	var segment_count := clampi(int(from.distance_to(to) / 1.2), 2, 10)
 	for step: int in range(1, segment_count):
-		var point := from.lerp(to, float(step) / segment_count)
-		path.append(point + Vector3(randf_range(-0.35, 0.35), randf_range(-0.35, 0.35), randf_range(-0.35, 0.35)))
+		var progress := float(step) / segment_count
+		var jitter := LIGHTNING_JITTER * sin(PI * progress)
+		path.append(from.lerp(to, progress) + Vector3(randf_range(-jitter, jitter), randf_range(-jitter, jitter), randf_range(-jitter, jitter)))
 	path.append(to)
 	return path
 

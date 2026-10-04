@@ -32,3 +32,6 @@
 
 # Python test cache.
 .pytest_cache/
+
+# Temporary Movie Maker window override written by tools/recording/record-yngm-levels.py.
+/game/override.cfg

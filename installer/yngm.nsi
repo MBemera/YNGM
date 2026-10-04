@@ -7,7 +7,7 @@ Unicode true
 !include "WinMessages.nsh"
 
 !define APP_NAME "Escape from the Permanent Underclass"
-!define APP_VERSION "1.0.1"
+!define APP_VERSION "1.0.2"
 !define APP_ID "YNGM-Escape-Permanent-Underclass-1"
 !define UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\YNGM"
 !define COVER_ART_WIDTH 1170
@@ -35,7 +35,7 @@ ShowUninstDetails show
 Icon "${PACKAGE_ROOT}\yngm.ico"
 UninstallIcon "${PACKAGE_ROOT}\yngm.ico"
 BrandingText "YNGM"
-VIProductVersion "1.0.1.0"
+VIProductVersion "1.0.2.0"
 VIAddVersionKey "ProductName" "${APP_NAME}"
 VIAddVersionKey "FileDescription" "YNGM Windows installer"
 VIAddVersionKey "FileVersion" "${APP_VERSION}"

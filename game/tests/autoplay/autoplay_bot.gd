@@ -12,7 +12,18 @@ const MAX_ATTEMPT_SECONDS := 600.0
 const MAX_ATTEMPTS_PER_LEVEL := 8
 const LOW_RUNWAY_FRACTION := 0.45
 const HEALTH_DETOUR_RANGE := 30.0
-const STATE_DELAY_MSEC := 1000
+const QUICK_STATE_SECONDS := {"MENU": 1.0, "INTRO": 1.0, "ENDING": 1.0, "READY": 1.0, "WON": 1.6, "LOST": 1.0, "FINISHED": 0.0}
+const RECORDING_STATE_SECONDS := {"MENU": 4.0, "READY": 3.0, "WON": 5.0, "LOST": 4.0, "FINISHED": 8.0}
+const PERSON_TURN_DEGREES_PER_SECOND := 260.0
+const PERSON_AIM_RESPONSE := 9.0
+const PERSON_REACTION_SECONDS := Vector2(0.25, 0.5)
+const PERSON_AIM_WOBBLE_METERS := 0.22
+const PERSON_ENGAGE_RANGE := 30.0
+const PERSON_MAX_ATTEMPT_SECONDS := 420.0
+const PERSON_DODGE_CHANCE := 0.75
+const PERSON_DODGE_REACTION_SECONDS := 0.25
+const PERSON_LOW_RUNWAY_FRACTION := 0.55
+const PERSON_DEATHS_TO_FULL_SKILL := 3.0
 const WORLD_LAYER := 1
 const ENEMY_LAYER := 4
 const DARTS := 0
@@ -23,6 +34,14 @@ const BUBBLE := 5
 const DISRUPTOR := 6
 
 var report_directory := "user://playthrough"
+var is_recording := false
+var stop_after_level := 0
+var current_target: Node3D
+var reaction_left := 0.0
+var wobble_time := 0.0
+var last_runway := 0
+var person_amount := 0.0
+var noticed_projectiles: Dictionary = {}
 var main: Node
 var last_state := ""
 var state_entered_msec := 0
@@ -54,7 +73,7 @@ var was_navigation_ready := false
 
 
 func _ready() -> void:
-	run_start_msec = Time.get_ticks_msec()
+	run_start_msec = GameClock.get_msec()
 	DirAccess.make_dir_recursive_absolute(report_directory)
 
 
@@ -107,7 +126,7 @@ func reset_navigation() -> void:
 
 func on_state_changed(state_name: String) -> void:
 	last_state = state_name
-	state_entered_msec = Time.get_ticks_msec()
+	state_entered_msec = GameClock.get_msec()
 	has_acted_in_state = false
 	is_restarting = false
 	print("[bot] L%d %s" % [main.level.number, state_name])
@@ -118,25 +137,39 @@ func on_state_changed(state_name: String) -> void:
 			record_win()
 		"LOST":
 			record_death(main.hud.message_heading.text)
-		"FINISHED":
-			finish_run(true)
 
 
 func handle_state(state_name: String, delta: float) -> void:
-	var waited := Time.get_ticks_msec() - state_entered_msec >= STATE_DELAY_MSEC
+	if state_name == "PLAYING":
+		play(delta)
+		return
+	var state_seconds: Dictionary = RECORDING_STATE_SECONDS if is_recording else QUICK_STATE_SECONDS
+	if not state_seconds.has(state_name):
+		return
+	var waited_seconds := (GameClock.get_msec() - state_entered_msec) / 1000.0
+	act_once(waited_seconds >= state_seconds[state_name], get_state_action(state_name))
+
+
+func get_state_action(state_name: String) -> Callable:
 	match state_name:
 		"MENU":
-			act_once(waited, press_start_button)
-		"INTRO", "ENDING":
-			act_once(waited, tap_action.bind("skip_intro"))
+			return press_start_button
 		"READY":
-			act_once(waited, tap_action.bind("fire"))
+			return tap_action.bind("fire")
 		"WON":
-			act_once(Time.get_ticks_msec() - state_entered_msec >= 1600, tap_action.bind("fire"))
+			return continue_after_win
 		"LOST":
-			act_once(waited, retry_or_abort)
-		"PLAYING":
-			play(delta)
+			return retry_or_abort
+		"FINISHED":
+			return finish_run.bind(true)
+	return tap_action.bind("skip_intro")
+
+
+func continue_after_win() -> void:
+	if main.level.number == stop_after_level:
+		finish_run(true)
+		return
+	tap_action("fire")
 
 
 func act_once(is_ready: bool, action: Callable) -> void:
@@ -164,20 +197,31 @@ func tap_action(action_name: String) -> void:
 func get_level_result() -> Dictionary:
 	var level_number: int = main.level.number
 	if not level_results.has(level_number):
-		level_results[level_number] = {"title": main.level.title, "attempts": 0, "deaths": []}
+		level_results[level_number] = {"title": main.level.title, "attempts": 0, "deaths": [], "hits_taken": 0, "runway_lost": 0}
 	return level_results[level_number]
 
 
 func begin_attempt() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-	attempt_start_msec = Time.get_ticks_msec()
+	attempt_start_msec = GameClock.get_msec()
 	get_level_result()["attempts"] += 1
+	last_runway = main.player.runway_months
+	watch_player_runway(main.player)
+	noticed_projectiles.clear()
+	person_amount = get_person_amount()
 	has_mid_level_screenshot = false
 	reset_navigation()
 
 
+func get_person_amount() -> float:
+	if not is_recording:
+		return 0.0
+	var deaths: int = get_level_result()["deaths"].size()
+	return clampf(1.0 - deaths / PERSON_DEATHS_TO_FULL_SKILL, 0.0, 1.0)
+
+
 func get_attempt_seconds() -> float:
-	return (Time.get_ticks_msec() - attempt_start_msec) / 1000.0
+	return (GameClock.get_msec() - attempt_start_msec) / 1000.0
 
 
 func record_win() -> void:
@@ -215,7 +259,7 @@ func play(delta: float) -> void:
 	release_jump_if_held()
 	if is_restarting:
 		return
-	if get_attempt_seconds() > MAX_ATTEMPT_SECONDS:
+	if get_attempt_seconds() > (PERSON_MAX_ATTEMPT_SECONDS if is_recording else MAX_ATTEMPT_SECONDS):
 		is_restarting = true
 		record_death("TIMEOUT")
 		tap_action("restart")
@@ -233,12 +277,39 @@ func drive(delta: float) -> void:
 		return
 	var stage: ObjectiveStage = main.objectives.current_stage
 	var target := choose_target(player, stage)
+	track_target(target, delta)
 	var goal := choose_goal(player, stage, target)
 	update_path(player, goal, delta)
 	trace(player, goal, target, delta)
 	aim_at(player, target, delta)
 	fire_if_ready(player, target, delta)
 	move(player, stage, target, delta)
+
+
+func watch_player_runway(player: Player) -> void:
+	if not player.runway_changed.is_connected(_on_player_runway_changed):
+		player.runway_changed.connect(_on_player_runway_changed)
+		player.runway_restored.connect(_on_player_runway_restored)
+
+
+func _on_player_runway_changed(months: int, _max_months: int) -> void:
+	if months < last_runway:
+		var result := get_level_result()
+		result["hits_taken"] += 1
+		result["runway_lost"] += last_runway - months
+	last_runway = months
+
+
+func _on_player_runway_restored(months: int, _max_months: int) -> void:
+	last_runway = months
+
+
+func track_target(target: Node3D, delta: float) -> void:
+	wobble_time += delta
+	reaction_left -= delta
+	if target != current_target:
+		current_target = target
+		reaction_left = randf_range(PERSON_REACTION_SECONDS.x, PERSON_REACTION_SECONDS.y) * person_amount
 
 
 func trace(player: Player, goal: Vector3, target: Node3D, delta: float) -> void:
@@ -276,7 +347,8 @@ func choose_target(player: Player, stage: ObjectiveStage) -> Node3D:
 
 func score_enemy(player: Player, enemy: Enemy, eye: Vector3) -> float:
 	var distance := eye.distance_to(get_aim_point(enemy))
-	if distance > ENGAGE_RANGE or not has_line_of_sight(player, eye, enemy):
+	var engage_range := lerpf(ENGAGE_RANGE, PERSON_ENGAGE_RANGE, person_amount)
+	if distance > engage_range or not has_line_of_sight(player, eye, enemy):
 		return INF
 	var score := distance
 	if enemy.config["attack"] == "melee" and distance < 10.0:
@@ -324,7 +396,8 @@ func choose_goal(player: Player, stage: ObjectiveStage, target: Node3D) -> Vecto
 
 
 func find_health_pack(player: Player) -> HealthPack:
-	if player.runway_months > player.max_runway_months * LOW_RUNWAY_FRACTION:
+	var low_fraction := lerpf(LOW_RUNWAY_FRACTION, PERSON_LOW_RUNWAY_FRACTION, person_amount)
+	if player.runway_months > player.max_runway_months * low_fraction:
 		return null
 	var best: HealthPack = null
 	var best_distance := HEALTH_DETOUR_RANGE
@@ -399,7 +472,7 @@ func aim_at(player: Player, target: Node3D, delta: float) -> void:
 	var eye := player.camera.global_position
 	var look_point := Vector3.INF
 	if target != null:
-		look_point = get_aim_point(target) + get_lead(player, target)
+		look_point = get_aim_point(target) + get_lead(player, target) + get_aim_wobble()
 	elif path_index < path.size():
 		look_point = path[path_index] + Vector3.UP * Player.EYE_HEIGHT
 	if look_point == Vector3.INF:
@@ -409,11 +482,17 @@ func aim_at(player: Player, target: Node3D, delta: float) -> void:
 	var desired_pitch := atan2(direction.y, Vector2(direction.x, direction.z).length()) if target != null else 0.0
 	var yaw_error := wrapf(desired_yaw - player.rotation.y, -PI, PI)
 	var pitch_error := desired_pitch - player.head.rotation.x
-	var max_step := deg_to_rad(TURN_DEGREES_PER_SECOND) * delta
-	var yaw_step := clampf(yaw_error, -max_step, max_step)
-	var pitch_step := clampf(pitch_error, -max_step, max_step)
+	var max_step := deg_to_rad(lerpf(TURN_DEGREES_PER_SECOND, PERSON_TURN_DEGREES_PER_SECOND, person_amount)) * delta
+	var ease := lerpf(1.0, clampf(PERSON_AIM_RESPONSE * delta, 0.0, 1.0), person_amount)
+	var yaw_step := clampf(yaw_error * ease, -max_step, max_step)
+	var pitch_step := clampf(pitch_error * ease, -max_step, max_step)
 	player.rotate_view(Vector2(-yaw_step, -pitch_step) / Player.MOUSE_SENSITIVITY)
 	aim_error = Vector2(yaw_error - yaw_step, pitch_error - pitch_step).length()
+
+
+func get_aim_wobble() -> Vector3:
+	var wobble := Vector3(sin(wobble_time * 1.7), sin(wobble_time * 2.3 + 1.0) * 0.6, cos(wobble_time * 1.3))
+	return wobble * PERSON_AIM_WOBBLE_METERS * person_amount
 
 
 func get_lead(player: Player, target: Node3D) -> Vector3:
@@ -436,7 +515,7 @@ func fire_if_ready(player: Player, target: Node3D, delta: float) -> void:
 		tap_action("weapon_%d" % (weapon_index + 1))
 		weapon_hold_left = 1.0
 	var tolerance := maxf(deg_to_rad(FIRE_ANGLE_DEGREES), atan(0.45 / maxf(distance, 1.0)))
-	if aim_error > tolerance or player.fire_cooldown_left > 0.0:
+	if aim_error > tolerance or player.fire_cooldown_left > 0.0 or reaction_left > 0.0:
 		return
 	player.fire_weapon()
 	var weapon_name: String = Weapons.get_weapon(player.current_weapon_index)["short_name"]
@@ -484,7 +563,8 @@ func move(player: Player, stage: ObjectiveStage, target: Node3D, delta: float) -
 	elif target is DestructibleTarget and player.global_position.distance_to(target.global_position) < 16.0:
 		direction = get_strafe_direction(player, target.global_position, delta) * 0.5
 	direction += get_dodge_direction(player) * 1.5
-	apply_movement(player, direction)
+	var is_walking := person_amount >= 0.5 and target != null and not stage is BossStage
+	apply_movement(player, direction, is_walking)
 	update_stuck(player, direction, delta)
 
 
@@ -517,7 +597,7 @@ func get_dodge_direction(player: Player) -> Vector3:
 	var dodge := Vector3.ZERO
 	for child: Node in main.get_children():
 		var projectile := child as Projectile
-		if projectile == null or projectile.shooter == player:
+		if projectile == null or projectile.shooter == player or not has_reacted_to_projectile(projectile):
 			continue
 		var offset := chest - projectile.global_position
 		if offset.length() > 14.0 or projectile.velocity.dot(offset) <= 0.0:
@@ -531,7 +611,18 @@ func get_dodge_direction(player: Player) -> Vector3:
 	return dodge
 
 
-func apply_movement(player: Player, world_direction: Vector3) -> void:
+func has_reacted_to_projectile(projectile: Projectile) -> bool:
+	var projectile_id := projectile.get_instance_id()
+	if not noticed_projectiles.has(projectile_id):
+		var is_noticed := randf() < lerpf(1.0, PERSON_DODGE_CHANCE, person_amount)
+		noticed_projectiles[projectile_id] = GameClock.get_msec() if is_noticed else -1
+	var noticed_msec: int = noticed_projectiles[projectile_id]
+	if noticed_msec < 0:
+		return false
+	return GameClock.get_msec() - noticed_msec >= PERSON_DODGE_REACTION_SECONDS * person_amount * 1000.0
+
+
+func apply_movement(player: Player, world_direction: Vector3, is_walking: bool) -> void:
 	var flat := Vector3(world_direction.x, 0.0, world_direction.z)
 	if flat.length() < 0.05:
 		release_movement()
@@ -541,7 +632,10 @@ func apply_movement(player: Player, world_direction: Vector3) -> void:
 	set_action_strength("move_left", -local.x)
 	set_action_strength("move_back", local.z)
 	set_action_strength("move_forward", -local.z)
-	Input.action_press("sprint")
+	if is_walking:
+		Input.action_release("sprint")
+	else:
+		Input.action_press("sprint")
 
 
 func set_action_strength(action_name: String, strength: float) -> void:
@@ -615,7 +709,7 @@ func finish_run(is_complete: bool) -> void:
 		"complete": is_complete,
 		"difficulty": Difficulty.current,
 		"gpu": RenderingServer.get_video_adapter_name(),
-		"total_minutes": snappedf((Time.get_ticks_msec() - run_start_msec) / 60000.0, 0.1),
+		"total_minutes": snappedf((GameClock.get_msec() - run_start_msec) / 60000.0, 0.1),
 		"levels": level_results,
 		"fps_while_playing": summary,
 		"weapon_shots": weapon_shots,
