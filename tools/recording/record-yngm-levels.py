@@ -84,15 +84,17 @@ def render_level(level: int, output: Path) -> Path:
 
 
 def encode_clip(movie: Path, clip: Path, output: Path) -> None:
-    arguments = [str(find_tool("ffmpeg")), "-hide_banner", "-loglevel", "warning", "-n", "-i", str(movie),
+    partial = clip.with_name(f"{clip.stem}.partial.mp4")
+    arguments = [str(find_tool("ffmpeg")), "-hide_banner", "-loglevel", "warning", "-y", "-i", str(movie),
                  "-vf", BT601_TO_BT709, "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-profile:v", "high",
                  "-pix_fmt", "yuv420p", "-r", "60", "-g", "30", "-bf", "2", "-colorspace", "bt709",
                  "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
                  "-af", PEAK_LIMITER, "-c:a", "aac", "-b:a", "384k", "-ar", "48000",
-                 "-movflags", "+faststart", str(clip)]
+                 "-movflags", "+faststart", str(partial)]
     logging.info("Encoding %s", clip.name)
     with (output / "logs" / f"{clip.stem}-encode.log").open("wb") as log:
         subprocess.run(arguments, stdout=subprocess.DEVNULL, stderr=log, check=True)
+    partial.replace(clip)
 
 
 def get_duration_seconds(clip: Path) -> float:
@@ -105,10 +107,12 @@ def join_full_playthrough(clips: list[Path], output: Path) -> Path:
     playlist = output / "logs" / "full-playthrough-list.txt"
     playlist.write_text("".join(f"file '{clip.as_posix()}'\n" for clip in clips), encoding="utf-8")
     full_video = output / "YNGM - Full Playthrough (Normal, High, 1080p60).mp4"
-    arguments = [str(find_tool("ffmpeg")), "-hide_banner", "-loglevel", "warning", "-n", "-f", "concat",
-                 "-safe", "0", "-i", str(playlist), "-c", "copy", "-movflags", "+faststart", str(full_video)]
+    partial = full_video.with_name(f"{full_video.stem}.partial.mp4")
+    arguments = [str(find_tool("ffmpeg")), "-hide_banner", "-loglevel", "warning", "-y", "-f", "concat",
+                 "-safe", "0", "-i", str(playlist), "-c", "copy", "-movflags", "+faststart", str(partial)]
     with (output / "logs" / "full-playthrough-join.log").open("wb") as log:
         subprocess.run(arguments, stdout=subprocess.DEVNULL, stderr=log, check=True)
+    partial.replace(full_video)
     return full_video
 
 

@@ -20,6 +20,8 @@ python tools/recording/record-yngm-levels.py --output recordings/<new-folder> --
 
 - Leave out `--levels` to record all 11. Leave out `--skip-full` to also join the clips into one full video.
 - Re-running with the same `--output` keeps finished clips, so a stopped run resumes where it left off.
+  Clips are encoded to a `.partial.mp4` file first, so an interrupted encode is redone, not kept.
+- Run one recording at a time. Runs share `game/override.cfg`.
 - Budget about 10 minutes per level on this laptop: roughly 5.5x the clip length to render and 4x to encode.
 - A borderless 1920x1080 game window covers the screen. Do not minimise or close it. Covering it with another
   window is fine.
@@ -54,12 +56,12 @@ about 25 s per level, never hurt. That looks fake. In `--recording` mode it play
 
 - it waits for the story and holds the menu, READY, result and loss screens
 - it reacts 0.25-0.5 s after a new enemy appears, turns smoothly at up to 260 deg/s and its aim wobbles
-- it notices 75% of incoming shots and needs 0.25 s to react, so it takes real damage
+- it notices 75% of incoming shots and only starts dodging 0.25 s after a shot appears, so it takes real damage
 - it walks while fighting and sprints while travelling and in boss fights; it heads for a health pack below 55% runway
 - after each death on a level it gets better, reaching full skill after 3 deaths, so it can lose but always finishes
 
-Expect levels 1-9 on the first attempt with 4-20 of 24 runway left. The boss levels take 2-3 attempts,
-and those losses stay in the clip.
+Expect levels 1-9 on the first attempt with 4-20 of 24 runway left. In headless trials the boss levels 10-11
+took one to three attempts, and any losses stay in the clip.
 
 The old `record-yngm.py play` route only ran fixed waypoints with the camera tipped at the floor. That is the
 clip where the weapons looked held, not fired. Do not use it for footage.

@@ -206,6 +206,7 @@ func begin_attempt() -> void:
 	attempt_start_msec = GameClock.get_msec()
 	get_level_result()["attempts"] += 1
 	last_runway = main.player.runway_months
+	watch_player_runway(main.player)
 	noticed_projectiles.clear()
 	person_amount = get_person_amount()
 	has_mid_level_screenshot = false
@@ -274,7 +275,6 @@ func drive(delta: float) -> void:
 	if player == null or not player.controls_enabled:
 		release_movement()
 		return
-	record_damage_taken(player)
 	var stage: ObjectiveStage = main.objectives.current_stage
 	var target := choose_target(player, stage)
 	track_target(target, delta)
@@ -286,12 +286,22 @@ func drive(delta: float) -> void:
 	move(player, stage, target, delta)
 
 
-func record_damage_taken(player: Player) -> void:
-	if player.runway_months < last_runway:
+func watch_player_runway(player: Player) -> void:
+	if not player.runway_changed.is_connected(_on_player_runway_changed):
+		player.runway_changed.connect(_on_player_runway_changed)
+		player.runway_restored.connect(_on_player_runway_restored)
+
+
+func _on_player_runway_changed(months: int, _max_months: int) -> void:
+	if months < last_runway:
 		var result := get_level_result()
 		result["hits_taken"] += 1
-		result["runway_lost"] += last_runway - player.runway_months
-	last_runway = player.runway_months
+		result["runway_lost"] += last_runway - months
+	last_runway = months
+
+
+func _on_player_runway_restored(months: int, _max_months: int) -> void:
+	last_runway = months
 
 
 func track_target(target: Node3D, delta: float) -> void:
@@ -587,25 +597,29 @@ func get_dodge_direction(player: Player) -> Vector3:
 	var dodge := Vector3.ZERO
 	for child: Node in main.get_children():
 		var projectile := child as Projectile
-		if projectile == null or projectile.shooter == player or not is_projectile_noticed(projectile):
+		if projectile == null or projectile.shooter == player or not has_reacted_to_projectile(projectile):
 			continue
 		var offset := chest - projectile.global_position
 		if offset.length() > 14.0 or projectile.velocity.dot(offset) <= 0.0:
 			continue
 		var seconds := offset.dot(projectile.velocity) / projectile.velocity.length_squared()
 		var closest := projectile.global_position + projectile.velocity * seconds
-		if seconds < 0.9 and seconds > PERSON_DODGE_REACTION_SECONDS * person_amount and closest.distance_to(chest) < 1.3:
+		if seconds < 0.9 and closest.distance_to(chest) < 1.3:
 			var away := chest - closest
 			away.y = 0.0
 			dodge += away.normalized() if away.length() > 0.05 else projectile.velocity.cross(Vector3.UP).normalized()
 	return dodge
 
 
-func is_projectile_noticed(projectile: Projectile) -> bool:
+func has_reacted_to_projectile(projectile: Projectile) -> bool:
 	var projectile_id := projectile.get_instance_id()
 	if not noticed_projectiles.has(projectile_id):
-		noticed_projectiles[projectile_id] = randf() < lerpf(1.0, PERSON_DODGE_CHANCE, person_amount)
-	return noticed_projectiles[projectile_id]
+		var is_noticed := randf() < lerpf(1.0, PERSON_DODGE_CHANCE, person_amount)
+		noticed_projectiles[projectile_id] = GameClock.get_msec() if is_noticed else -1
+	var noticed_msec: int = noticed_projectiles[projectile_id]
+	if noticed_msec < 0:
+		return false
+	return GameClock.get_msec() - noticed_msec >= PERSON_DODGE_REACTION_SECONDS * person_amount * 1000.0
 
 
 func apply_movement(player: Player, world_direction: Vector3, is_walking: bool) -> void:

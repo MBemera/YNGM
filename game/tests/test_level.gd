@@ -580,14 +580,25 @@ func test_disruptor_chains_between_enemies() -> void:
 func test_shots_leave_from_the_barrel_tip() -> void:
 	var main = await load_main()
 	var player := await prepare_weapon_range(main)
-	for weapon_index: int in Weapons.ALL.size():
+	for weapon_index: int in [0, 1, 2, 3, 5]:
 		player.select_weapon(weapon_index)
 		await process_frame
-		var muzzle := player.get_muzzle_position()
 		var bounds := Models.get_world_bounds(player.weapon_model).grow(0.02)
-		var is_at_front := muzzle.z <= bounds.position.z + 0.04
-		check(bounds.has_point(muzzle) and is_at_front, "%s shots leave from the front of the gun model" % Weapons.get_weapon(weapon_index)["name"])
+		var shots_before := get_shot_nodes(main)
+		player.fire_cooldown_left = 0.0
+		player.fire_weapon()
+		var new_shots := get_shot_nodes(main).filter(func(shot: Node3D) -> bool: return not shots_before.has(shot))
+		var from_barrel := new_shots.all(func(shot: Node3D) -> bool: return is_at_gun_front(shot.global_position, bounds))
+		check(not new_shots.is_empty() and from_barrel, "%s shots leave from the front of the gun model" % Weapons.get_weapon(weapon_index)["name"])
 	await unload_main(main)
+
+
+func get_shot_nodes(main: Node) -> Array:
+	return main.get_children().filter(func(child: Node) -> bool: return child is Projectile or child is SlopGrenade or child is ValuationBubble)
+
+
+func is_at_gun_front(point: Vector3, gun_bounds: AABB) -> bool:
+	return gun_bounds.has_point(point) and point.z <= gun_bounds.position.z + 0.04
 
 
 func test_beams_start_at_the_barrel() -> void:
