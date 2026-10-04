@@ -12,6 +12,8 @@ func _initialize() -> void:
 	DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_DISABLED)
 	var bot := AutoplayBot.new()
 	bot.report_directory = get_argument("--report-dir=", "user://playthrough")
+	bot.is_recording = OS.get_cmdline_user_args().has("--recording")
+	bot.stop_after_level = int(get_argument("--stop-after-level=", "0"))
 	root.add_child(bot)
 	start_campaign.call_deferred()
 
