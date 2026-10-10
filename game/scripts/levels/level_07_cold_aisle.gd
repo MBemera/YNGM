@@ -42,7 +42,7 @@ func set_encounters() -> void:
 func set_objectives() -> void:
 	var targets: Array[Dictionary] = []
 	for x: float in [-15.0, -3.0, 10.0]:
-		targets.append({"name": "COOLING CORE", "model": Models.STATION + "computer-system.glb",
+		targets.append({"name": "COOLING CORE", "model": GraphicsScenery.ROOT + "cooling-core.glb",
 			"height": 3.0, "health": 420, "color": CYAN, "position": Vector3(x, 0, -82)})
 	objectives = [
 		{"type": "destroy", "text": "Destroy the cooling cores", "opens": "freight_lift", "targets": targets},

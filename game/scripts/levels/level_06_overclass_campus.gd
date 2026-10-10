@@ -49,7 +49,7 @@ func set_encounters() -> void:
 func set_objectives() -> void:
 	var targets: Array[Dictionary] = []
 	for position: Vector3 in RELAYS:
-		targets.append({"name": "POWER RELAY", "model": Models.STATION + "container-tall.glb",
+		targets.append({"name": "POWER RELAY", "model": GraphicsScenery.ROOT + "power-relay.glb",
 			"height": 3.0, "health": 450, "color": AMBER, "position": position})
 	objectives = [
 		{"type": "destroy", "text": "Knock out OMEGA's power relays", "opens": "hq_entrance", "targets": targets},

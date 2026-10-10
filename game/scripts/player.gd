@@ -45,6 +45,7 @@ var head: Node3D
 var camera: Camera3D
 var weapon_pivot: Node3D
 var weapon_model: Node3D
+var weapon_animation: AnimationPlayer
 var muzzle_light: OmniLight3D
 var muzzle_local_position := DEFAULT_MUZZLE_POSITION
 var bob_time := 0.0
@@ -144,15 +145,14 @@ func update_weapon_model() -> void:
 	for part: Node in weapon_model.get_children():
 		part.queue_free()
 	var weapon := Weapons.get_weapon(current_weapon_index)
-	var blaster := Models.spawn(weapon_model, Models.BLASTERS + weapon["model"] + ".glb", Vector3.ZERO)
+	var blaster := Models.spawn(weapon_model, Weapons.MODEL_ROOT + weapon["model"] + ".glb", Vector3.ZERO)
 	var bounds := Models.get_world_bounds(blaster)
 	var longest_side := maxf(bounds.size.x, maxf(bounds.size.y, bounds.size.z))
 	var model_length: float = weapon["model_length"]
 	blaster.scale = Vector3.ONE * (model_length / longest_side)
 	for mesh_instance: MeshInstance3D in blaster.find_children("*", "MeshInstance3D", true, false):
 		mesh_instance.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-	if weapon["kind"] == Weapons.GRENADE:
-		SlopGrenade.paint_slop(blaster)
+	weapon_animation = Models.find_animation_player(blaster)
 	muzzle_local_position = Models.get_front_point(blaster, weapon_pivot)
 	muzzle_light.position = muzzle_local_position
 
@@ -282,6 +282,9 @@ func play_fire_feedback(weapon: Dictionary, muzzle: Vector3) -> void:
 		muzzle_light.visible = true
 	AudioBank.play_ui(self, weapon["fire_sound"], weapon["fire_volume_db"], randf_range(0.9, 1.1))
 	recoil_offset = weapon["recoil"]
+	if weapon_animation != null and weapon_animation.has_animation("fire"):
+		weapon_animation.stop()
+		weapon_animation.play("fire")
 
 
 func register_hit(collider: Object) -> void:

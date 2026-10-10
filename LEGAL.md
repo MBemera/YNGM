@@ -24,6 +24,7 @@ libraries and fonts.
 | Voice clips generated with the public-domain Piper voices `kristin`, `norman` and `john` | All spoken lines | MIT (see [Voice clips](#voice-clips)) | [voice-*.MODEL_CARD.txt](game/licenses/) |
 | [NSIS](https://nsis.sourceforge.io/) 3.13 (zlib compressor, AdvSplash, System and nsDialogs plug-ins) | Windows installer and uninstaller | zlib/libpng | [NSIS-COPYING.txt](game/licenses/NSIS-COPYING.txt) |
 | Original project content (code, story, voice clips, sound effects from `tools/generate_sfx.py`, logo, cover art) | Everything else | MIT | [LICENSE](LICENSE) |
+| Original v.2 models (`assets/models/v2/`) and Blender source (`assets-source/`) | Weapons, enemy equipment, scenery and objective props | MIT | [LICENSE](LICENSE) |
 
 Every package carries these texts in its `licenses/` folder plus `CREDITS-AND-LICENSES.txt`.
 Portions of this software are copyright © The FreeType Project (www.freetype.org). All rights reserved.

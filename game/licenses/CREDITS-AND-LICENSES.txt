@@ -2,7 +2,8 @@ ESCAPE FROM THE PERMANENT UNDERCLASS / YNGM
 Version 1.0.2
 
 GAME LICENCE
-Original game code, story, voice clips, sound effects, logo and cover art:
+Original game code, story, voice clips, sound effects, logo, cover art,
+v.2 weapon models, enemy equipment and scenery:
 MIT licence, Copyright (c) 2026 Matthew Bright. Full text: licenses/YNGM-LICENSE.txt.
 The third-party components below keep their own licences.
 

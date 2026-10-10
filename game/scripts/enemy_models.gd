@@ -15,5 +15,6 @@ static func build(type_id: String, model_file: String, parent: Node3D) -> Node3D
 	var model_folder: String = config["model_folder"]
 	var pivot := Node3D.new()
 	parent.add_child(pivot)
-	Models.spawn_fitted(pivot, model_folder + model_file, Vector3.ZERO, FACING_YAW_DEGREES, config["model_height"])
+	var model := Models.spawn_fitted(pivot, model_folder + model_file, Vector3.ZERO, FACING_YAW_DEGREES, config["model_height"])
+	EnemyAppearance.attach(type_id, model)
 	return pivot

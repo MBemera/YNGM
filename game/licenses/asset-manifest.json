@@ -4588,6 +4588,150 @@
       "creator": "Poly Haven",
       "license": "CC0-1.0",
       "source": "https://polyhaven.com/a/metal_plate"
+    },
+    {
+      "path": "assets/models/v2/enemies/board_member.glb",
+      "sha256": "8d86abaa69d655ad33bd980b28b34f968046196b599b2b0de3f105180ff7b9d1",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/delivery_bot.glb",
+      "sha256": "99804e5c2986aa6f399b3648557ece47ec9ccbfb875ac34ae126cc58b6212d20",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/director.glb",
+      "sha256": "c1b07a043b0c66a328651276cdddf5e83bb848acd93f08043fdbd48e579e8860",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/exosuit.glb",
+      "sha256": "3ce4c52a6bb773f9f532e235ea88fa33c8b9632c705d9d674b85bf704bff649b",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/founder.glb",
+      "sha256": "023a5f1f1a05c983292e7bbeaf470ef2214eef9b94aa00d5a65f3b8bb037998e",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/influencer.glb",
+      "sha256": "dcbeb45a6ff3c636a9c1be468be08d31470250109b207828dface5854b866129",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/lab_bot.glb",
+      "sha256": "7e01ca3af9f8c0a750bfeff54e35e1b5053c72f6e2b2b3dd6de823531af19e5c",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/manager.glb",
+      "sha256": "3c2814c33cbb7997de47c942f8f3179adffad62fe80673f2c47102e668a9f887",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/enemies/vc.glb",
+      "sha256": "7b7eb44f508a61d0c2fc515fc0818ccc180f78d257839a3a9097fd24088d5f84",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/cooling-core.glb",
+      "sha256": "d571763043f92fc3a5ff16db3816d147d3e8cb6777f7fde8f4a1e709bea13155",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/kiosk.glb",
+      "sha256": "606d38c37f948f1577c1d2426faab54cd4361bd8463e4e87e94ef4fd2cf64786",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/planter.glb",
+      "sha256": "16aac214070dbffa82e526c798acacc1ddec19dc76bb5d39e7cfd1a20ecb5048",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/podium.glb",
+      "sha256": "0bb3090c5d0c706c40a130d22bfb38f7e676328e446f672f978f18e6646af128",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/power-relay.glb",
+      "sha256": "aa1803b881fe4c1ddf9a45e32d962c47ab8964b88c7273544840b15d8e133507",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/pylon.glb",
+      "sha256": "00f44f595855ddf623616ade2a38cc3f939497319ce1e25df617a3a5fc07bac7",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/quota-terminal.glb",
+      "sha256": "799db1a6563a85b9774fb9478939ac24387ef22a36bbeb4b786c9c823bc1c268",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/scenery/server-rack.glb",
+      "sha256": "151712580152469ba8f6d3fa3cfa50fd1eae402e26cf85ca05acfd4b63c0da83",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/confetti-cannon.glb",
+      "sha256": "451dbe9919be9b4ffe041cfd4850b3c484aa50dc2ff16f56a5ee2737889e9526",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/disruptor.glb",
+      "sha256": "e4c950f97c2d2f9a474c7c9517900a392b0946806b5db768c7c2ecaab0eba252",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/foam-dart.glb",
+      "sha256": "680860b6bffc1a5e2848a74f9db67bca3ebd57d7d03260b96ad236dbf5fe7226",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/hype-railgun.glb",
+      "sha256": "ef97f43afb1375fe4026c7eedfa3b72a6b6a3c6bb5a81b464c00a6a621d6d9f7",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/nda-stapler.glb",
+      "sha256": "9995d1f11608b37714b1a0d111b7c0384011939783823e29f3cae2a8aaa54f03",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/slop-grenade.glb",
+      "sha256": "9aba84bc765bfe18120b3e17b3f6628cdd0d6c5ca588fbbde3d84874178b329f",
+      "creator": "Original project content",
+      "license": "MIT"
+    },
+    {
+      "path": "assets/models/v2/weapons/valuation-bubble.glb",
+      "sha256": "41c44be6b24a1e016f2f04217d14ddce99f8c071e1766e57982b05b21af7506a",
+      "creator": "Original project content",
+      "license": "MIT"
     }
   ]
 }

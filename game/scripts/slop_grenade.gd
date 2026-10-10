@@ -3,7 +3,7 @@ extends RigidBody3D
 
 const WORLD_LAYER := 1
 const ENEMY_LAYER := 4
-const MODEL_PATH := Models.BLASTERS + "grenade-a.glb"
+const MODEL_PATH := Weapons.MODEL_ROOT + "slop-grenade.glb"
 const MODEL_LENGTH := 0.3
 const THROWN_START_SCALE := 0.37
 const THROWN_GROW_SECONDS := 0.25
@@ -25,17 +25,6 @@ var thrower: Player
 var fuse_left := FUSE_SECONDS
 var has_hit_enemy := false
 var has_exploded := false
-
-
-static func paint_slop(model: Node3D) -> void:
-	var material := StandardMaterial3D.new()
-	material.albedo_color = SLOP_GREEN
-	material.roughness = 0.3
-	material.emission_enabled = true
-	material.emission = SLOP_GREEN
-	material.emission_energy_multiplier = 0.4
-	for mesh_instance: MeshInstance3D in model.find_children("*", "MeshInstance3D", true, false):
-		mesh_instance.material_override = material
 
 
 static func spawn(parent: Node, origin: Vector3, launch_velocity: Vector3, grenade_thrower: Player) -> SlopGrenade:
@@ -92,7 +81,6 @@ func add_model() -> void:
 	var longest_side := maxf(bounds.size.x, maxf(bounds.size.y, bounds.size.z))
 	model.scale = Vector3.ONE * (MODEL_LENGTH / longest_side)
 	model.position = -to_local(Models.get_world_bounds(model).get_center())
-	paint_slop(model)
 	visual.scale = Vector3.ONE * THROWN_START_SCALE
 	visual.create_tween().tween_property(visual, "scale", Vector3.ONE, THROWN_GROW_SECONDS)
 

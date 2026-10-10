@@ -10,6 +10,9 @@ const STATION := "res://assets/models/station/"
 const FURNITURE := "res://assets/models/furniture/"
 const ROBOT := "res://assets/models/robot/RobotExpressive.glb"
 const HELICOPTER := "res://assets/models/helicopter/helicopter.glb"
+const GRAPHICS_ROOT := "res://assets/models/v2/"
+
+static var palette_material: StandardMaterial3D
 
 
 static func spawn(parent: Node3D, path: String, position: Vector3, yaw_degrees := 0.0, uniform_scale := 1.0) -> Node3D:
@@ -18,7 +21,18 @@ static func spawn(parent: Node3D, path: String, position: Vector3, yaw_degrees :
 	model.rotation_degrees.y = yaw_degrees
 	model.scale = Vector3.ONE * uniform_scale
 	parent.add_child(model)
+	if path.begins_with(GRAPHICS_ROOT):
+		apply_palette(model)
 	return model
+
+
+static func apply_palette(model: Node3D) -> void:
+	if palette_material == null:
+		palette_material = StandardMaterial3D.new()
+		palette_material.vertex_color_use_as_albedo = true
+		palette_material.roughness = 0.65
+	for mesh_instance: MeshInstance3D in model.find_children("*", "MeshInstance3D", true, false):
+		mesh_instance.material_override = palette_material
 
 
 static func spawn_fitted(parent: Node3D, path: String, floor_position: Vector3, yaw_degrees: float, target_height: float) -> Node3D:

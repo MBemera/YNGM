@@ -18,7 +18,7 @@ const LAMP_COLUMNS: Array[float] = [-9.0, 9.0]
 const LAMP_ROWS: Array[float] = [-6.0, -22.0, -38.0, -54.0, -70.0]
 const FLUORESCENT := Color(0.82, 1.0, 0.85)
 const TERMINAL_PINK := Color(1.0, 0.3, 0.6)
-const TERMINAL_MODEL := "res://assets/models/station/computer-wide.glb"
+const TERMINAL_MODEL := GraphicsScenery.ROOT + "quota-terminal.glb"
 
 
 func _init() -> void:

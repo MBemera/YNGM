@@ -96,6 +96,7 @@ func create_lighting() -> void:
 
 func build_static_world() -> void:
 	level.build_world(self)
+	GraphicsScenery.decorate(self, level.number)
 	StaticBatcher.batch(self, get_batching_exclusions())
 
 

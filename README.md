@@ -143,6 +143,7 @@ Voice clips are pre-generated and committed. `tools/generate_voice.py` regenerat
 
 ```sh
 godot --headless --path game --script res://tests/test_level.gd                    # gameplay, menus, weapons, loading screen
+godot --headless --path game --script res://tests/test_graphics.gd                 # model budgets, palettes, firing animations and character equipment
 godot --headless --path game --script res://tests/test_levels.gd -- --levels=1,2,3,4,5,6,7,8,9,10,11   # every level has floors, navigation and a walkable route to each objective
 python -m pytest tools/packaging                                                    # installer artwork
 ```
@@ -160,6 +161,7 @@ a bot that plays the whole campaign.
 | Path | Contents |
 |---|---|
 | `game/` | Godot project: scripts, levels, story (`data/story/`), assets, tests, licence texts |
+| `assets-source/` | Editable Blender source and triangle budgets for the v.2 graphics |
 | `installer/` | NSIS installer script and packaging notes |
 | `tools/packaging/` | Build script for the Windows installer and the Linux and macOS packages |
 | `tools/` | Voice, sound-effect, texture and recording helpers |

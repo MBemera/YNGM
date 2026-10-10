@@ -1,0 +1,98 @@
+[
+  {
+    "path": "weapons/foam-dart.glb",
+    "triangles": 264
+  },
+  {
+    "path": "weapons/confetti-cannon.glb",
+    "triangles": 264
+  },
+  {
+    "path": "weapons/slop-grenade.glb",
+    "triangles": 220
+  },
+  {
+    "path": "weapons/nda-stapler.glb",
+    "triangles": 308
+  },
+  {
+    "path": "weapons/hype-railgun.glb",
+    "triangles": 308
+  },
+  {
+    "path": "weapons/valuation-bubble.glb",
+    "triangles": 300
+  },
+  {
+    "path": "weapons/disruptor.glb",
+    "triangles": 308
+  },
+  {
+    "path": "enemies/vc.glb",
+    "triangles": 220
+  },
+  {
+    "path": "enemies/founder.glb",
+    "triangles": 220
+  },
+  {
+    "path": "enemies/manager.glb",
+    "triangles": 132
+  },
+  {
+    "path": "enemies/influencer.glb",
+    "triangles": 176
+  },
+  {
+    "path": "enemies/board_member.glb",
+    "triangles": 220
+  },
+  {
+    "path": "enemies/director.glb",
+    "triangles": 220
+  },
+  {
+    "path": "enemies/lab_bot.glb",
+    "triangles": 132
+  },
+  {
+    "path": "enemies/delivery_bot.glb",
+    "triangles": 176
+  },
+  {
+    "path": "enemies/exosuit.glb",
+    "triangles": 264
+  },
+  {
+    "path": "scenery/kiosk.glb",
+    "triangles": 220
+  },
+  {
+    "path": "scenery/planter.glb",
+    "triangles": 328
+  },
+  {
+    "path": "scenery/pylon.glb",
+    "triangles": 176
+  },
+  {
+    "path": "scenery/server-rack.glb",
+    "triangles": 572
+  },
+  {
+    "path": "scenery/podium.glb",
+    "triangles": 176
+  },
+  {
+    "path": "scenery/quota-terminal.glb",
+    "triangles": 308
+  },
+  {
+    "path": "scenery/power-relay.glb",
+    "triangles": 264
+  },
+  {
+    "path": "scenery/cooling-core.glb",
+    "triangles": 264
+  }
+]
